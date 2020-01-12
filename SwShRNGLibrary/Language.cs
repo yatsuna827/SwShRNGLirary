@@ -10,7 +10,7 @@ namespace SwShRNGLibrary
 {
     public enum Category
     {
-        PokeName, Ability, System
+        PokeName, Ability, MapName, System
     }
 
     public class Language
@@ -23,21 +23,23 @@ namespace SwShRNGLibrary
         internal virtual string Translate(Category cat, string txt) { return words[cat][txt]; }
         internal virtual string ToJPN(Category cat, string txt) { return toJPN[cat][txt]; }
         internal Language() { }
-        internal Language(string[] nature, string[] pokeType, string pokeName, string abilities)
+        internal Language(string[] natures, string[] pokeTypes, string pokeNames, string abilities, string mapNames)
         {
             words = new Dictionary<Category, Dictionary<string, string>>();
             toJPN = new Dictionary<Category, Dictionary<string, string>>();
 
-            Nature = nature;
-            PokeType = pokeType;
+            Nature = natures;
+            PokeType = pokeTypes;
 
-            var p = pokeName.Replace("\r\n", "\n").Split(new[] { '\n', '\r' }).Select(_ => _.Split(',')).ToArray();
+            var p = pokeNames.Replace("\r\n", "\n").Split(new[] { '\n', '\r' }).Select(_ => _.Split(',')).ToArray();
             var ab = abilities.Replace("\r\n", "\n").Split(new[] { '\n', '\r' }).Select(_ => _.Split(',')).ToArray();
+            var mn = mapNames.Replace("\r\n", "\n").Split(new[] { '\n', '\r' }).Select(_ => _.Split(',')).ToArray();
 
             words.Add(Category.PokeName, p.ToDictionary(_ => _[0], _ => _[1]));
             words.Add(Category.Ability, ab.ToDictionary(_ => _[0], _ => _[1]));
+            words.Add(Category.MapName, mn.ToDictionary(_ => _[0], _ => _[1]));
             toJPN.Add(Category.PokeName, p.ToDictionary(_ => _[1], _ => _[0]));
-            toJPN.Add(Category.Ability, ab.ToDictionary(_ => _[1], _ => _[0]));
+            toJPN.Add(Category.MapName, mn.ToDictionary(_ => _[1], _ => _[0]));
         }
 
         public static Language JPN;
@@ -77,7 +79,7 @@ namespace SwShRNGLibrary
             };
 
             JPN = new BasicLanguage(nature_JPN, pokeType_JPN);
-            ENG = new Language(nature_ENG, pokeType_ENG, Resources.PokeName_eng, Resources.Ability_eng);
+            ENG = new Language(nature_ENG, pokeType_ENG, Resources.PokeName_eng, Resources.Ability_eng, Resources.MapName_eng);
         }
         class BasicLanguage : Language
         {

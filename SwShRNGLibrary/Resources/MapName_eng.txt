@@ -1,0 +1,18 @@
+うららか平原,Rolling Fields
+こもれび林,Dappled Grove 
+見張り塔跡地,Watchtower Ruins
+キバ湖・西,West Lake Axewell
+キバ湖・東,East Lake Axewell
+キバ湖の瞳,Axew's Eye
+ミロカロ湖・南,South Lake Miloch
+ミロカロ湖・北,North Lake Miloch
+巨人の腰かけ,Giant's Seat
+エンジンリバーサイド,Motostoke Riverank
+ハシノマ原っぱ,Bridge Field
+ストーンズ原野,Stony Wilderness
+砂塵の窪地,Dusty Bowl
+巨人の帽子,Giant's Cap
+巨人の鏡池,Giant's Mirror
+ナックル丘陵,Hammerlocke Hills
+げきりんの湖,Lake of Outrage
+イベント,Event
