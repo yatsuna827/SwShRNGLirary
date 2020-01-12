@@ -4,8 +4,8 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-[De]ebug/
-[Rr]elease/
+bin/Debug/
+bin/Release/
  
 # ソリューションやプロジェクトファイル
 ExportedObj/
