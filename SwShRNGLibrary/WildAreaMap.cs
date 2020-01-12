@@ -6,89 +6,6 @@ using System.Threading.Tasks;
 
 namespace SwShRNGLibrary
 {
-    public class RaidBattleSlot
-    {
-        public readonly Pokemon.Species pokemon;
-        public readonly bool allowHiddenAbility;
-        public readonly Gender FixGender = Gender.Genderless; // Genderless == 固定なし.
-        public readonly Nature FixNature = Nature.other;
-        public readonly bool ForceShiny;
-        public readonly int FlawlessIVs;
-        public string Label { get; internal set; }
-
-        internal RaidBattleSlot(string name, bool allowHA, int fix, Gender fixGender = Gender.Genderless, Nature fixNature = Nature.other)
-        {
-            pokemon = Pokemon.GetPokemon(name);
-            allowHiddenAbility = allowHA;
-            FlawlessIVs = fix;
-            FixGender = fixGender;
-            FixNature = fixNature;
-        }
-        internal RaidBattleSlot(string name, string form, bool allowHA, int fix, Gender fixGender = Gender.Genderless, Nature fixNature = Nature.other)
-        {
-            pokemon = Pokemon.GetPokemon(name, form);
-            allowHiddenAbility = allowHA;
-            FlawlessIVs = fix;
-            FixGender = fixGender;
-            FixNature = fixNature;
-        }
-    }
-    public class CommonSlot1 : RaidBattleSlot
-    {
-        internal CommonSlot1(string name, Rom limited = Rom.empty) : base(name, false, 1)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-        internal CommonSlot1(string name, string form, Rom limited = Rom.empty) : base(name, form, false, 1)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-    }
-    public class CommonSlot2 : RaidBattleSlot
-    {
-        internal CommonSlot2(string name, Rom limited = Rom.empty) : base(name, false, 2)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-        internal CommonSlot2(string name, string form, Rom limited = Rom.empty) : base(name, form, false, 2)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-    }
-    public class CommonSlot3 : RaidBattleSlot
-    {
-        internal CommonSlot3(string name, Rom limited = Rom.empty) : base(name, false, 3)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-        internal CommonSlot3(string name, string form, Rom limited = Rom.empty) : base(name, form, false, 3)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-    }
-    public class CommonSlot4 : RaidBattleSlot
-    {
-        internal CommonSlot4(string name, Rom limited = Rom.empty) : base(name, false, 4)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-        internal CommonSlot4(string name, string form, Rom limited = Rom.empty) : base(name, form, false, 4)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-    }
-    public class CommonSlot5 : RaidBattleSlot
-    {
-        internal CommonSlot5(string name, Rom limited = Rom.empty) : base(name, true, 4)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-        internal CommonSlot5(string name, string form, Rom limited = Rom.empty) : base(name, form, true, 4)
-        {
-            Label = limited != Rom.empty ? $"({limited.ToKanji()})" : "";
-        }
-    }
-
     public enum Rarity { Normal, Rare, Event }
     public class WildAreaMap
     {
@@ -1450,7 +1367,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Rock
             var rockA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -1604,7 +1521,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Ground
             var groundA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -1748,7 +1665,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Ice
             var iceA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -1961,7 +1878,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Poison
             var poisonA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -2111,7 +2028,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Psychic
             var psychicA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -2310,7 +2227,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Fighting
             var fightingA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -2476,7 +2393,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Flying
             var flyingA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -2620,7 +2537,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Bug
             var bugA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -2816,7 +2733,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Ghost
             var ghostA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -2973,7 +2890,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Dragon
             var dragonA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -3116,7 +3033,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Dark
             var darkA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -3306,7 +3223,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Steel
             var steelA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -3525,7 +3442,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Fairy
             var fairyA = new RaidBattleSlot[][]
             {
                 new RaidBattleSlot[]{
@@ -3751,7 +3668,7 @@ namespace SwShRNGLibrary
             };
             #endregion
 
-            #region Electric
+            #region Special
             var specialA = new RaidBattleSlot[][]
             {
                 rockD[0].Concat(iceF[0]).ToArray(),
@@ -3767,6 +3684,277 @@ namespace SwShRNGLibrary
                 fightingD[2].Concat(ghostD[2]).ToArray(),
                 fightingD[3].Concat(ghostD[3]).ToArray(),
                 fightingD[4].Concat(ghostD[4]).ToArray(),
+            };
+            #endregion
+
+            #region Events
+            var eventsA = new RaidBattleSlot[][]
+            {
+                new RaidBattleSlot[]{
+                    new EventSlot1("バタフリー"),
+                    new EventSlot1("バタフリー", "キョダイ"),
+                    new EventSlot1("スナヘビ", Rom.Sword),
+                    new EventSlot1("カムカメ", Rom.Sword),
+                    new EventSlot1("ココガラ", Rom.Shield),
+                    new EventSlot1("ヤクデ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot2("バタフリー"),
+                    new EventSlot2("バタフリー", "キョダイ"),
+                    new EventSlot2("スナヘビ", Rom.Sword),
+                    new EventSlot2("カジリガメ", Rom.Sword),
+                    new EventSlot2("アオガラス", Rom.Shield),
+                    new EventSlot2("マルヤクデ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot3("バタフリー"),
+                    new EventSlot3("バタフリー", "キョダイ"),
+                    new EventSlot3("サダイジャ", Rom.Sword),
+                    new EventSlot3("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot3("カジリガメ", Rom.Sword),
+                    new EventSlot3("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot3("アーマーガア", Rom.Shield),
+                    new EventSlot3("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot3("マルヤクデ", Rom.Shield),
+                    new EventSlot3("マルヤクデ", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot4("バタフリー"),
+                    new EventSlot4("バタフリー", "キョダイ"),
+                    new EventSlot4("サダイジャ", Rom.Sword),
+                    new EventSlot4("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot4("カジリガメ", Rom.Sword),
+                    new EventSlot4("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot4("アーマーガア", Rom.Shield),
+                    new EventSlot4("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot4("マルヤクデ", Rom.Shield),
+                    new EventSlot4("マルヤクデ", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot5("バタフリー"),
+                    new EventSlot5("バタフリー", "キョダイ"),
+                    new EventSlot5("サダイジャ", Rom.Sword),
+                    new EventSlot5("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot5("カジリガメ", Rom.Sword),
+                    new EventSlot5("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot5("アーマーガア", Rom.Shield),
+                    new EventSlot5("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot5("マルヤクデ", Rom.Shield),
+                    new EventSlot5("マルヤクデ", "キョダイ", Rom.Shield),
+                }
+            };
+            var eventsB = new RaidBattleSlot[][]
+            {
+                new RaidBattleSlot[]{
+                    new EventSlot1("バタフリー"),
+                    new EventSlot1("バタフリー", "キョダイ"),
+                    new EventSlot1("ゴンベ"),
+                    new EventSlot1("スナヘビ", Rom.Sword),
+                    new EventSlot1("カムカメ", Rom.Sword),
+                    new EventSlot1("ココガラ", Rom.Shield),
+                    new EventSlot1("ヤクデ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot2("バタフリー", "キョダイ"),
+                    new EventSlot2("カビゴン"),
+                    new EventSlot2("スナヘビ", Rom.Sword),
+                    new EventSlot2("カジリガメ", Rom.Sword),
+                    new EventSlot2("アオガラス", Rom.Shield),
+                    new EventSlot2("マルヤクデ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot3("バタフリー", "キョダイ"),
+                    new EventSlot3("カビゴン"),
+                    new EventSlot3("カビゴン", "キョダイ"),
+                    new EventSlot3("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot3("カジリガメ", Rom.Sword),
+                    new EventSlot3("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot3("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot3("マルヤクデ", Rom.Shield),
+                    new EventSlot3("マルヤクデ", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot4("バタフリー", "キョダイ"),
+                    new EventSlot4("カビゴン"),
+                    new EventSlot4("カビゴン", "キョダイ"),
+                    new EventSlot4("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot4("カジリガメ", Rom.Sword),
+                    new EventSlot4("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot4("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot4("マルヤクデ", Rom.Shield),
+                    new EventSlot4("マルヤクデ", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot5("バタフリー", "キョダイ"),
+                    new EventSlot5("カビゴン"),
+                    new EventSlot5("カビゴン", "キョダイ"),
+                    new EventSlot5("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot5("カジリガメ", Rom.Sword),
+                    new EventSlot5("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot5("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot5("マルヤクデ", Rom.Shield),
+                    new EventSlot5("マルヤクデ", "キョダイ", Rom.Shield),
+                }
+            };
+            var eventsC = new RaidBattleSlot[][]
+            {
+                new RaidBattleSlot[]{
+                    new EventSlot1("バタフリー"),
+                    new EventSlot1("バタフリー", "キョダイ"),
+                    new EventSlot1("ゴンベ"),
+                    new EventSlot1("デリバード"),
+                    new EventSlot1("スナヘビ", Rom.Sword),
+                    new EventSlot1("カムカメ", Rom.Sword),
+                    new EventSlot1("ココガラ", Rom.Shield),
+                    new EventSlot1("ヤクデ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot2("バタフリー", "キョダイ"),
+                    new EventSlot2("カビゴン"),
+                    new EventSlot2("デリバード"),
+                    new EventSlot2("スナヘビ", Rom.Sword),
+                    new EventSlot2("カジリガメ", Rom.Sword),
+                    new EventSlot2("アオガラス", Rom.Shield),
+                    new EventSlot2("マルヤクデ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot3("バタフリー", "キョダイ"),
+                    new EventSlot3("カビゴン", "キョダイ"),
+                    new EventSlot3("デリバード"),
+                    new EventSlot3("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot3("カジリガメ", Rom.Sword),
+                    new EventSlot3("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot3("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot3("マルヤクデ", Rom.Shield),
+                    new EventSlot3("マルヤクデ", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot4("バタフリー", "キョダイ"),
+                    new EventSlot4("カビゴン", "キョダイ"),
+                    new EventSlot4("デリバード"),
+                    new EventSlot4("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot4("カジリガメ", Rom.Sword),
+                    new EventSlot4("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot4("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot4("マルヤクデ", Rom.Shield),
+                    new EventSlot4("マルヤクデ", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot5("バタフリー", "キョダイ"),
+                    new EventSlot5("カビゴン", "キョダイ"),
+                    new EventSlot5("デリバード"),
+                    new EventSlot5("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot5("カジリガメ", Rom.Sword),
+                    new EventSlot5("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot5("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot5("マルヤクデ", Rom.Shield),
+                    new EventSlot5("マルヤクデ", "キョダイ", Rom.Shield),
+                }
+            };
+            var eventsD = new RaidBattleSlot[][]
+            {
+                new RaidBattleSlot[]{
+                    new EventSlot1("バタフリー", "キョダイ"),
+                    new EventSlot1("ゴンベ"),
+                    new EventSlot1("コイキング"),
+                    new EventSlot1("コイキング").BeForceShiny(),
+                    new EventSlot1("スナヘビ", Rom.Sword),
+                    new EventSlot1("カムカメ", Rom.Sword),
+                    new EventSlot1("ココガラ", Rom.Shield),
+                    new EventSlot1("ヤクデ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot2("バタフリー", "キョダイ"),
+                    new EventSlot2("カビゴン"),
+                    new EventSlot2("コイキング"),
+                    new EventSlot2("コイキング").BeForceShiny(),
+                    new EventSlot2("スナヘビ", Rom.Sword),
+                    new EventSlot2("カジリガメ", Rom.Sword),
+                    new EventSlot2("アオガラス", Rom.Shield),
+                    new EventSlot2("マルヤクデ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot3("バタフリー", "キョダイ"),
+                    new EventSlot3("カビゴン", "キョダイ"),
+                    new EventSlot3("コイキング"),
+                    new EventSlot3("コイキング").BeForceShiny(),
+                    new EventSlot3("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot3("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot3("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot3("マルヤクデ", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot4("バタフリー", "キョダイ"),
+                    new EventSlot4("カビゴン", "キョダイ"),
+                    new EventSlot4("コイキング"),
+                    new EventSlot4("コイキング").BeForceShiny(),
+                    new EventSlot4("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot4("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot4("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot4("マルヤクデ", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot5("バタフリー", "キョダイ"),
+                    new EventSlot5("カビゴン", "キョダイ"),
+                    new EventSlot5("コイキング"),
+                    new EventSlot5("コイキング").BeForceShiny(),
+                    new EventSlot5("サダイジャ", "キョダイ", Rom.Sword),
+                    new EventSlot5("カジリガメ", "キョダイ", Rom.Sword),
+                    new EventSlot5("アーマーガア", "キョダイ", Rom.Shield),
+                    new EventSlot5("マルヤクデ", "キョダイ", Rom.Shield),
+                }
+            };
+            var eventsE = new RaidBattleSlot[][]
+            {
+                new RaidBattleSlot[]{
+                    new EventSlot1("マホミル"),
+                    new EventSlot1("マホミル").BeForceHiddenAbility(),
+                    new EventSlot1("カジッチュ"),
+                    new EventSlot1("タンドン", Rom.Sword),
+                    new EventSlot1("タンドン", Rom.Sword).BeForceHiddenAbility(),
+                    new EventSlot1("ラプラス", Rom.Shield),
+                    new EventSlot1("ラプラス", Rom.Shield).BeForceHiddenAbility(),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot2("マホイップ", "キョダイ"),
+                    new EventSlot2("アップリュー", Rom.Sword),
+                    new EventSlot2("トロッゴン", Rom.Sword),
+                    new EventSlot2("タルップル", Rom.Shield),
+                    new EventSlot2("ラプラス", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot3("マホイップ", "キョダイ"),
+                    new EventSlot3("アップリュー", Rom.Sword),
+                    new EventSlot3("アップリュー", "キョダイ", Rom.Sword),
+                    new EventSlot3("セキタンザン", Rom.Sword),
+                    new EventSlot3("セキタンザン", "キョダイ", Rom.Sword),
+                    new EventSlot3("タルップル", Rom.Shield),
+                    new EventSlot3("タルップル", "キョダイ", Rom.Shield),
+                    new EventSlot3("ラプラス", Rom.Shield),
+                    new EventSlot3("ラプラス", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot4("マホイップ", "キョダイ"),
+                    new EventSlot4("アップリュー", Rom.Sword),
+                    new EventSlot4("アップリュー", "キョダイ", Rom.Sword),
+                    new EventSlot4("セキタンザン", Rom.Sword),
+                    new EventSlot4("セキタンザン", "キョダイ", Rom.Sword),
+                    new EventSlot4("タルップル", Rom.Shield),
+                    new EventSlot4("タルップル", "キョダイ", Rom.Shield),
+                    new EventSlot4("ラプラス", Rom.Shield),
+                    new EventSlot4("ラプラス", "キョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot5("マホイップ", "キョダイ"),
+                    new EventSlot5("アップリュー", Rom.Sword),
+                    new EventSlot5("アップリュー", "キョダイ", Rom.Sword),
+                    new EventSlot5("セキタンザン", Rom.Sword),
+                    new EventSlot5("セキタンザン", "キョダイ", Rom.Sword),
+                    new EventSlot5("タルップル", Rom.Shield),
+                    new EventSlot5("タルップル", "キョダイ", Rom.Shield),
+                    new EventSlot5("ラプラス", Rom.Shield),
+                    new EventSlot5("ラプラス", "キョダイ", Rom.Shield),
+                }
             };
             #endregion
             #endregion
@@ -3987,13 +4175,11 @@ namespace SwShRNGLibrary
             mapList.Add(new WildAreaMap(96, "げきりんの湖", "D", Rarity.Normal, electricB));
             mapList.Add(new WildAreaMap(96, "げきりんの湖", "D", Rarity.Rare, electricC));
 
-            mapList.Add(new WildAreaMap(-1, "イベント", "", Rarity.Event, new RaidBattleSlot[][] {
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", true, 1), new RaidBattleSlot("ヌオー", true, 2), new RaidBattleSlot("ヌオー", true, 3), new RaidBattleSlot("ヌオー", true, 4), new RaidBattleSlot("ヌオー", true, 5) },
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", true, 1), new RaidBattleSlot("ヌオー", true, 2), new RaidBattleSlot("ヌオー", true, 3), new RaidBattleSlot("ヌオー", true, 4), new RaidBattleSlot("ヌオー", true, 5) },
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", true, 1), new RaidBattleSlot("ヌオー", true, 2), new RaidBattleSlot("ヌオー", true, 3), new RaidBattleSlot("ヌオー", true, 4), new RaidBattleSlot("ヌオー", true, 5) },
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", true, 1), new RaidBattleSlot("ヌオー", true, 2), new RaidBattleSlot("ヌオー", true, 3), new RaidBattleSlot("ヌオー", true, 4), new RaidBattleSlot("ヌオー", true, 5) },
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", true, 1), new RaidBattleSlot("ヌオー", true, 2), new RaidBattleSlot("ヌオー", true, 3), new RaidBattleSlot("ヌオー", true, 4), new RaidBattleSlot("ヌオー", true, 5) },
-            }));
+            mapList.Add(new WildAreaMap(-1, "イベント", "2019 November", Rarity.Event, eventsA));
+            mapList.Add(new WildAreaMap(-1, "イベント", "2019 December", Rarity.Event, eventsB));
+            mapList.Add(new WildAreaMap(-1, "イベント", "2019 Christmas", Rarity.Event, eventsC));
+            mapList.Add(new WildAreaMap(-1, "イベント", "2019 NewYear", Rarity.Event, eventsD));
+            mapList.Add(new WildAreaMap(-1, "イベント", "2019 January", Rarity.Event, eventsE));
             #endregion
 
             MapList = mapList.ToArray();
