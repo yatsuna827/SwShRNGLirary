@@ -21,8 +21,8 @@ namespace SwShRNGLibrary
             uint DummyID = (uint)(rng.GetRand() & 0xFFFFFFFF);
             uint PID = (uint)(rng.GetRand() & 0xFFFFFFFF);
             uint ShinyValue = (((DummyID ^ PID) >> 16) ^ ((DummyID ^ PID) & 0xFFFF));
-            bool isShily = ShinyValue < 16;
-            bool isSquare = (slot.ForceShiny && !isShily) || ShinyValue == 0;
+            bool isShily = slot.ForceShiny || ShinyValue < 16;
+            bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
 
             uint[] IVs = new uint[6];
             int i = 0;
