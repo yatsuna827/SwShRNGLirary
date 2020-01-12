@@ -39,6 +39,7 @@ namespace SwShRNGLibrary
             words.Add(Category.Ability, ab.ToDictionary(_ => _[0], _ => _[1]));
             words.Add(Category.MapName, mn.ToDictionary(_ => _[0], _ => _[1]));
             toJPN.Add(Category.PokeName, p.ToDictionary(_ => _[1], _ => _[0]));
+            toJPN.Add(Category.Ability, ab.ToDictionary(_ => _[1], _ => _[0]));
             toJPN.Add(Category.MapName, mn.ToDictionary(_ => _[1], _ => _[0]));
         }
 
