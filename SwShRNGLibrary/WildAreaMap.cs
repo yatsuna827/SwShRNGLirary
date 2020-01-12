@@ -3910,6 +3910,7 @@ namespace SwShRNGLibrary
                     new EventSlot1("マホミル"),
                     new EventSlot1("マホミル").BeForceHiddenAbility(),
                     new EventSlot1("カジッチュ"),
+                    new EventSlot1("カジッチュ").BeForceHiddenAbility(),
                     new EventSlot1("タンドン", Rom.Sword),
                     new EventSlot1("タンドン", Rom.Sword).BeForceHiddenAbility(),
                     new EventSlot1("ラプラス", Rom.Shield),
@@ -3918,9 +3919,13 @@ namespace SwShRNGLibrary
                 new RaidBattleSlot[]{
                     new EventSlot2("マホイップ", "キョダイ"),
                     new EventSlot2("アップリュー", Rom.Sword),
+                    new EventSlot2("アップリュー", Rom.Sword).BeForceHiddenAbility(),
                     new EventSlot2("トロッゴン", Rom.Sword),
+                    new EventSlot2("トロッゴン", Rom.Sword).BeForceHiddenAbility(),
                     new EventSlot2("タルップル", Rom.Shield),
+                    new EventSlot2("タルップル", Rom.Shield).BeForceHiddenAbility(),
                     new EventSlot2("ラプラス", Rom.Shield),
+                    new EventSlot2("ラプラス", Rom.Shield).BeForceHiddenAbility(),
                 },
                 new RaidBattleSlot[]{
                     new EventSlot3("マホイップ", "キョダイ"),
