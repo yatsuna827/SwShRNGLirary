@@ -84,7 +84,7 @@ namespace SwShRNGLibrary
             {
                 uint[] MinIVs = new uint[6] { 32, 32, 32, 32, 32, 32 };
                 uint[] MaxIVs = new uint[6] { 32, 32, 32, 32, 32, 32 };
-                EVs.Select(_ => _ / 4).ToArray();
+                EVs = EVs.Select(_ => _ / 4).ToArray();
 
                 double[] mag = nature.ToMagnification();
 
