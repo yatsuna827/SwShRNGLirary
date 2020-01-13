@@ -3918,6 +3918,7 @@ namespace SwShRNGLibrary
                 },
                 new RaidBattleSlot[]{
                     new EventSlot2("マホイップ", "キョダイ"),
+                    new EventSlot2("マホイップ", "キョダイ").BeForceHiddenAbility(),
                     new EventSlot2("アップリュー", Rom.Sword),
                     new EventSlot2("アップリュー", Rom.Sword).BeForceHiddenAbility(),
                     new EventSlot2("トロッゴン", Rom.Sword),
@@ -3929,6 +3930,7 @@ namespace SwShRNGLibrary
                 },
                 new RaidBattleSlot[]{
                     new EventSlot3("マホイップ", "キョダイ"),
+                    new EventSlot3("マホイップ", "キョダイ").BeForceHiddenAbility(),
                     new EventSlot3("アップリュー", Rom.Sword),
                     new EventSlot3("アップリュー", "キョダイ", Rom.Sword),
                     new EventSlot3("セキタンザン", Rom.Sword),
@@ -3940,6 +3942,7 @@ namespace SwShRNGLibrary
                 },
                 new RaidBattleSlot[]{
                     new EventSlot4("マホイップ", "キョダイ"),
+                    new EventSlot4("マホイップ", "キョダイ").BeForceHiddenAbility(),
                     new EventSlot4("アップリュー", Rom.Sword),
                     new EventSlot4("アップリュー", "キョダイ", Rom.Sword),
                     new EventSlot4("セキタンザン", Rom.Sword),
@@ -3951,6 +3954,7 @@ namespace SwShRNGLibrary
                 },
                 new RaidBattleSlot[]{
                     new EventSlot5("マホイップ", "キョダイ"),
+                    new EventSlot5("マホイップ", "キョダイ").BeForceHiddenAbility(),
                     new EventSlot5("アップリュー", Rom.Sword),
                     new EventSlot5("アップリュー", "キョダイ", Rom.Sword),
                     new EventSlot5("セキタンザン", Rom.Sword),
@@ -4184,7 +4188,7 @@ namespace SwShRNGLibrary
             mapList.Add(new WildAreaMap(-1, "イベント", "2019 December", Rarity.Event, eventsB));
             mapList.Add(new WildAreaMap(-1, "イベント", "2019 Christmas", Rarity.Event, eventsC));
             mapList.Add(new WildAreaMap(-1, "イベント", "2019 NewYear", Rarity.Event, eventsD));
-            mapList.Add(new WildAreaMap(-1, "イベント", "2019 January", Rarity.Event, eventsE));
+            mapList.Add(new WildAreaMap(-1, "イベント", "2020 January", Rarity.Event, eventsE));
             #endregion
 
             MapList = mapList.ToArray();
