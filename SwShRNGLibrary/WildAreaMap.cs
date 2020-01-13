@@ -3965,24 +3965,24 @@ namespace SwShRNGLibrary
             #endregion
 
             #region Dens
-            mapList.Add(new WildAreaMap(3, "うららか平原", "A", Rarity.Normal, flyingA));
-            mapList.Add(new WildAreaMap(3, "うららか平原", "A", Rarity.Rare, bugD));
-            mapList.Add(new WildAreaMap(8, "うららか平原", "B", Rarity.Normal, fightingA));
-            mapList.Add(new WildAreaMap(8, "うららか平原", "B", Rarity.Rare, fightingC));
-            mapList.Add(new WildAreaMap(9, "うららか平原", "C", Rarity.Normal, flyingA));
-            mapList.Add(new WildAreaMap(9, "うららか平原", "C", Rarity.Rare, bugD));
-            mapList.Add(new WildAreaMap(1, "うららか平原", "D", Rarity.Normal, groundA));
-            mapList.Add(new WildAreaMap(1, "うららか平原", "D", Rarity.Rare, groundC));
-            mapList.Add(new WildAreaMap(7, "うららか平原", "E", Rarity.Normal, normalA));
-            mapList.Add(new WildAreaMap(7, "うららか平原", "E", Rarity.Rare, normalC));
-            mapList.Add(new WildAreaMap(5, "うららか平原", "F", Rarity.Normal, bugA));
-            mapList.Add(new WildAreaMap(5, "うららか平原", "F", Rarity.Rare, bugC));
-            mapList.Add(new WildAreaMap(2, "うららか平原", "G", Rarity.Normal, dragonA));
-            mapList.Add(new WildAreaMap(2, "うららか平原", "G", Rarity.Rare, dragonC));
-            mapList.Add(new WildAreaMap(4, "うららか平原", "H", Rarity.Normal, rockA));
-            mapList.Add(new WildAreaMap(4, "うららか平原", "H", Rarity.Rare, rockC));
-            mapList.Add(new WildAreaMap(6, "うららか平原", "I", Rarity.Normal, fairyA));
-            mapList.Add(new WildAreaMap(6, "うららか平原", "I", Rarity.Rare, fairyC));
+            mapList.Add(new WildAreaMap(3, "うららか草原", "A", Rarity.Normal, flyingA));
+            mapList.Add(new WildAreaMap(3, "うららか草原", "A", Rarity.Rare, bugD));
+            mapList.Add(new WildAreaMap(8, "うららか草原", "B", Rarity.Normal, fightingA));
+            mapList.Add(new WildAreaMap(8, "うららか草原", "B", Rarity.Rare, fightingC));
+            mapList.Add(new WildAreaMap(9, "うららか草原", "C", Rarity.Normal, flyingA));
+            mapList.Add(new WildAreaMap(9, "うららか草原", "C", Rarity.Rare, bugD));
+            mapList.Add(new WildAreaMap(1, "うららか草原", "D", Rarity.Normal, groundA));
+            mapList.Add(new WildAreaMap(1, "うららか草原", "D", Rarity.Rare, groundC));
+            mapList.Add(new WildAreaMap(7, "うららか草原", "E", Rarity.Normal, normalA));
+            mapList.Add(new WildAreaMap(7, "うららか草原", "E", Rarity.Rare, normalC));
+            mapList.Add(new WildAreaMap(5, "うららか草原", "F", Rarity.Normal, bugA));
+            mapList.Add(new WildAreaMap(5, "うららか草原", "F", Rarity.Rare, bugC));
+            mapList.Add(new WildAreaMap(2, "うららか草原", "G", Rarity.Normal, dragonA));
+            mapList.Add(new WildAreaMap(2, "うららか草原", "G", Rarity.Rare, dragonC));
+            mapList.Add(new WildAreaMap(4, "うららか草原", "H", Rarity.Normal, rockA));
+            mapList.Add(new WildAreaMap(4, "うららか草原", "H", Rarity.Rare, rockC));
+            mapList.Add(new WildAreaMap(6, "うららか草原", "I", Rarity.Normal, fairyA));
+            mapList.Add(new WildAreaMap(6, "うららか草原", "I", Rarity.Rare, fairyC));
 
             mapList.Add(new WildAreaMap(12, "こもれび林", "A", Rarity.Normal, grassA));
             mapList.Add(new WildAreaMap(12, "こもれび林", "A", Rarity.Rare, grassD));
