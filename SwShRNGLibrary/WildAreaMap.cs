@@ -2517,17 +2517,16 @@ namespace SwShRNGLibrary
                 new RaidBattleSlot[]{
                     new CommonSlot2("バタフリー"),
                     new CommonSlot2("アオガラス"),
-                    new CommonSlot4("ヨルノズク"),
+                    new CommonSlot3("ヨルノズク"),
                     new CommonSlot4("ペリッパー"),
                 },
                 new RaidBattleSlot[]{
-                    new CommonSlot4("ヨルノズク"),
+                    new CommonSlot3("ヨルノズク"),
                     new CommonSlot4("ペリッパー"),
                     new CommonSlot5("ネイティオ"),
                     new CommonSlot5("ルチャブル"),
                 },
                 new RaidBattleSlot[]{
-                    new CommonSlot4("ヨルノズク"),
                     new CommonSlot4("ペリッパー"),
                     new CommonSlot5("ネイティオ"),
                     new CommonSlot5("ルチャブル"),
