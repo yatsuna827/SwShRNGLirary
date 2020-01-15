@@ -3201,11 +3201,11 @@ namespace SwShRNGLibrary
                 new RaidBattleSlot[]{
                     new CommonSlot2("レパルダス"),
                     new CommonSlot2("マッスグマ", "ガラル"),
-                    new CommonSlot4("ギモー"),
+                    new CommonSlot3("ギモー"),
                     new CommonSlot4("フォクスライ"),
                 },
                 new RaidBattleSlot[]{
-                    new CommonSlot4("ギモー"),
+                    new CommonSlot3("ギモー"),
                     new CommonSlot4("フォクスライ"),
                     new CommonSlot5("ゴロンダ"),
                     new CommonSlot5("ズルズキン", Rom.Sword),
