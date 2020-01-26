@@ -13,7 +13,7 @@ namespace SwShRNGLibrary
         public readonly string Label;
         public readonly int DenIndex;
         public readonly Rarity Rarity;
-        public readonly　RaidBattleSlot[][] RaidTable;
+        public readonly RaidBattleSlot[][] RaidTable;
 
         internal WildAreaMap(int idx, string name, string label, Rarity rarity, RaidBattleSlot[][] table)
         {
@@ -1351,13 +1351,13 @@ namespace SwShRNGLibrary
                     new CommonSlot4("ストリンダー", "ハイ"),
                 },
                 new RaidBattleSlot[]{
-                    new CommonSlot3("パルスワン"),
+                    new CommonSlot4("パルスワン"),
                     new CommonSlot4("ストリンダー", "ハイ"),
                     new CommonSlot5("エレザード"),
                     new CommonSlot5("クワガノン"),
                 },
                 new RaidBattleSlot[]{
-                    new CommonSlot3("パルスワン"),
+                    new CommonSlot4("パルスワン"),
                     new CommonSlot4("ストリンダー", "ハイ"),
                     new CommonSlot5("エレザード"),
                     new CommonSlot5("クワガノン"),
@@ -1423,8 +1423,8 @@ namespace SwShRNGLibrary
                 new RaidBattleSlot[]{
                     new CommonSlot2("ガントル"),
                     new CommonSlot3("イワパレス"),
-                    new CommonSlot3("イワーク", Rom.Sword),
-                    new CommonSlot3("セキタンザン", Rom.Shield),
+                    new CommonSlot4("イワーク", Rom.Sword),
+                    new CommonSlot4("セキタンザン", Rom.Shield),
                     new CommonSlot4("ガメノデス"),
                 },
                 new RaidBattleSlot[]{
@@ -1466,9 +1466,9 @@ namespace SwShRNGLibrary
                     new CommonSlot2("トロッゴン"),
                     new CommonSlot2("ウソッキー", Rom.Sword),
                     new CommonSlot2("ヨーギラス", Rom.Shield),
-                    new CommonSlot3("イワーク"),
                     new CommonSlot3("ガメノデス", Rom.Sword),
                     new CommonSlot3("サナギラス", Rom.Shield),
+                    new CommonSlot4("イワーク"),
                 },
                 new RaidBattleSlot[]{
                     new CommonSlot3("ガメノデス", Rom.Sword),
@@ -4122,11 +4122,11 @@ namespace SwShRNGLibrary
             mapList.Add(new WildAreaMap(66, "ストーンズ原野", "I", Rarity.Normal, iceB));
             mapList.Add(new WildAreaMap(66, "ストーンズ原野", "I", Rarity.Rare, iceD));
             mapList.Add(new WildAreaMap(67, "ストーンズ原野", "J", Rarity.Normal, psychicC));
-            mapList.Add(new WildAreaMap(67, "ストーンズ原野", "$1", Rarity.Rare, psychicE));
+            mapList.Add(new WildAreaMap(67, "ストーンズ原野", "J", Rarity.Rare, psychicE));
             mapList.Add(new WildAreaMap(68, "ストーンズ原野", "K", Rarity.Normal, fireA));
-            mapList.Add(new WildAreaMap(68, "ストーンズ原野", "$1", Rarity.Rare, fireE));
+            mapList.Add(new WildAreaMap(68, "ストーンズ原野", "K", Rarity.Rare, fireE));
             mapList.Add(new WildAreaMap(58, "ストーンズ原野", "L", Rarity.Normal, normalB));
-            mapList.Add(new WildAreaMap(58, "ストーンズ原野", "$1", Rarity.Rare, normalD));
+            mapList.Add(new WildAreaMap(58, "ストーンズ原野", "L", Rarity.Rare, normalD));
 
             mapList.Add(new WildAreaMap(73, "砂塵の窪地", "A", Rarity.Normal, waterC));
             mapList.Add(new WildAreaMap(73, "砂塵の窪地", "A", Rarity.Rare, waterH));
