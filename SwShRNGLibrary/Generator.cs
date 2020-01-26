@@ -11,7 +11,7 @@ namespace SwShRNGLibrary
     {
         public ulong seed { get; private set; }
         private const ulong FIXEDSEED = 0x82A2B175229D6A5B;
-        private Nature[] HighNature = new Nature[] { Nature.Adamant, Nature.Naughty, Nature.Brave, Nature.Impish, Nature.Lax, Nature.Rash, Nature.Sassy, Nature.Hasty, Nature.Jolly, Nature.Naive, Nature.Hardy, Nature.Docile, Nature.Quirky };
+        private static Nature[] HighNature = new Nature[] { Nature.Adamant, Nature.Naughty, Nature.Brave, Nature.Impish, Nature.Lax, Nature.Rash, Nature.Sassy, Nature.Hasty, Nature.Jolly, Nature.Naive, Nature.Hardy, Nature.Docile, Nature.Quirky };
         public Pokemon.Individual Generate(RaidBattleSlot slot)
         {
             Xoroshiro128p rng = new Xoroshiro128p(seed, FIXEDSEED);
@@ -42,11 +42,141 @@ namespace SwShRNGLibrary
 
             return slot.pokemon.GetIndividual(60, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
+        public Pokemon.Individual Generate(RaidBattleSlot slot, Criteria criteria)
+        {
+            Xoroshiro128p rng = new Xoroshiro128p(seed, FIXEDSEED);
+            var poke = slot.pokemon;
+
+            uint EC = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint DummyID = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint PID = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint ShinyValue = (((DummyID ^ PID) >> 16) ^ ((DummyID ^ PID) & 0xFFFF));
+            bool isShily = slot.ForceShiny || ShinyValue < 16;
+            bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
+            if (!criteria.CheckShiny(isShily, isSquare)) return Pokemon.Individual.Empty;
+
+            uint[] IVs = new uint[6];
+            int i = 0;
+            while (i < slot.FlawlessIVs)
+            {
+                uint stat = (uint)rng.GetRand(6);
+                if (IVs[stat] == 31) continue;
+                IVs[stat] = 31;
+                i++;
+            }
+            for (int k = 0; k < 6; k++)
+                if (IVs[k] == 0) IVs[k] = (uint)(rng.GetRand() & 0x1f);
+
+            if (!criteria.CheckIVs(IVs)) return Pokemon.Individual.Empty;
+
+            uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
+            if (!criteria.CheckAbility(poke.Ability[Ability])) return Pokemon.Individual.Empty;
+
+            Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : ((uint)rng.GetRand(253) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
+            if (!criteria.CheckGender(gender)) return Pokemon.Individual.Empty;
+
+            Nature nature = poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : (Nature)rng.GetRand(25);
+            if (!criteria.CheckNature(nature)) return Pokemon.Individual.Empty;
+
+            return slot.pokemon.GetIndividual(60, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
+        }
+        public static Pokemon.Individual Generate(RaidBattleSlot slot, Xoroshiro128p rng)
+        {
+            var poke = slot.pokemon;
+
+            uint EC = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint DummyID = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint PID = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint ShinyValue = (((DummyID ^ PID) >> 16) ^ ((DummyID ^ PID) & 0xFFFF));
+            bool isShily = slot.ForceShiny || ShinyValue < 16;
+            bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
+
+            uint[] IVs = new uint[6];
+            int i = 0;
+            while (i < slot.FlawlessIVs)
+            {
+                uint stat = (uint)rng.GetRand(6);
+                if (IVs[stat] == 31) continue;
+                IVs[stat] = 31;
+                i++;
+            }
+            for (int k = 0; k < 6; k++)
+                if (IVs[k] == 0) IVs[k] = (uint)(rng.GetRand() & 0x1f);
+
+            uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
+            Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : ((uint)rng.GetRand(253) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
+            Nature nature = poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : (Nature)rng.GetRand(25);
+
+            return slot.pokemon.GetIndividual(60, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
+        }
+        public static Pokemon.Individual Generate(RaidBattleSlot slot, Xoroshiro128p rng, Criteria criteria)
+        {
+            var poke = slot.pokemon;
+
+            uint EC = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint DummyID = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint PID = (uint)(rng.GetRand() & 0xFFFFFFFF);
+            uint ShinyValue = (((DummyID ^ PID) >> 16) ^ ((DummyID ^ PID) & 0xFFFF));
+            bool isShily = slot.ForceShiny || ShinyValue < 16;
+            bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
+            if (!criteria.CheckShiny(isShily, isSquare)) return Pokemon.Individual.Empty;
+
+            uint[] IVs = new uint[6];
+            int i = 0;
+            while (i < slot.FlawlessIVs)
+            {
+                uint stat = (uint)rng.GetRand(6);
+                if (IVs[stat] == 31) continue;
+                IVs[stat] = 31;
+                i++;
+            }
+            for (int k = 0; k < 6; k++)
+                if (IVs[k] == 0) IVs[k] = (uint)(rng.GetRand() & 0x1f);
+
+            if (!criteria.CheckIVs(IVs)) return Pokemon.Individual.Empty;
+
+            uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
+            if (!criteria.CheckAbility(poke.Ability[Ability])) return Pokemon.Individual.Empty;
+
+            Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : ((uint)rng.GetRand(253) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
+            if (!criteria.CheckGender(gender)) return Pokemon.Individual.Empty;
+
+            Nature nature = poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : (Nature)rng.GetRand(25);
+            if (!criteria.CheckNature(nature)) return Pokemon.Individual.Empty;
+
+            return slot.pokemon.GetIndividual(60, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
+        }
         public void Advance(uint num = 1) { seed += FIXEDSEED * num; }
         public void Back(uint num = 1) { seed -= FIXEDSEED * num; }
         public RaidGenerator(ulong iniSeed)
         {
             seed = iniSeed;
         }
+    }
+
+    public class Criteria
+    {
+        public bool checkStar;
+        public bool checkSquare;
+        bool checkShiny => checkStar || checkSquare;
+        bool checkIV => checkIVs.Any();
+        public bool[] checkIVs;
+        public bool checkNature;
+        public bool checkAbility;
+        public bool checkGender;
+
+        public uint[] MinIVs;
+        public uint[] MaxIVs;
+        public string targetAbility;
+        public Nature targetNature;
+        public Gender targetGender;
+
+        public bool CheckShiny(bool isShiny, bool isSquare) => !checkShiny || checkSquare && isSquare || checkStar && isShiny && !isSquare;
+        public bool CheckIVs(uint[] IVs) => !checkIV || IVs.Select((iv, i) => (iv, i)).All(_ => !checkIVs[_.i] || MinIVs[_.i] <= _.iv && _.iv <= MaxIVs[_.i]);
+        public bool CheckAbility(string ability) => !checkAbility || ability == targetAbility;
+        public bool CheckGender(Gender gender) => !checkGender || gender == targetGender;
+        public bool CheckNature(Nature nature) => !checkNature || nature == targetNature;
+
+        public Criteria() { MinIVs = new uint[6]; MaxIVs = new uint[6]; checkIVs = new bool[6]; }
     }
 }

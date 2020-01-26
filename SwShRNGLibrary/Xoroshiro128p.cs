@@ -64,6 +64,12 @@ namespace SwShRNGLibrary
         {
             seed = new ulong[2] { s0, 0x82A2B175229D6A5B };
         }
+        public Xoroshiro128p ResetRand(ulong s0)
+        {
+            seed[0] = s0;
+            seed[1] = 0x82A2B175229D6A5B;
+            return this;
+        }
     }
     static class RotateExtension
     {
