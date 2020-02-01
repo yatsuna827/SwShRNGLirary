@@ -3999,7 +3999,7 @@ namespace SwShRNGLibrary
                     new EventSlot4("ラプラス", "キョダイ", Rom.Shield),
                 },
                 new RaidBattleSlot[]{
-                    new EventSlot4("マホミル"),
+                    new EventSlot5("マホミル"),
                     new EventSlot5("アップリュー", "キョダイ", Rom.Sword),
                     new EventSlot5("セキタンザン", "キョダイ", Rom.Sword),
                     new EventSlot5("タルップル", "キョダイ", Rom.Shield),
