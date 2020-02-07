@@ -4006,6 +4006,44 @@ namespace SwShRNGLibrary
                     new EventSlot5("ラプラス", "キョダイ", Rom.Shield),
                 }
             };
+            var eventsG = new RaidBattleSlot[][]
+            {
+                new RaidBattleSlot[]{
+                    new EventSlot1("マホミル"),
+                    new EventSlot1("マホミル").BeForceHiddenAbility(),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot2("マホミル"),
+                    new EventSlot2("マホミル").BeForceHiddenAbility(),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot3("マホミル"),
+                    new EventSlot3("ギモー", Rom.Sword),
+                    new EventSlot3("キングラー", "キョダイ", Rom.Sword),
+                    new EventSlot3("ストリンダー", "ハイキョダイ", Rom.Sword),
+                    new EventSlot3("テブリム", Rom.Shield),
+                    new EventSlot3("イオルブ", "キョダイ", Rom.Shield),
+                    new EventSlot3("ストリンダー", "ローキョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot4("マホミル"),
+                    new EventSlot4("キングラー", "キョダイ", Rom.Sword),
+                    new EventSlot4("オーロンゲ", "キョダイ", Rom.Sword),
+                    new EventSlot4("ストリンダー", "ハイキョダイ", Rom.Sword),
+                    new EventSlot4("イオルブ", "キョダイ", Rom.Shield),
+                    new EventSlot4("ブリムオン", "キョダイ", Rom.Shield),
+                    new EventSlot4("ストリンダー", "ローキョダイ", Rom.Shield),
+                },
+                new RaidBattleSlot[]{
+                    new EventSlot5("マホミル"),
+                    new EventSlot5("キングラー", "キョダイ", Rom.Sword),
+                    new EventSlot5("オーロンゲ", "キョダイ", Rom.Sword),
+                    new EventSlot5("ストリンダー", "ハイキョダイ", Rom.Sword),
+                    new EventSlot5("イオルブ", "キョダイ", Rom.Shield),
+                    new EventSlot5("ブリムオン", "キョダイ", Rom.Shield),
+                    new EventSlot5("ストリンダー", "ローキョダイ", Rom.Shield),
+                }
+            };
             #endregion
             #endregion
 
@@ -4231,6 +4269,7 @@ namespace SwShRNGLibrary
             mapList.Add(new WildAreaMap(-1, "イベント", "2019 NewYear", Rarity.Event, eventsD));
             mapList.Add(new WildAreaMap(-1, "イベント", "2020 January", Rarity.Event, eventsE));
             mapList.Add(new WildAreaMap(-1, "イベント", "2020 Late January", Rarity.Event, eventsF));
+            mapList.Add(new WildAreaMap(-1, "イベント", "2020 Early February", Rarity.Event, eventsG));
             #endregion
 
             MapList = mapList.ToArray();

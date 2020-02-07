@@ -12,6 +12,7 @@ namespace SwShRNGLibrary
         public ulong seed { get; private set; }
         private const ulong FIXEDSEED = 0x82A2B175229D6A5B;
         private static Nature[] HighNature = new Nature[] { Nature.Adamant, Nature.Naughty, Nature.Brave, Nature.Impish, Nature.Lax, Nature.Rash, Nature.Sassy, Nature.Hasty, Nature.Jolly, Nature.Naive, Nature.Hardy, Nature.Docile, Nature.Quirky };
+        private static Nature[] LowNature = new Nature[] { Nature.Lonely, Nature.Bold, Nature.Relaxed, Nature.Timid, Nature.Serious, Nature.Modest, Nature.Mild, Nature.Quiet, Nature.Bashful, Nature.Calm, Nature.Gentle, Nature.Careful };
         public Pokemon.Individual Generate(RaidBattleSlot slot)
         {
             Xoroshiro128p rng = new Xoroshiro128p(seed, FIXEDSEED);
@@ -38,7 +39,7 @@ namespace SwShRNGLibrary
 
             uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
             Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : ((uint)rng.GetRand(253) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
-            Nature nature = poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : (Nature)rng.GetRand(25);
+            Nature nature = poke.Name == "ストリンダー" ? (poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
 
             return slot.pokemon.GetIndividual(60, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
@@ -75,7 +76,7 @@ namespace SwShRNGLibrary
             Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : ((uint)rng.GetRand(253) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
             if (!criteria.CheckGender(gender)) return Pokemon.Individual.Empty;
 
-            Nature nature = poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : (Nature)rng.GetRand(25);
+            Nature nature = poke.Name == "ストリンダー" ? (poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
             if (!criteria.CheckNature(nature)) return Pokemon.Individual.Empty;
 
             return slot.pokemon.GetIndividual(60, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
@@ -105,7 +106,7 @@ namespace SwShRNGLibrary
 
             uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
             Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : ((uint)rng.GetRand(253) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
-            Nature nature = poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : (Nature)rng.GetRand(25);
+            Nature nature = poke.Name == "ストリンダー" ? (poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
 
             return slot.pokemon.GetIndividual(60, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
@@ -141,7 +142,7 @@ namespace SwShRNGLibrary
             Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : ((uint)rng.GetRand(253) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
             if (!criteria.CheckGender(gender)) return Pokemon.Individual.Empty;
 
-            Nature nature = poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : (Nature)rng.GetRand(25);
+            Nature nature = poke.Name == "ストリンダー" ? (poke.FormName == "ハイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
             if (!criteria.CheckNature(nature)) return Pokemon.Individual.Empty;
 
             return slot.pokemon.GetIndividual(60, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
