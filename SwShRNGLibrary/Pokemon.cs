@@ -663,7 +663,9 @@ namespace SwShRNGLibrary
             DexData.Add(new Species(847, 181, "カマスジョー", "", new uint[] { 61, 123, 60, 60, 50, 136 }, (PokeType.Water, PokeType.Non), new string[] { "すいすい", "すいすい", "スクリューおびれ" }, GenderRatio.M1F1));
             DexData.Add(new Species(848, 310, "エレズン", "", new uint[] { 40, 38, 35, 54, 35, 40 }, (PokeType.Electric, PokeType.Poison), new string[] { "びびり", "せいでんき", "ぶきよう" }, GenderRatio.M1F1));
             DexData.Add(new Species(849, 311, "ストリンダー", "ハイ", new uint[] { 75, 98, 70, 114, 70, 75 }, (PokeType.Electric, PokeType.Poison), new string[] { "パンクロック", "プラス", "テクニシャン" }, GenderRatio.M1F1));
+            DexData.Add(new Species(849, 311, "ストリンダー", "ハイキョダイ", new uint[] { 75, 98, 70, 114, 70, 75 }, (PokeType.Electric, PokeType.Poison), new string[] { "パンクロック", "プラス", "テクニシャン" }, GenderRatio.M1F1));
             DexData.Add(new Species(849, 311, "ストリンダー", "ロー", new uint[] { 75, 98, 70, 114, 70, 75 }, (PokeType.Electric, PokeType.Poison), new string[] { "パンクロック", "マイナス", "テクニシャン" }, GenderRatio.M1F1));
+            DexData.Add(new Species(849, 311, "ストリンダー", "ローキョダイ", new uint[] { 75, 98, 70, 114, 70, 75 }, (PokeType.Electric, PokeType.Poison), new string[] { "パンクロック", "マイナス", "テクニシャン" }, GenderRatio.M1F1));
             DexData.Add(new Species(850, 159, "ヤクデ", "", new uint[] { 50, 65, 45, 50, 50, 45 }, (PokeType.Fire, PokeType.Bug), new string[] { "もらいび", "しろいけむり", "ほのおのからだ" }, GenderRatio.M1F1));
             DexData.Add(new Species(851, 160, "マルヤクデ", "", new uint[] { 100, 115, 65, 90, 90, 65 }, (PokeType.Fire, PokeType.Bug), new string[] { "もらいび", "しろいけむり", "ほのおのからだ" }, GenderRatio.M1F1));
             DexData.Add(new Species(851, 160, "マルヤクデ", "キョダイ", new uint[] { 100, 115, 65, 90, 90, 65 }, (PokeType.Fire, PokeType.Bug), new string[] { "もらいび", "しろいけむり", "ほのおのからだ" }, GenderRatio.M1F1));
