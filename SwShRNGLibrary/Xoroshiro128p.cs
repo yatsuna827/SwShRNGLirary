@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SwShRNGLibrary
 {
-
     public class Xoroshiro128p
     {
-        private ulong[] seed;
+        public const ulong FIXSEED = 0x82A2B175229D6A5B;
+        private readonly ulong[] seed;
         public ulong GetRand()
         {
             ulong s0 = seed[0];
@@ -62,12 +62,12 @@ namespace SwShRNGLibrary
         }
         public Xoroshiro128p(ulong s0)
         {
-            seed = new ulong[2] { s0, 0x82A2B175229D6A5B };
+            seed = new ulong[2] { s0, FIXSEED };
         }
         public Xoroshiro128p ResetRand(ulong s0)
         {
             seed[0] = s0;
-            seed[1] = 0x82A2B175229D6A5B;
+            seed[1] = FIXSEED;
             return this;
         }
     }
