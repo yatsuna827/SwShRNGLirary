@@ -13,7 +13,7 @@ namespace SwShRNGLibrary
         public readonly string Label;
         public readonly int DenIndex;
         public readonly Rarity Rarity;
-        public readonly RaidBattleSlot[][] RaidTable;
+        public readonly IReadOnlyList<IReadOnlyList<RaidBattleSlot>> RaidTable;
 
         internal WildAreaMap(int idx, string name, string label, Rarity rarity, RaidBattleSlot[][] table)
         {
@@ -24,7 +24,7 @@ namespace SwShRNGLibrary
             RaidTable = table;
         }
 
-        public static readonly WildAreaMap[] MapList;
+        public static readonly IReadOnlyList<WildAreaMap> MapList;
         static WildAreaMap()
         {
             var mapList = new List<WildAreaMap>();
