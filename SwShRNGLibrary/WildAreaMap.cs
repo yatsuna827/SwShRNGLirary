@@ -1654,6 +1654,7 @@ namespace SwShRNGLibrary
                     new CommonSlot4("ゴルーグ"),
                     new CommonSlot5("トリトドン"),
                     new CommonSlot5("ガマゲロゲ"),
+                    new CommonSlot5("サダイジャ", "キョダイ"),
                 },
                 new RaidBattleSlot[]{
                     new CommonSlot4("ゴルーグ"),
