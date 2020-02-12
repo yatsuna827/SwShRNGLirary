@@ -1,0 +1,147 @@
+[
+    {
+        "Label": "FlyingA",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"マメパト"},
+                {"SlotType":"Common1", "Name":"ホーホー"},
+                {"SlotType":"Common1", "Name":"ネイティ"},
+                {"SlotType":"Common1", "Name":"ワシボン"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ネイティ"},
+                {"SlotType":"Common1", "Name":"ワシボン"},
+                {"SlotType":"Common2", "Name":"コロモリ"},
+                {"SlotType":"Common2", "Name":"ハトーボー"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ハトーボー"},
+                {"SlotType":"Common3", "Name":"ケンホロウ"},
+                {"SlotType":"Common4", "Name":"ヨルノズク"},
+                {"SlotType":"Common4", "Name":"ココロモリ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ケンホロウ"},
+                {"SlotType":"Common4", "Name":"ヨルノズク"},
+                {"SlotType":"Common4", "Name":"ココロモリ"},
+                {"SlotType":"Common5", "Name":"ネイティオ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ヨルノズク"},
+                {"SlotType":"Common4", "Name":"ココロモリ"},
+                {"SlotType":"Common5", "Name":"ネイティオ"},
+                {"SlotType":"Common5", "Name":"シンボラー"},
+                {"SlotType":"Common5", "Name":"ウォーグル"}
+            ]
+        ]
+    },
+    {
+        "Label": "FlyingB",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ココガラ"},
+                {"SlotType":"Common1", "Name":"オンバット"},
+                {"SlotType":"Common1", "Name":"キャモメ"},
+                {"SlotType":"Common1", "Name":"ネイティ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"キャモメ"},
+                {"SlotType":"Common1", "Name":"ネイティ"},
+                {"SlotType":"Common2", "Name":"フワンテ"},
+                {"SlotType":"Common2", "Name":"アオガラス"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"アオガラス"},
+                {"SlotType":"Common3", "Name":"フワライド"},
+                {"SlotType":"Common4", "Name":"ペリッパー"},
+                {"SlotType":"Common4", "Name":"ネイティオ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"フワライド"},
+                {"SlotType":"Common4", "Name":"ペリッパー"},
+                {"SlotType":"Common4", "Name":"ネイティオ"},
+                {"SlotType":"Common5", "Name":"アーマーガア"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ペリッパー"},
+                {"SlotType":"Common4", "Name":"ネイティオ"},
+                {"SlotType":"Common5", "Name":"アーマーガア"},
+                {"SlotType":"Common5", "Name":"ルチャブル"},
+                {"SlotType":"Common5", "Name":"ウッウ"}
+            ]
+        ]
+    },
+    {
+        "Label": "FlyingC",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ネイティ"},
+                {"SlotType":"Common1", "Name":"ホーホー"},
+                {"SlotType":"Common1", "Name":"ココガラ"},
+                {"SlotType":"Common1", "Name":"キャモメ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ココガラ"},
+                {"SlotType":"Common1", "Name":"キャモメ"},
+                {"SlotType":"Common2", "Name":"バタフリー"},
+                {"SlotType":"Common2", "Name":"アオガラス"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"バタフリー"},
+                {"SlotType":"Common2", "Name":"アオガラス"},
+                {"SlotType":"Common4", "Name":"ヨルノズク"},
+                {"SlotType":"Common4", "Name":"ペリッパー"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ヨルノズク"},
+                {"SlotType":"Common4", "Name":"ペリッパー"},
+                {"SlotType":"Common5", "Name":"ネイティオ"},
+                {"SlotType":"Common5", "Name":"ルチャブル"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ヨルノズク"},
+                {"SlotType":"Common4", "Name":"ペリッパー"},
+                {"SlotType":"Common5", "Name":"ネイティオ"},
+                {"SlotType":"Common5", "Name":"ルチャブル"},
+                {"SlotType":"Common5", "Name":"アーマーガア"},
+                {"SlotType":"Common5", "Name":"デリバード"}
+            ]
+        ]
+    },
+    {
+        "Label": "FlyingD",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ネイティ"},
+                {"SlotType":"Common1", "Name":"ホーホー"},
+                {"SlotType":"Common1", "Name":"ココガラ"},
+                {"SlotType":"Common1", "Name":"キャモメ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ココガラ"},
+                {"SlotType":"Common1", "Name":"キャモメ"},
+                {"SlotType":"Common2", "Name":"バタフリー"},
+                {"SlotType":"Common2", "Name":"アオガラス"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"バタフリー"},
+                {"SlotType":"Common2", "Name":"アオガラス"},
+                {"SlotType":"Common3", "Name":"ヨルノズク"},
+                {"SlotType":"Common4", "Name":"ペリッパー"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ヨルノズク"},
+                {"SlotType":"Common4", "Name":"ペリッパー"},
+                {"SlotType":"Common5", "Name":"ネイティオ"},
+                {"SlotType":"Common5", "Name":"ルチャブル"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ペリッパー"},
+                {"SlotType":"Common5", "Name":"ネイティオ"},
+                {"SlotType":"Common5", "Name":"ルチャブル"},
+                {"SlotType":"Common5", "Name":"シンボラー"},
+                {"SlotType":"Common5", "Name":"アーマーガア", "Form":"キョダイ"}
+            ]
+        ]
+    }
+]

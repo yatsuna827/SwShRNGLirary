@@ -1,0 +1,184 @@
+[
+    {
+        "Label": "DarkA",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"チョロネコ"},
+                {"SlotType":"Common1", "Name":"スカンプー"},
+                {"SlotType":"Common1", "Name":"ニューラ"},
+                {"SlotType":"Common1", "Name":"マーイーカ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ニューラ"},
+                {"SlotType":"Common1", "Name":"マーイーカ"},
+                {"SlotType":"Common2", "Name":"コマタナ"},
+                {"SlotType":"Common2", "Name":"レパルダス"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"レパルダス"},
+                {"SlotType":"Common3", "Name":"スカタンク"},
+                {"SlotType":"Common4", "Name":"マニューラ"},
+                {"SlotType":"Common4", "Name":"カラマネロ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"スカタンク"},
+                {"SlotType":"Common4", "Name":"マニューラ"},
+                {"SlotType":"Common4", "Name":"カラマネロ"},
+                {"SlotType":"Common5", "Name":"キリキザン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"マニューラ"},
+                {"SlotType":"Common4", "Name":"カラマネロ"},
+                {"SlotType":"Common5", "Name":"キリキザン"},
+                {"SlotType":"Common5", "Name":"シザリガー"},
+                {"SlotType":"Common5", "Name":"ダーテング"}
+            ]
+        ]
+    },
+    {
+        "Label": "DarkB",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"クスネ"},
+                {"SlotType":"Common1", "Name":"ジグザグマ", "Form":"ガラル"},
+                {"SlotType":"Common1", "Name":"チョロネコ"},
+                {"SlotType":"Common1", "Name":"ベロバー"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"チョロネコ"},
+                {"SlotType":"Common1", "Name":"ベロバー"},
+                {"SlotType":"Common2", "Name":"フォクスライ"},
+                {"SlotType":"Common2", "Name":"モノズ"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"フォクスライ"},
+                {"SlotType":"Common3", "Name":"マッスグマ", "Form":"ガラル"},
+                {"SlotType":"Common4", "Name":"ギモー"},
+                {"SlotType":"Common4", "Name":"オーロンゲ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"マッスグマ", "Form":"ガラル"},
+                {"SlotType":"Common4", "Name":"ギモー"},
+                {"SlotType":"Common4", "Name":"オーロンゲ"},
+                {"SlotType":"Common5", "Name":"ジヘッド"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ギモー"},
+                {"SlotType":"Common4", "Name":"オーロンゲ"},
+                {"SlotType":"Common5", "Name":"ジヘッド"},
+                {"SlotType":"Common5", "Name":"タチフサグマ"},
+                {"SlotType":"Common5", "Name":"サザンドラ"}
+            ]
+        ]
+    },
+    {
+        "Label": "DarkC",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"クスネ"},
+                {"SlotType":"Common1", "Name":"ジグザグマ", "Form":"ガラル"},
+                {"SlotType":"Common1", "Name":"ニューラ"},
+                {"SlotType":"Common1", "Name":"ズルッグ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ニューラ"},
+                {"SlotType":"Common1", "Name":"ズルッグ"},
+                {"SlotType":"Common2", "Name":"レパルダス"},
+                {"SlotType":"Common2", "Name":"マッスグマ", "Form":"ガラル"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"レパルダス"},
+                {"SlotType":"Common2", "Name":"マッスグマ", "Form":"ガラル"},
+                {"SlotType":"Common4", "Name":"フォクスライ"},
+                {"SlotType":"Common4", "Name":"ゴロンダ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"フォクスライ"},
+                {"SlotType":"Common4", "Name":"ゴロンダ"},
+                {"SlotType":"Common5", "Name":"マニューラ"},
+                {"SlotType":"Common5", "Name":"ズルズキン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"フォクスライ"},
+                {"SlotType":"Common4", "Name":"ゴロンダ"},
+                {"SlotType":"Common5", "Name":"マニューラ"},
+                {"SlotType":"Common5", "Name":"ズルズキン"},
+                {"SlotType":"Common5", "Name":"タチフサグマ"},
+                {"SlotType":"Common5", "Name":"サザンドラ"}
+            ]
+        ]
+    },
+    {
+        "Label": "DarkD",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"クスネ"},
+                {"SlotType":"Common1", "Name":"ジグザグマ", "Form":"ガラル"},
+                {"SlotType":"Common1", "Name":"マーイーカ"},
+                {"SlotType":"Common1", "Name":"コマタナ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"マーイーカ"},
+                {"SlotType":"Common1", "Name":"コマタナ"},
+                {"SlotType":"Common2", "Name":"レパルダス"},
+                {"SlotType":"Common2", "Name":"マッスグマ", "Form":"ガラル"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"レパルダス"},
+                {"SlotType":"Common2", "Name":"マッスグマ", "Form":"ガラル"},
+                {"SlotType":"Common4", "Name":"フォクスライ"},
+                {"SlotType":"Common4", "Name":"ゴロンダ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"フォクスライ"},
+                {"SlotType":"Common4", "Name":"ゴロンダ"},
+                {"SlotType":"Common5", "Name":"キリキザン"},
+                {"SlotType":"Common5", "Name":"カラマネロ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"フォクスライ"},
+                {"SlotType":"Common4", "Name":"ゴロンダ"},
+                {"SlotType":"Common5", "Name":"キリキザン"},
+                {"SlotType":"Common5", "Name":"カラマネロ"},
+                {"SlotType":"Common5", "Name":"タチフサグマ"},
+                {"SlotType":"Common5", "Name":"ブラッキー"}
+            ]
+        ]
+    },
+    {
+        "Label": "DarkE",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"クスネ"},
+                {"SlotType":"Common1", "Name":"ジグザグマ", "Form":"ガラル"},
+                {"SlotType":"Common1", "Name":"ベロバー"},
+                {"SlotType":"Common1", "Name":"ズルッグ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ベロバー"},
+                {"SlotType":"Common1", "Name":"ズルッグ"},
+                {"SlotType":"Common2", "Name":"レパルダス"},
+                {"SlotType":"Common2", "Name":"マッスグマ", "Form":"ガラル"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"レパルダス"},
+                {"SlotType":"Common2", "Name":"マッスグマ", "Form":"ガラル"},
+                {"SlotType":"Common3", "Name":"ギモー"},
+                {"SlotType":"Common4", "Name":"フォクスライ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ギモー"},
+                {"SlotType":"Common4", "Name":"フォクスライ"},
+                {"SlotType":"Common5", "Name":"ゴロンダ"},
+                {"SlotType":"Common5", "Name":"ズルズキン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"フォクスライ"},
+                {"SlotType":"Common5", "Name":"ゴロンダ"},
+                {"SlotType":"Common5", "Name":"ズルズキン"},
+                {"SlotType":"Common5", "Name":"サザンドラ"},
+                {"SlotType":"Common5", "Name":"オーロンゲ", "Form":"キョダイ"}
+            ]
+        ]
+    }
+]

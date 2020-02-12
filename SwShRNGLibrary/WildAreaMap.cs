@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json;
+using SwShRNGLibrary.Properties;
 
 namespace SwShRNGLibrary
 {
@@ -13,72 +13,41 @@ namespace SwShRNGLibrary
         public readonly string Label;
         public readonly int DenIndex;
         public readonly Rarity Rarity;
-        public readonly IReadOnlyList<IReadOnlyList<RaidBattleSlot>> RaidTable;
+        public readonly IReadOnlyList<IReadOnlyList<RaidBattleSlot>> RaidTables;
+        public IReadOnlyList<Den> DenList;
 
+        internal WildAreaMap(string name, Den[] denList)
+        {
+            MapName = name;
+            DenList = denList;
+        }
         internal WildAreaMap(int idx, string name, string label, Rarity rarity, RaidBattleSlot[][] table)
         {
             DenIndex = idx;
             MapName = name;
             Label = label;
             Rarity = rarity;
-            RaidTable = table;
+            RaidTables = table;
         }
 
         public static readonly IReadOnlyList<WildAreaMap> MapList;
+        public static readonly IReadOnlyList<WildAreaMap> SwordMapList;
+        public static readonly IReadOnlyList<WildAreaMap> ShieldMapList;
         static WildAreaMap()
         {
             var mapList = new List<WildAreaMap>();
 
-            var dummyTable = new RaidBattleSlot[][] {
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", false, 1), new RaidBattleSlot("ヌオー", false, 2), new RaidBattleSlot("ヌオー", false, 3), new RaidBattleSlot("ヌオー", false, 4), new RaidBattleSlot("ヌオー", true, 4) },
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", false, 1), new RaidBattleSlot("ヌオー", false, 2), new RaidBattleSlot("ヌオー", false, 3), new RaidBattleSlot("ヌオー", false, 4), new RaidBattleSlot("ヌオー", true, 4) },
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", false, 1), new RaidBattleSlot("ヌオー", false, 2), new RaidBattleSlot("ヌオー", false, 3), new RaidBattleSlot("ヌオー", false, 4), new RaidBattleSlot("ヌオー", true, 4) },
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", false, 1), new RaidBattleSlot("ヌオー", false, 2), new RaidBattleSlot("ヌオー", false, 3), new RaidBattleSlot("ヌオー", false, 4), new RaidBattleSlot("ヌオー", true, 4) },
-                new RaidBattleSlot[] { new RaidBattleSlot("ヌオー", false, 1), new RaidBattleSlot("ヌオー", false, 2), new RaidBattleSlot("ヌオー", false, 3), new RaidBattleSlot("ヌオー", false, 4), new RaidBattleSlot("ヌオー", true, 4) },
-            };
-            var dummyTable2 = new RaidBattleSlot[][] {
-                new RaidBattleSlot[] { new RaidBattleSlot("ネクロズマ","たそがれ", false, 1), new RaidBattleSlot("ヒヒダルマ","ガラルダルマ", false, 2), new RaidBattleSlot("バスラオ", false, 3), new RaidBattleSlot("ザマゼンタ", false, 4), new RaidBattleSlot("ザシアン","剣の王", true, 4) },
-                new RaidBattleSlot[] { new RaidBattleSlot("メタモン", false, 1), new RaidBattleSlot("メタモン", false, 2), new RaidBattleSlot("メタモン", false, 3), new RaidBattleSlot("メタモン", false, 4), new RaidBattleSlot("メタモン", true, 4) },
-                new RaidBattleSlot[] { new RaidBattleSlot("メタモン", false, 1), new RaidBattleSlot("メタモン", false, 2), new RaidBattleSlot("メタモン", false, 3), new RaidBattleSlot("メタモン", false, 4), new RaidBattleSlot("メタモン", true, 4) },
-                new RaidBattleSlot[] { new RaidBattleSlot("メタモン", false, 1), new RaidBattleSlot("メタモン", false, 2), new RaidBattleSlot("メタモン", false, 3), new RaidBattleSlot("メタモン", false, 4), new RaidBattleSlot("メタモン", true, 4) },
-                new RaidBattleSlot[] { new RaidBattleSlot("メタモン", false, 1), new RaidBattleSlot("メタモン", false, 2), new RaidBattleSlot("メタモン", false, 3), new RaidBattleSlot("メタモン", false, 4), new RaidBattleSlot("メタモン", true, 4) },
-            };
-
+            var NUOH = new RaidTable(new CommonSlot1("ヌオー"), new CommonSlot2("ヌオー"), new CommonSlot3("ヌオー"), new CommonSlot4("ヌオー"), new CommonSlot5("ヌオー"));
+            
             #region Tables
             #region Normal
             var normalA = new RaidBattleSlot[][]
             {
-                new RaidBattleSlot[]{
-                    new CommonSlot1("ホルビー"),
-                    new CommonSlot1("ホーホー"),
-                    new CommonSlot1("マメパト"),
-                    new CommonSlot1("チラーミィ")
-                },
-                new RaidBattleSlot[]{
-                    new CommonSlot1("マメパト"),
-                    new CommonSlot1("チラーミィ"),
-                    new CommonSlot2("エリキテル"),
-                    new CommonSlot2("ヌイコグマ"),
-                },
-                new RaidBattleSlot[]{
-                    new CommonSlot2("ヌイコグマ"),
-                    new CommonSlot3("ホルード"),
-                    new CommonSlot4("ヨルノズク"),
-                    new CommonSlot4("ケンホロウ"),
-                },
-                new RaidBattleSlot[]{
-                    new CommonSlot3("ホルード"),
-                    new CommonSlot4("ヨルノズク"),
-                    new CommonSlot4("ケンホロウ"),
-                    new CommonSlot5("エレザード"),
-                },
-                new RaidBattleSlot[]{
-                    new CommonSlot4("ヨルノズク"),
-                    new CommonSlot4("ケンホロウ"),
-                    new CommonSlot5("エレザード"),
-                    new CommonSlot5("チラチーノ"),
-                    new CommonSlot5("キテルグマ"),
-                }
+                new RaidBattleSlot[]{new CommonSlot1("ホルビー"), new CommonSlot1("ホーホー"), new CommonSlot1("マメパト"), new CommonSlot1("チラーミィ") },
+                new RaidBattleSlot[]{new CommonSlot1("マメパト"), new CommonSlot1("チラーミィ"), new CommonSlot2("エリキテル"), new CommonSlot2("ヌイコグマ") },
+                new RaidBattleSlot[]{new CommonSlot2("ヌイコグマ"), new CommonSlot3("ホルード"), new CommonSlot4("ヨルノズク"), new CommonSlot4("ケンホロウ") },
+                new RaidBattleSlot[]{new CommonSlot3("ホルード"), new CommonSlot4("ヨルノズク"), new CommonSlot4("ケンホロウ"), new CommonSlot5("エレザード") },
+                new RaidBattleSlot[]{new CommonSlot4("ヨルノズク"), new CommonSlot4("ケンホロウ"), new CommonSlot5("エレザード"), new CommonSlot5("チラチーノ"), new CommonSlot5("キテルグマ") }
             };
             var normalB = new RaidBattleSlot[][]
             {
@@ -2615,19 +2584,19 @@ namespace SwShRNGLibrary
                     new CommonSlot1("サッチムシ"),
                     new CommonSlot1("シズクモ"),
                     new CommonSlot1("カブルモ", Rom.Sword),
-                    new CommonSlot1("チョボマキ", Rom.Sword),
+                    new CommonSlot1("チョボマキ", Rom.Shield),
                 },
                 new RaidBattleSlot[]{
                     new CommonSlot1("シズクモ"),
                     new CommonSlot1("カブルモ", Rom.Sword),
-                    new CommonSlot1("チョボマキ", Rom.Sword),
+                    new CommonSlot1("チョボマキ", Rom.Shield),
                     new CommonSlot2("チョボマキ", Rom.Sword),
-                    new CommonSlot2("カブルモ", Rom.Sword),
+                    new CommonSlot2("カブルモ", Rom.Shield),
                     new CommonSlot2("イシズマイ"),
                 },
                 new RaidBattleSlot[]{
                     new CommonSlot2("チョボマキ", Rom.Sword),
-                    new CommonSlot2("カブルモ", Rom.Sword),
+                    new CommonSlot2("カブルモ", Rom.Shield),
                     new CommonSlot2("イシズマイ"),
                     new CommonSlot3("レドームシ"),
                     new CommonSlot4("イオルブ"),
@@ -2644,7 +2613,7 @@ namespace SwShRNGLibrary
                     new CommonSlot5("グソクムシャ"),
                     new CommonSlot5("ヌケニン"),
                     new CommonSlot5("シュバルゴ", Rom.Sword),
-                    new CommonSlot5("アギルダー", Rom.Sword),
+                    new CommonSlot5("アギルダー", Rom.Shield),
                 }
             };
             var bugD = new RaidBattleSlot[][]
@@ -2654,21 +2623,21 @@ namespace SwShRNGLibrary
                     new CommonSlot1("サッチムシ"),
                     new CommonSlot1("シズクモ"),
                     new CommonSlot1("カブルモ", Rom.Sword),
-                    new CommonSlot1("チョボマキ", Rom.Sword),
+                    new CommonSlot1("チョボマキ", Rom.Shield),
                     new CommonSlot5("バタフリー", "キョダイ"),
                 },
                 new RaidBattleSlot[]{
                     new CommonSlot1("シズクモ"),
                     new CommonSlot1("カブルモ", Rom.Sword),
-                    new CommonSlot1("チョボマキ", Rom.Sword),
+                    new CommonSlot1("チョボマキ", Rom.Shield),
                     new CommonSlot2("チョボマキ", Rom.Sword),
-                    new CommonSlot2("カブルモ", Rom.Sword),
+                    new CommonSlot2("カブルモ", Rom.Shield),
                     new CommonSlot2("イシズマイ"),
                     new CommonSlot5("バタフリー", "キョダイ"),
                 },
                 new RaidBattleSlot[]{
                     new CommonSlot2("チョボマキ", Rom.Sword),
-                    new CommonSlot2("カブルモ", Rom.Sword),
+                    new CommonSlot2("カブルモ", Rom.Shield),
                     new CommonSlot2("イシズマイ"),
                     new CommonSlot3("レドームシ"),
                     new CommonSlot4("イオルブ"),
@@ -2687,7 +2656,7 @@ namespace SwShRNGLibrary
                     new CommonSlot5("グソクムシャ"),
                     new CommonSlot5("バタフリー", "キョダイ"),
                     new CommonSlot5("シュバルゴ", Rom.Sword),
-                    new CommonSlot5("アギルダー", Rom.Sword),
+                    new CommonSlot5("アギルダー", Rom.Shield),
                 }
             };
             var bugE = new RaidBattleSlot[][]
@@ -2697,19 +2666,19 @@ namespace SwShRNGLibrary
                     new CommonSlot1("サッチムシ"),
                     new CommonSlot1("シズクモ"),
                     new CommonSlot1("カブルモ", Rom.Sword),
-                    new CommonSlot1("チョボマキ", Rom.Sword),
+                    new CommonSlot1("チョボマキ", Rom.Shield),
                 },
                 new RaidBattleSlot[]{
                     new CommonSlot1("シズクモ"),
                     new CommonSlot1("カブルモ", Rom.Sword),
-                    new CommonSlot1("チョボマキ", Rom.Sword),
+                    new CommonSlot1("チョボマキ", Rom.Shield),
                     new CommonSlot2("チョボマキ", Rom.Sword),
-                    new CommonSlot2("カブルモ", Rom.Sword),
+                    new CommonSlot2("カブルモ", Rom.Shield),
                     new CommonSlot2("イシズマイ"),
                 },
                 new RaidBattleSlot[]{
                     new CommonSlot2("チョボマキ", Rom.Sword),
-                    new CommonSlot2("カブルモ", Rom.Sword),
+                    new CommonSlot2("カブルモ", Rom.Shield),
                     new CommonSlot2("イシズマイ"),
                     new CommonSlot3("レドームシ"),
                     new CommonSlot4("イオルブ"),
@@ -2728,7 +2697,7 @@ namespace SwShRNGLibrary
                     new CommonSlot5("グソクムシャ"),
                     new CommonSlot5("イオルブ", "キョダイ"),
                     new CommonSlot5("シュバルゴ", Rom.Sword),
-                    new CommonSlot5("アギルダー", Rom.Sword),
+                    new CommonSlot5("アギルダー", Rom.Shield),
                 }
             };
             #endregion
@@ -4177,7 +4146,7 @@ namespace SwShRNGLibrary
             mapList.Add(new WildAreaMap(64, "ストーンズ原野", "A", Rarity.Normal, psychicA));
             mapList.Add(new WildAreaMap(64, "ストーンズ原野", "A", Rarity.Rare, psychicD));
             mapList.Add(new WildAreaMap(63, "ストーンズ原野", "B", Rarity.Normal, grassB));
-            mapList.Add(new WildAreaMap(63, "ストーンズ原野", "B", Rarity.Rare, grassC));
+            mapList.Add(new WildAreaMap(63, "ストーンズ原野", "B", Rarity.Rare, grassE));
             mapList.Add(new WildAreaMap(69, "ストーンズ原野", "C", Rarity.Normal, darkA));
             mapList.Add(new WildAreaMap(69, "ストーンズ原野", "C", Rarity.Rare, darkC));
             mapList.Add(new WildAreaMap(61, "ストーンズ原野", "D", Rarity.Normal, fireB));
@@ -4274,6 +4243,9 @@ namespace SwShRNGLibrary
             #endregion
 
             MapList = mapList.ToArray();
+
+            SwordMapList = JsonSerializer.Deserialize<AreaPasser[]>(Resources.AreaList_sw).Select(_ => _.createArea(RaidTable.SwordTables)).ToArray();
+            ShieldMapList = JsonSerializer.Deserialize<AreaPasser[]>(Resources.AreaList_sh).Select(_ => _.createArea(RaidTable.ShieldTables)).ToArray();
         }
     }
 }
