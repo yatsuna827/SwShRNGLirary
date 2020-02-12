@@ -1,0 +1,110 @@
+[
+    {
+        "Label": "DragonA",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"オンバット"},
+                {"SlotType":"Common1", "Name":"キバゴ"},
+                {"SlotType":"Common1", "Name":"ナックラー"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"オンバット"},
+                {"SlotType":"Common1", "Name":"ナックラー"},
+                {"SlotType":"Common2", "Name":"ビブラーバ"},
+                {"SlotType":"Common2", "Name":"ヌメラ"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ビブラーバ"},
+                {"SlotType":"Common3", "Name":"オノンド"},
+                {"SlotType":"Common4", "Name":"ヌメイル"},
+                {"SlotType":"Common4", "Name":"ヌメルゴン"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"オノンド"},
+                {"SlotType":"Common4", "Name":"ヌメイル"},
+                {"SlotType":"Common4", "Name":"ヌメルゴン"},
+                {"SlotType":"Common5", "Name":"オノノクス"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ヌメイル"},
+                {"SlotType":"Common4", "Name":"ヌメルゴン"},
+                {"SlotType":"Common5", "Name":"オノノクス"},
+                {"SlotType":"Common5", "Name":"ジジーロン"},
+                {"SlotType":"Common5", "Name":"ヌメルゴン"}
+            ]
+        ]
+    },
+    {
+        "Label": "DragonB",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"オンバット"},
+                {"SlotType":"Common1", "Name":"カジッチュ"},
+                {"SlotType":"Common1", "Name":"ドラメシヤ"},
+                {"SlotType":"Common1", "Name":"ヌメラ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ドラメシヤ"},
+                {"SlotType":"Common1", "Name":"ヌメラ"},
+                {"SlotType":"Common2", "Name":"オンバット"},
+                {"SlotType":"Common2", "Name":"カジッチュ"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"カジッチュ"},
+                {"SlotType":"Common3", "Name":"ドロンチ"},
+                {"SlotType":"Common4", "Name":"オンバーン"},
+                {"SlotType":"Common4", "Name":"ヌメイル"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ドロンチ"},
+                {"SlotType":"Common4", "Name":"オンバーン"},
+                {"SlotType":"Common4", "Name":"ヌメイル"},
+                {"SlotType":"Common5", "Name":"ヌメルゴン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"オンバーン"},
+                {"SlotType":"Common4", "Name":"ヌメイル"},
+                {"SlotType":"Common5", "Name":"ドラパルト"},
+                {"SlotType":"Common5", "Name":"ヌメルゴン"},
+                {"SlotType":"Common5", "Name":"タルップル"}
+            ]
+        ]
+    },
+    {
+        "Label": "DragonC",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"キバゴ"},
+                {"SlotType":"Common1", "Name":"ナックラー"},
+                {"SlotType":"Common1", "Name":"カジッチュ"},
+                {"SlotType":"Common1", "Name":"ヌメラ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ナックラー"},
+                {"SlotType":"Common1", "Name":"ヌメラ"},
+                {"SlotType":"Common2", "Name":"ドラメシヤ"},
+                {"SlotType":"Common2", "Name":"ビブラーバ"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ドラメシヤ"},
+                {"SlotType":"Common2", "Name":"ビブラーバ"},
+                {"SlotType":"Common4", "Name":"ジジーロン"},
+                {"SlotType":"Common4", "Name":"ヌメイル"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ジジーロン"},
+                {"SlotType":"Common4", "Name":"ヌメイル"},
+                {"SlotType":"Common5", "Name":"ドロンチ"},
+                {"SlotType":"Common5", "Name":"ヌメルゴン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ジジーロン"},
+                {"SlotType":"Common4", "Name":"ヌメイル"},
+                {"SlotType":"Common5", "Name":"ドロンチ"},
+                {"SlotType":"Common5", "Name":"ヌメルゴン"},
+                {"SlotType":"Common5", "Name":"ドラパルト"},
+                {"SlotType":"Common5", "Name":"フライゴン"}
+            ]
+        ]
+    }
+]

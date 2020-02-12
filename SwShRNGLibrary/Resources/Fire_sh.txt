@@ -1,0 +1,288 @@
+[
+    {
+        "Label": "FireA",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヤクデ"},
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ガーディ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"クイタラン"},
+                {"SlotType":"Common2", "Name":"ランプラー"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ランプラー"},
+                {"SlotType":"Common3", "Name":"エンニュート"},
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"エンニュート"},
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"クイタラン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"マルヤクデ"},
+                {"SlotType":"Common5", "Name":"クイタラン"},
+                {"SlotType":"Common5", "Name":"ウインディ"}
+            ]
+        ]
+    },
+    {
+        "Label": "FireB",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ガーディ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ガーディ"},
+                {"SlotType":"Common2", "Name":"ランプラー"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ランプラー"},
+                {"SlotType":"Common3", "Name":"エンニュート"},
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"エンニュート"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"エンニュート"},
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"エンニュート"},
+                {"SlotType":"Common5", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"エンニュート"},
+                {"SlotType":"Common5", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"シャンデラ"}
+            ]
+        ]
+    },
+    {
+        "Label": "FireC",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヤクデ"},
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ガーディ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"コータス"},
+                {"SlotType":"Common2", "Name":"トロッゴン"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"トロッゴン"},
+                {"SlotType":"Common3", "Name":"エンニュート"},
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"エンニュート"},
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ウインディ"},
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"マルヤクデ"},
+                {"SlotType":"Common5", "Name":"セキタンザン"},
+                {"SlotType":"Common5", "Name":"ウインディ"}
+            ]
+        ]
+    },
+    {
+        "Label": "FireD",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヤクデ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ヒトカゲ"},
+                {"SlotType":"Common1", "Name":"ガーディ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ヒトカゲ"},
+                {"SlotType":"Common2", "Name":"リザード"},
+                {"SlotType":"Common2", "Name":"クイタラン"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"リザード"},
+                {"SlotType":"Common2", "Name":"クイタラン"},
+                {"SlotType":"Common3", "Name":"クイタラン"},
+                {"SlotType":"Common4", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"クイタラン"},
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"エンニュート"},
+                {"SlotType":"Common5", "Name":"ウインディ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"エンニュート"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"マルヤクデ"},
+                {"SlotType":"Common5", "Name":"リザードン"}
+            ]
+        ]
+    },
+    {
+        "Label": "FireE",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヤクデ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common1", "Name":"ガーディ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common2", "Name":"トロッゴン"},
+                {"SlotType":"Common2", "Name":"クイタラン"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"トロッゴン"},
+                {"SlotType":"Common2", "Name":"クイタラン"},
+                {"SlotType":"Common3", "Name":"ランプラー"},
+                {"SlotType":"Common4", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ランプラー"},
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"シャンデラ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"シャンデラ"},
+                {"SlotType":"Common5", "Name":"セキタンザン"},
+                {"SlotType":"Common5", "Name":"エンニュート"}
+            ]
+        ]
+    },
+    {
+        "Label": "FireF",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヤクデ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ガーディ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ガーディ"},
+                {"SlotType":"Common2", "Name":"トロッゴン"},
+                {"SlotType":"Common2", "Name":"クイタラン"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"トロッゴン"},
+                {"SlotType":"Common2", "Name":"クイタラン"},
+                {"SlotType":"Common3", "Name":"ランプラー"},
+                {"SlotType":"Common4", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ランプラー"},
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"シャンデラ"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"キュウコン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"シャンデラ"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"キュウコン"},
+                {"SlotType":"Common5", "Name":"ブースター"}
+            ]
+        ]
+    },
+    {
+        "Label": "FireG",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヤクデ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ヒトカゲ"},
+                {"SlotType":"Common1", "Name":"ガーディ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ヒトカゲ"},
+                {"SlotType":"Common2", "Name":"リザード"},
+                {"SlotType":"Common2", "Name":"クイタラン"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"リザード"},
+                {"SlotType":"Common2", "Name":"クイタラン"},
+                {"SlotType":"Common3", "Name":"クイタラン"},
+                {"SlotType":"Common4", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"クイタラン"},
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"エンニュート"},
+                {"SlotType":"Common5", "Name":"ウインディ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"エンニュート"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"マルヤクデ"},
+                {"SlotType":"Common5", "Name":"リザードン", "Form":"キョダイ"}
+            ]
+        ]
+    },
+    {
+        "Label": "FireH",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヤクデ"},
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common1", "Name":"ガーディ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヒトモシ"},
+                {"SlotType":"Common1", "Name":"ヤトウモリ"},
+                {"SlotType":"Common2", "Name":"トロッゴン"},
+                {"SlotType":"Common2", "Name":"ランプラー"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"トロッゴン"},
+                {"SlotType":"Common2", "Name":"ランプラー"},
+                {"SlotType":"Common3", "Name":"クイタラン"},
+                {"SlotType":"Common4", "Name":"コータス"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"クイタラン"},
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"シャンデラ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"コータス"},
+                {"SlotType":"Common5", "Name":"ウインディ"},
+                {"SlotType":"Common5", "Name":"シャンデラ"},
+                {"SlotType":"Common5", "Name":"セキタンザン"},
+                {"SlotType":"Common5", "Name":"マルヤクデ", "Form":"キョダイ"}
+            ]
+        ]
+    }
+]

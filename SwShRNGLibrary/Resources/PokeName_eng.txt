@@ -443,18 +443,21 @@
 カット,Mow
 ガラル,Galarian
 ガラルダルマ,Galarian Zen
+キョダイ,Gigantamax
 シールド,Shield
 スピン,Fan
 たそがれ,Dusk Mane
 ダルマ,Zen
 ノーマル,Normal
 ハイ,Amped
+ハイキョダイ,Amped Gigantamax
 ヒート,Heat
 ブラック,Black
 ブレード,Sword
 フロスト,Frost
 ホワイト,White
 ロー,Low Key
+ローキョダイ,Low Key Gigantamax
 群れ,School
 剣の王,Crowned Sword
 盾の王,Crowned Shield

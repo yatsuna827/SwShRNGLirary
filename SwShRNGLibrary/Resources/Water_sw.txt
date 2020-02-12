@@ -1,0 +1,402 @@
+[
+    {
+        "Label": "WaterA",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"コイキング"},
+                {"SlotType":"Common1", "Name":"タマンタ"},
+                {"SlotType":"Common1", "Name":"テッポウオ"},
+                {"SlotType":"Common1", "Name":"チョンチー"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"テッポウオ"},
+                {"SlotType":"Common1", "Name":"チョンチー"},
+                {"SlotType":"Common2", "Name":"ホエルコ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ホエルコ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common3", "Name":"オクタン"},
+                {"SlotType":"Common4", "Name":"マンタイン"},
+                {"SlotType":"Common4", "Name":"ランターン"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"オクタン"},
+                {"SlotType":"Common4", "Name":"マンタイン"},
+                {"SlotType":"Common4", "Name":"ランターン"},
+                {"SlotType":"Common5", "Name":"ホエルオー"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"マンタイン"},
+                {"SlotType":"Common4", "Name":"ランターン"},
+                {"SlotType":"Common5", "Name":"ホエルオー"},
+                {"SlotType":"Common5", "Name":"ヨワシ"},
+                {"SlotType":"Common5", "Name":"ギャラドス"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterB",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"カムカメ"},
+                {"SlotType":"Common1", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"カラナクシ"},
+                {"SlotType":"Common1", "Name":"シズクモ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"カラナクシ"},
+                {"SlotType":"Common1", "Name":"シズクモ"},
+                {"SlotType":"Common2", "Name":"ホエルコ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ホエルコ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common3", "Name":"ヨワシ"},
+                {"SlotType":"Common4", "Name":"カジリガメ"},
+                {"SlotType":"Common4", "Name":"カマスジョー"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ヨワシ"},
+                {"SlotType":"Common4", "Name":"カジリガメ"},
+                {"SlotType":"Common4", "Name":"カマスジョー"},
+                {"SlotType":"Common5", "Name":"オニシズクモ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"カジリガメ"},
+                {"SlotType":"Common4", "Name":"カマスジョー"},
+                {"SlotType":"Common5", "Name":"オニシズクモ"},
+                {"SlotType":"Common5", "Name":"トリトドン"},
+                {"SlotType":"Common5", "Name":"ホエルオー"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterC",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"カムカメ"},
+                {"SlotType":"Common1", "Name":"ウパー"},
+                {"SlotType":"Common1", "Name":"オタマロ"},
+                {"SlotType":"Common1", "Name":"ヘイガニ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"オタマロ"},
+                {"SlotType":"Common1", "Name":"ヘイガニ"},
+                {"SlotType":"Common2", "Name":"ガマガル"},
+                {"SlotType":"Common2", "Name":"シェルダー"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ガマガル"},
+                {"SlotType":"Common3", "Name":"カジリガメ"},
+                {"SlotType":"Common4", "Name":"ヌオー"},
+                {"SlotType":"Common4", "Name":"ナマコブシ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"カジリガメ"},
+                {"SlotType":"Common4", "Name":"ヌオー"},
+                {"SlotType":"Common4", "Name":"ナマコブシ"},
+                {"SlotType":"Common5", "Name":"パルシェン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ヌオー"},
+                {"SlotType":"Common4", "Name":"ナマコブシ"},
+                {"SlotType":"Common5", "Name":"パルシェン"},
+                {"SlotType":"Common5", "Name":"ガマゲロゲ"},
+                {"SlotType":"Common5", "Name":"シザリガー"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterD",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"オタマロ"},
+                {"SlotType":"Common1", "Name":"シェルダー"},
+                {"SlotType":"Common1", "Name":"チョンチー"},
+                {"SlotType":"Common1", "Name":"ヒドイデ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"チョンチー"},
+                {"SlotType":"Common2", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"ヒドイデ"},
+                {"SlotType":"Common2", "Name":"ガマガル"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"サシカマス"},
+                {"SlotType":"Common3", "Name":"パルシェン"},
+                {"SlotType":"Common4", "Name":"ヨワシ"},
+                {"SlotType":"Common4", "Name":"ランターン"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"パルシェン"},
+                {"SlotType":"Common4", "Name":"ヨワシ"},
+                {"SlotType":"Common4", "Name":"ランターン"},
+                {"SlotType":"Common5", "Name":"ガマゲロゲ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ヨワシ"},
+                {"SlotType":"Common4", "Name":"ランターン"},
+                {"SlotType":"Common5", "Name":"ガマゲロゲ"},
+                {"SlotType":"Common5", "Name":"ドヒドイデ"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterE",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"カラナクシ"},
+                {"SlotType":"Common1", "Name":"クラブ"},
+                {"SlotType":"Common1", "Name":"ヘイガニ"},
+                {"SlotType":"Common1", "Name":"カムカメ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ヘイガニ"},
+                {"SlotType":"Common1", "Name":"カムカメ"},
+                {"SlotType":"Common2", "Name":"カメテテ"},
+                {"SlotType":"Common2", "Name":"ナマコブシ"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ナマコブシ"},
+                {"SlotType":"Common3", "Name":"キングラー"},
+                {"SlotType":"Common4", "Name":"シザリガー"},
+                {"SlotType":"Common4", "Name":"ガメノデス"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"キングラー"},
+                {"SlotType":"Common4", "Name":"シザリガー"},
+                {"SlotType":"Common4", "Name":"ガメノデス"},
+                {"SlotType":"Common5", "Name":"トリトドン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"シザリガー"},
+                {"SlotType":"Common4", "Name":"ガメノデス"},
+                {"SlotType":"Common5", "Name":"トリトドン"},
+                {"SlotType":"Common5", "Name":"ブルンゲル"},
+                {"SlotType":"Common5", "Name":"カジリガメ"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterF",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"コイキング"},
+                {"SlotType":"Common1", "Name":"ヒンバス"},
+                {"SlotType":"Common1", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"カムカメ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"カムカメ"},
+                {"SlotType":"Common2", "Name":"ヒドイデ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ヒドイデ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common3", "Name":"ハリーセン"},
+                {"SlotType":"Common4", "Name":"ドヒドイデ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ハリーセン"},
+                {"SlotType":"Common4", "Name":"ドヒドイデ"},
+                {"SlotType":"Common5", "Name":"ナマコブシ"},
+                {"SlotType":"Common5", "Name":"ギャラドス"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ドヒドイデ"},
+                {"SlotType":"Common5", "Name":"ナマコブシ"},
+                {"SlotType":"Common5", "Name":"ギャラドス"},
+                {"SlotType":"Common5", "Name":"ラプラス"},
+                {"SlotType":"Common5", "Name":"ミロカロス"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterG",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"タマンタ"},
+                {"SlotType":"Common1", "Name":"ヘイガニ"},
+                {"SlotType":"Common1", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"カムカメ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"カムカメ"},
+                {"SlotType":"Common2", "Name":"ヒドイデ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ヒドイデ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common3", "Name":"シザリガー"},
+                {"SlotType":"Common4", "Name":"ドヒドイデ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"シザリガー"},
+                {"SlotType":"Common4", "Name":"ドヒドイデ"},
+                {"SlotType":"Common5", "Name":"ナマコブシ"},
+                {"SlotType":"Common5", "Name":"マンタイン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ドヒドイデ"},
+                {"SlotType":"Common5", "Name":"ナマコブシ"},
+                {"SlotType":"Common5", "Name":"マンタイン"},
+                {"SlotType":"Common5", "Name":"ラプラス"},
+                {"SlotType":"Common5", "Name":"シャワーズ"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterH",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"コイキング"},
+                {"SlotType":"Common1", "Name":"シズクモ"},
+                {"SlotType":"Common1", "Name":"ウパー"},
+                {"SlotType":"Common1", "Name":"ドジョッチ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ウパー"},
+                {"SlotType":"Common1", "Name":"ドジョッチ"},
+                {"SlotType":"Common2", "Name":"クラブ"},
+                {"SlotType":"Common2", "Name":"ヨワシ"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"クラブ"},
+                {"SlotType":"Common2", "Name":"ヨワシ"},
+                {"SlotType":"Common3", "Name":"キングラー"},
+                {"SlotType":"Common4", "Name":"ナマズン"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"キングラー"},
+                {"SlotType":"Common4", "Name":"ナマズン"},
+                {"SlotType":"Common5", "Name":"ハリーセン"},
+                {"SlotType":"Common5", "Name":"ヌオー"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ナマズン"},
+                {"SlotType":"Common5", "Name":"ハリーセン"},
+                {"SlotType":"Common5", "Name":"ヌオー"},
+                {"SlotType":"Common5", "Name":"オニシズクモ"},
+                {"SlotType":"Common5", "Name":"ギャラドス"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterI",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"タマンタ"},
+                {"SlotType":"Common1", "Name":"テッポウオ"},
+                {"SlotType":"Common1", "Name":"ホエルコ"},
+                {"SlotType":"Common1", "Name":"カメテテ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"ホエルコ"},
+                {"SlotType":"Common1", "Name":"カメテテ"},
+                {"SlotType":"Common2", "Name":"クラブ"},
+                {"SlotType":"Common2", "Name":"ナマコブシ"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"クラブ"},
+                {"SlotType":"Common2", "Name":"ナマコブシ"},
+                {"SlotType":"Common3", "Name":"キングラー"},
+                {"SlotType":"Common4", "Name":"バスラオ", "Form":"あか"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"キングラー"},
+                {"SlotType":"Common4", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common5", "Name":"ハリーセン"},
+                {"SlotType":"Common5", "Name":"オクタン"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common5", "Name":"ハリーセン"},
+                {"SlotType":"Common5", "Name":"オクタン"},
+                {"SlotType":"Common5", "Name":"ホエルオー"},
+                {"SlotType":"Common5", "Name":"マンタイン"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterJ",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"コイキング"},
+                {"SlotType":"Common1", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"カムカメ"},
+                {"SlotType":"Common1", "Name":"クラブ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"カムカメ"},
+                {"SlotType":"Common1", "Name":"クラブ"},
+                {"SlotType":"Common2", "Name":"ナマコブシ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ナマコブシ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common3", "Name":"ハリーセン"},
+                {"SlotType":"Common4", "Name":"キングラー"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"ハリーセン"},
+                {"SlotType":"Common4", "Name":"キングラー"},
+                {"SlotType":"Common5", "Name":"ヨワシ"},
+                {"SlotType":"Common5", "Name":"ギャラドス"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"キングラー"},
+                {"SlotType":"Common5", "Name":"ヨワシ"},
+                {"SlotType":"Common5", "Name":"ギャラドス"},
+                {"SlotType":"Common5", "Name":"トリトドン"},
+                {"SlotType":"Common5", "Name":"カジリガメ", "Form":"キョダイ"}
+            ]
+        ]
+    },
+    {
+        "Label": "WaterK",
+        "Table": [
+            [
+                {"SlotType":"Common1", "Name":"ヘイガニ"},
+                {"SlotType":"Common1", "Name":"クラブ"},
+                {"SlotType":"Common1", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"カムカメ"}
+            ],
+            [
+                {"SlotType":"Common1", "Name":"サシカマス"},
+                {"SlotType":"Common1", "Name":"カムカメ"},
+                {"SlotType":"Common2", "Name":"ヒドイデ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common5", "Name":"キングラー", "Form":"キョダイ"}
+            ],
+            [
+                {"SlotType":"Common2", "Name":"ヒドイデ"},
+                {"SlotType":"Common2", "Name":"バスラオ", "Form":"あか"},
+                {"SlotType":"Common3", "Name":"シザリガー"},
+                {"SlotType":"Common4", "Name":"ドヒドイデ"},
+                {"SlotType":"Common5", "Name":"キングラー", "Form":"キョダイ"}
+            ],
+            [
+                {"SlotType":"Common3", "Name":"シザリガー"},
+                {"SlotType":"Common4", "Name":"ドヒドイデ"},
+                {"SlotType":"Common5", "Name":"ナマコブシ"},
+                {"SlotType":"Common5", "Name":"ギャラドス"},
+                {"SlotType":"Common5", "Name":"キングラー", "Form":"キョダイ"}
+            ],
+            [
+                {"SlotType":"Common4", "Name":"ドヒドイデ"},
+                {"SlotType":"Common5", "Name":"ナマコブシ"},
+                {"SlotType":"Common5", "Name":"ギャラドス"},
+                {"SlotType":"Common5", "Name":"ラプラス"},
+                {"SlotType":"Common5", "Name":"キングラー", "Form":"キョダイ"}
+            ]
+        ]
+    }
+]
