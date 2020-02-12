@@ -99,7 +99,598 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   うららか平原,Rolling Fields
+        ///   [
+        ///    {
+        ///        &quot;AreaName&quot;: &quot;うららか草原&quot;,
+        ///        &quot;DenList&quot;: [
+        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 3, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; },
+        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 8, &quot;Normal&quot;: &quot;FightingA&quot;, &quot;Rare&quot;: &quot;FightingC&quot; },
+        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 9, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; }, 
+        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 1, &quot;Normal&quot;: &quot;GroundA&quot;, &quot;Rare&quot;: &quot;GroundC&quot; }, 
+        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 7, &quot;Normal&quot;: &quot;NormalA&quot;, &quot;Rare&quot;: &quot;NormalC&quot; }, 
+        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 5, &quot;N [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string AreaList_sh {
+            get {
+                return ResourceManager.GetString("AreaList_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;AreaName&quot;: &quot;うららか草原&quot;,
+        ///        &quot;DenList&quot;: [
+        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 3, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; },
+        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 8, &quot;Normal&quot;: &quot;FightingA&quot;, &quot;Rare&quot;: &quot;FightingC&quot; },
+        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 9, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; }, 
+        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 1, &quot;Normal&quot;: &quot;GroundA&quot;, &quot;Rare&quot;: &quot;GroundC&quot; }, 
+        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 7, &quot;Normal&quot;: &quot;NormalA&quot;, &quot;Rare&quot;: &quot;NormalC&quot; }, 
+        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 5, &quot;N [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string AreaList_sw {
+            get {
+                return ResourceManager.GetString("AreaList_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;BugA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キャタピー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アゴジムシ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;トランセル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;C [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Bug_sh {
+            get {
+                return ResourceManager.GetString("Bug_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;BugA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キャタピー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アゴジムシ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;トランセル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;C [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Bug_sw {
+            get {
+                return ResourceManager.GetString("Bug_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;DarkA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョロネコ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スカンプー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニューラ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マーイーカ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニューラ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マーイーカ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コマタナ&quot;},
+        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dark_sh {
+            get {
+                return ResourceManager.GetString("Dark_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;DarkA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョロネコ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スカンプー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニューラ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マーイーカ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニューラ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マーイーカ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コマタナ&quot;},
+        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dark_sw {
+            get {
+                return ResourceManager.GetString("Dark_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;DragonA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;オンバット&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キバゴ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナックラー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;オンバット&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナックラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ビブラーバ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ヌメラ&quot;}
+        ///            ],
+        ///            [ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dragon_sh {
+            get {
+                return ResourceManager.GetString("Dragon_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;DragonA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;オンバット&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キバゴ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナックラー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;オンバット&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キバゴ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ビブラーバ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ジャラコ&quot;}
+        ///            ],
+        ///            [
+        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dragon_sw {
+            get {
+                return ResourceManager.GetString("Dragon_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;ElectricA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ピチュー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ラクライ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;デンヂムシ&quot;},
+        ///                {&quot;SlotTyp [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Electric_sh {
+            get {
+                return ResourceManager.GetString("Electric_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;ElectricA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ピチュー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ラクライ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;デンヂムシ&quot;},
+        ///                {&quot;SlotTyp [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Electric_sw {
+            get {
+                return ResourceManager.GetString("Electric_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;FairyA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ピィ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;トゲピー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アブリー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;シュシュプ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アブリー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;シュシュプ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ピッピ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Com [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Fairy_sh {
+            get {
+                return ResourceManager.GetString("Fairy_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;FairyA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ピィ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;トゲピー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アブリー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ペロッパフ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アブリー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ペロッパフ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ピッピ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Com [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Fairy_sw {
+            get {
+                return ResourceManager.GetString("Fairy_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;FightingA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バルキー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ワンリキー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドッコラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;グレッグル&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドッコラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;グレッグル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ゴーリキー&quot;},
+        ///                {&quot;Slot [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Fighting_sh {
+            get {
+                return ResourceManager.GetString("Fighting_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;FightingA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バルキー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ワンリキー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドッコラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ズルッグ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドッコラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ズルッグ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ゴーリキー&quot;},
+        ///                {&quot;SlotTy [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Fighting_sw {
+            get {
+                return ResourceManager.GetString("Fighting_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;FireA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤクデ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤトウモリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒトモシ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ガーディ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤトウモリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒトモシ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;クイタラン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;C [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Fire_sh {
+            get {
+                return ResourceManager.GetString("Fire_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;FireA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤクデ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤトウモリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒトモシ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ロコン&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤトウモリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒトモシ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ダルマッカ&quot;, &quot;Form&quot;:&quot;ガラル&quot;},
+        ///                { [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Fire_sw {
+            get {
+                return ResourceManager.GetString("Fire_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;FlyingA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホーホー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ネイティ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バルチャイ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ネイティ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バルチャイ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コロモリ&quot;},
+        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Flying_sh {
+            get {
+                return ResourceManager.GetString("Flying_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;FlyingA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホーホー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ネイティ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ワシボン&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ネイティ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ワシボン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コロモリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;C [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Flying_sw {
+            get {
+                return ResourceManager.GetString("Flying_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;GhostA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ゴース&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヨマワル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;フワンテ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ボクレー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;プルリル&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;フワンテ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ボクレー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Com [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ghost_sh {
+            get {
+                return ResourceManager.GetString("Ghost_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;GhostA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ゴース&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヨマワル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;フワンテ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ボクレー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;プルリル&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;フワンテ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ボクレー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Com [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ghost_sw {
+            get {
+                return ResourceManager.GetString("Ghost_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;GrassA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スボミー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アマカジ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ハスボー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アマカジ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ハスブレロ&quot;},
+        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Grass_sh {
+            get {
+                return ResourceManager.GetString("Grass_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;GrassA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スボミー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アマカジ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;タネボー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アマカジ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コノハナ&quot;},
+        ///                {&quot;SlotType&quot;:&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Grass_sw {
+            get {
+                return ResourceManager.GetString("Grass_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;GroundA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ディグダ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドロバンコ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;モグリュー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;モグリュー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イワーク&quot;},
+        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ground_sh {
+            get {
+                return ResourceManager.GetString("Ground_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;GroundA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ディグダ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドロバンコ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;モグリュー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;モグリュー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イワーク&quot;},
+        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ground_sw {
+            get {
+                return ResourceManager.GetString("Ground_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;IceA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バニプッチ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ウリムー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユキカブリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カチコール&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユキカブリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カチコール&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;デリバード&quot;},
+        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ice_sh {
+            get {
+                return ResourceManager.GetString("Ice_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;IceA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バニプッチ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ウリムー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユキカブリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カチコール&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユキカブリ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カチコール&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;デリバード&quot;},
+        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ice_sw {
+            get {
+                return ResourceManager.GetString("Ice_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   うららか草原,Rolling Fields
         ///こもれび林,Dappled Grove 
         ///見張り塔跡地,Watchtower Ruins
         ///キバ湖・西,West Lake Axewell
@@ -115,11 +706,104 @@ namespace SwShRNGLibrary.Properties {
         ///巨人の帽子,Giant&apos;s Cap
         ///巨人の鏡池,Giant&apos;s Mirror
         ///ナックル丘陵,Hammerlocke Hills
-        ///げきりんの湖,Lake of Outrage に類似しているローカライズされた文字列を検索します。
+        ///げきりんの湖,Lake of Outrage
+        ///イベント,Event に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string MapName_eng {
             get {
                 return ResourceManager.GetString("MapName_eng", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;NormalA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホルビー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホーホー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チラーミィ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チラーミィ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;エリキテル&quot;},
+        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Normal_sh {
+            get {
+                return ResourceManager.GetString("Normal_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;NormalA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホルビー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホーホー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チラーミィ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チラーミィ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;エリキテル&quot;},
+        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Normal_sw {
+            get {
+                return ResourceManager.GetString("Normal_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;PoisonA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スカンプー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤブクロン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スコルピ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スコルピ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ロゼリア&quot;},
+        ///                {&quot;SlotType [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Poison_sh {
+            get {
+                return ResourceManager.GetString("Poison_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;PoisonA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スカンプー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤブクロン&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スコルピ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒドイデ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スコルピ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒドイデ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ロゼリア&quot;},
+        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Poison_sw {
+            get {
+                return ResourceManager.GetString("Poison_sw", resourceCulture);
             }
         }
         
@@ -162,6 +846,190 @@ namespace SwShRNGLibrary.Properties {
         internal static string PokeName_eng {
             get {
                 return ResourceManager.GetString("PokeName_eng", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;PsychicA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ラルトス&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ムンナ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャスパー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;リグレー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユニラン&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャスパー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;リグレー&quot;},
+        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Psychic_sh {
+            get {
+                return ResourceManager.GetString("Psychic_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;PsychicA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ラルトス&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ムンナ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャスパー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;リグレー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ゴチム&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャスパー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;リグレー&quot;},
+        ///                {&quot;SlotType&quot;:&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Psychic_sw {
+            get {
+                return ResourceManager.GetString("Psychic_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;RockA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ウソハチ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イシズマイ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カメテテ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ダンゴロ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イシズマイ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ダンゴロ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;サイホーン&quot;},
+        ///                {&quot;SlotType&quot;:&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Rock_sh {
+            get {
+                return ResourceManager.GetString("Rock_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;RockA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ウソハチ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イシズマイ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カメテテ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ダンゴロ&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イシズマイ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カメテテ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;サイホーン&quot;},
+        ///                {&quot;SlotType&quot;:&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Rock_sw {
+            get {
+                return ResourceManager.GetString("Rock_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;SteelA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ギアル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャース&quot;, &quot;Form&quot;:&quot;ガラル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドーミラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッシード&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドーミラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッシード&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コマタナ&quot;},
+        ///               [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Steel_sh {
+            get {
+                return ResourceManager.GetString("Steel_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;SteelA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ギアル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャース&quot;, &quot;Form&quot;:&quot;ガラル&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドーミラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッシード&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドーミラー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッシード&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コマタナ&quot;},
+        ///               [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Steel_sw {
+            get {
+                return ResourceManager.GetString("Steel_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;WaterA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;コイキング&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;タマンタ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッポウオ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッポウオ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ホエルコ&quot;},
+        ///                {&quot;SlotType [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Water_sh {
+            get {
+                return ResourceManager.GetString("Water_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;WaterA&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;コイキング&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;タマンタ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッポウオ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;}
+        ///            ],
+        ///            [
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッポウオ&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;},
+        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ホエルコ&quot;},
+        ///                {&quot;SlotType [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Water_sw {
+            get {
+                return ResourceManager.GetString("Water_sw", resourceCulture);
             }
         }
     }

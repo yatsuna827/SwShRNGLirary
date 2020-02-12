@@ -121,10 +121,124 @@
   <data name="Ability_eng" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ability_eng.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="AreaList_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AreaList_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="AreaList_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AreaList_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Bug_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bug_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Bug_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bug_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Dark_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Dark_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Dragon_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Dragon_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Electric_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Electric_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Electric_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Electric_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Fairy_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fairy_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Fairy_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fairy_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Fighting_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fighting_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Fighting_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fighting_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Fire_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fire_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Fire_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fire_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Flying_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Flying_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Ghost_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ghost_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Ghost_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ghost_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Grass_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grass_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Grass_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grass_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Ground_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ground_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Ground_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ground_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Ice_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ice_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Ice_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ice_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="MapName_eng" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MapName_eng.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Normal_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Normal_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Poison_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poison_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Poison_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poison_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="PokeName_eng" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeName_eng.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Psychic_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Psychic_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Psychic_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Psychic_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Rock_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rock_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Rock_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rock_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Steel_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steel_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Steel_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steel_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Water_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Water_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Water_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Water_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

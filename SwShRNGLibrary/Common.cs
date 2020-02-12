@@ -32,7 +32,7 @@ namespace SwShRNGLibrary
         Ground, Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark, Steel, Fairy, Non
     }
     public enum ShinyType { NotShiny, Star, Square }
-    enum Rom { empty, Sword, Shield }
+    public enum Rom { both, Sword, Shield }
 
     public static class CommonExtension
     {
