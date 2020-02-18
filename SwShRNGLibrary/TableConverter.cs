@@ -8,19 +8,31 @@ namespace SwShRNGLibrary
 {
     public class EventRaid
     {
-        private List<(string Label, IReadOnlyList<RaidTable> Table)> eventTableList;
+        private readonly List<string> eventLabelList;
+        private readonly List<IReadOnlyList<RaidTable>>[] eventTableList;
         public EventRaid()
         {
-            eventTableList = new List<(string Label, IReadOnlyList<RaidTable> Table)>();
+            eventLabelList = new List<string>();
+            eventTableList = new List<IReadOnlyList<RaidTable>>[]
+            {
+                new List<IReadOnlyList<RaidTable>>(),
+                new List<IReadOnlyList<RaidTable>>()
+            };
         }
         public void Import(string json)
         {
-            var t = JsonSerializer.Deserialize<TableConverter>(json);
-            eventTableList.Add((t.Label, t.GetTable()));
+            var t = JsonSerializer.Deserialize<EventTableConverter>(json);
+            eventTableList[0].Add(t.GetTable(0));
+            eventTableList[1].Add(t.GetTable(1));
+            eventLabelList.Add(t.Label);
         }
-        public IReadOnlyList<(string Label, IReadOnlyList<RaidTable> Table)> GetEventList()
+        public IReadOnlyList<IReadOnlyList<RaidTable>> GetEventList(int version)
         {
-            return eventTableList;
+            return eventTableList[version];
+        }
+        public IReadOnlyList<string> GetEventLabelList()
+        {
+            return eventLabelList;
         }
     }
     class AreaPasser
@@ -48,6 +60,16 @@ namespace SwShRNGLibrary
             return Table.Select(_ => new RaidTable(_.Select(p => p.createSlot()).ToArray())).ToArray();
         }
     }
+    class EventTableConverter
+    {
+        public string Label { get; set; }
+        public SlotPasser[][] SwTable { get; set; }
+        public SlotPasser[][] ShTable { get; set; }
+        public IReadOnlyList<RaidTable> GetTable(int version)
+        {
+            return (version == 0 ? SwTable.Select(_ => new RaidTable(_.Select(p => p.createSlot()).ToArray())) : ShTable.Select(_ => new RaidTable(_.Select(p => p.createSlot()).ToArray()))).ToArray();
+        }
+    }
     class SlotPasser
     {
         public string SlotType { get; set; }
@@ -72,15 +94,15 @@ namespace SwShRNGLibrary
                 case "Common5": 
                     slot = Form == "" ? new RaidBattleSlot(Name, true, 4) : new RaidBattleSlot(Name, Form, true, 4); break;
 
-                case "Enevt1": 
+                case "Event1": 
                     slot = Form == "" ? new RaidBattleSlot(Name, true, 1) : new RaidBattleSlot(Name, Form, true, 1); break;
-                case "Enevt2": 
+                case "Event2": 
                     slot = Form == "" ? new RaidBattleSlot(Name, true, 2) : new RaidBattleSlot(Name, Form, true, 2); break;
-                case "Enevt3": 
+                case "Event3": 
                     slot = Form == "" ? new RaidBattleSlot(Name, true, 3) : new RaidBattleSlot(Name, Form, true, 3); break;
-                case "Enevt4": 
+                case "Event4": 
                     slot = Form == "" ? new RaidBattleSlot(Name, true, 4) : new RaidBattleSlot(Name, Form, true, 4); break;
-                case "Enevt5": 
+                case "Event5": 
                     slot = Form == "" ? new RaidBattleSlot(Name, true, 5) : new RaidBattleSlot(Name, Form, true, 5); break;
             }
             if (ForceShiny) slot = slot.BeForceShiny();

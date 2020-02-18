@@ -9,7 +9,7 @@ namespace SwShRNGLibrary
 {
     public class RaidTable : IReadOnlyList<RaidBattleSlot>
     {
-        private RaidBattleSlot[] table;
+        private readonly RaidBattleSlot[] table;
         public RaidBattleSlot this[int i] { get { return table[i]; } }
         public int Count { get { return table.Length; } }
 
