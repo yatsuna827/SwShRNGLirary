@@ -11,8 +11,8 @@ namespace SwShRNGLibrary
     {
         public ulong seed { get; private set; }
         private const ulong FIXEDSEED = 0x82A2B175229D6A5B;
-        private static Nature[] HighNature = new Nature[] { Nature.Adamant, Nature.Naughty, Nature.Brave, Nature.Impish, Nature.Lax, Nature.Rash, Nature.Sassy, Nature.Hasty, Nature.Jolly, Nature.Naive, Nature.Hardy, Nature.Docile, Nature.Quirky };
-        private static Nature[] LowNature = new Nature[] { Nature.Lonely, Nature.Bold, Nature.Relaxed, Nature.Timid, Nature.Serious, Nature.Modest, Nature.Mild, Nature.Quiet, Nature.Bashful, Nature.Calm, Nature.Gentle, Nature.Careful };
+        private static readonly Nature[] HighNature = new Nature[] { Nature.Adamant, Nature.Naughty, Nature.Brave, Nature.Impish, Nature.Lax, Nature.Rash, Nature.Sassy, Nature.Hasty, Nature.Jolly, Nature.Naive, Nature.Hardy, Nature.Docile, Nature.Quirky };
+        private static readonly Nature[] LowNature = new Nature[] { Nature.Lonely, Nature.Bold, Nature.Relaxed, Nature.Timid, Nature.Serious, Nature.Modest, Nature.Mild, Nature.Quiet, Nature.Bashful, Nature.Calm, Nature.Gentle, Nature.Careful };
         public Pokemon.Individual Generate(RaidBattleSlot slot)
         {
             Xoroshiro128p rng = new Xoroshiro128p(seed, FIXEDSEED);
