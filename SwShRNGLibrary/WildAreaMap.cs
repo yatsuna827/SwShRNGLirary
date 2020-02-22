@@ -21,8 +21,8 @@ namespace SwShRNGLibrary
         {
             return version % 2 == 0 ? SwordMapList : ShieldMapList;
         }
-        public static readonly IReadOnlyList<WildAreaMap> SwordMapList;
-        public static readonly IReadOnlyList<WildAreaMap> ShieldMapList;
+        private static readonly IReadOnlyList<WildAreaMap> SwordMapList;
+        private static readonly IReadOnlyList<WildAreaMap> ShieldMapList;
         static WildAreaMap()
         {
             SwordMapList = JsonSerializer.Deserialize<AreaPasser[]>(Resources.AreaList_sw).Select(_ => _.createArea(RaidTable.SwordTables)).ToArray();
