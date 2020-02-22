@@ -222,11 +222,11 @@ namespace SwShRNGLibrary
         }
         public static IReadOnlyList<Species> GetUniquePokemonList()
         {
-            return UniqueList;
+            return UniqueList.Where(_=>_.Name != "Dummy").ToArray();
         }
         public static IReadOnlyList<Species> GetAllPokemonList()
         {
-            return DexData;
+            return DexData.Where(_ => _.Name != "Dummy").ToArray();
         }
         static Pokemon()
         {
