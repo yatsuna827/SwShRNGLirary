@@ -199,14 +199,14 @@ namespace SwShRNGLibrary
         }
         public static Species GetPokemon(string Name, Language lang)
         {
-            Name = Name.ToJPN(Category.PokeName, lang);
+            Name = Name.ToJPN(lang);
             if (!UniqueDex.ContainsKey(Name)) throw new Exception(Name);
             return UniqueDex[Name];
         }
         public static Species GetPokemon(string Name, string Form, Language lang)
         {
-            Name = Name.ToJPN(Category.PokeName, lang);
-            Form = Form.ToJPN(Category.PokeName, lang);
+            Name = Name.ToJPN(lang);
+            Form = Form.ToJPN(lang);
             if (!DexDictionary.ContainsKey(Name + Form)) throw new Exception(Name + Form);
             return DexDictionary[Name + Form];
         }
@@ -214,14 +214,19 @@ namespace SwShRNGLibrary
         {
             return FormDex[Name].ToArray();
         }
-
-        /// <summary>
-        /// 全部はサポートしてないよ。現状で連れて行ける子だけ。
-        /// </summary>
-        /// <returns></returns>
-        public static IReadOnlyList<string> GetPokemonNameList()
+        public static IReadOnlyList<Species> GetAllForms(string Name, Language lang)
         {
-            return UniqueList.Select(_=>_.Name).ToArray();
+            Name = Name.ToJPN(lang);
+            if (!FormDex.Contains(Name)) throw new Exception(Name);
+            return FormDex[Name].ToArray();
+        }
+        public static IReadOnlyList<Species> GetUniquePokemonList()
+        {
+            return UniqueList;
+        }
+        public static IReadOnlyList<Species> GetAllPokemonList()
+        {
+            return DexData;
         }
         static Pokemon()
         {
