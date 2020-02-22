@@ -8,39 +8,35 @@ using SwShRNGLibrary.Properties;
 
 namespace SwShRNGLibrary
 {
-    public enum Category
-    {
-        PokeName, Ability, MapName, System
-    }
-
     public class Language
     {
-        private Dictionary<Category, Dictionary<string, string>> words;
-        private Dictionary<Category, Dictionary<string, string>> toJPN;
+        private Dictionary<string, string> words;
+        private Dictionary<string, string> toJPN;
         internal string[] Nature;
         internal string[] PokeType;
 
-        internal virtual string Translate(Category cat, string txt) { return words[cat][txt]; }
-        internal virtual string ToJPN(Category cat, string txt) { return toJPN[cat][txt]; }
+        internal virtual string Translate(string txt) { return words[txt]; }
+        internal virtual string ToJPN(string txt) { return toJPN[txt]; }
         internal Language() { }
         internal Language(string[] natures, string[] pokeTypes, string pokeNames, string abilities, string mapNames)
         {
-            words = new Dictionary<Category, Dictionary<string, string>>();
-            toJPN = new Dictionary<Category, Dictionary<string, string>>();
+            words = new Dictionary<string, string>();
+            toJPN = new Dictionary<string, string>();
 
             Nature = natures;
             PokeType = pokeTypes;
 
-            var p = pokeNames.Replace("\r\n", "\n").Split(new[] { '\n', '\r' }).Select(_ => _.Split(',')).ToArray();
+            var p = pokeNames.Replace("\r\n", "\n").Split(new[] { '\n', '\r' }).Select(_ => _.Split(','));
             var ab = abilities.Replace("\r\n", "\n").Split(new[] { '\n', '\r' }).Select(_ => _.Split(',')).ToArray();
             var mn = mapNames.Replace("\r\n", "\n").Split(new[] { '\n', '\r' }).Select(_ => _.Split(',')).ToArray();
 
-            words.Add(Category.PokeName, p.ToDictionary(_ => _[0], _ => _[1]));
-            words.Add(Category.Ability, ab.ToDictionary(_ => _[0], _ => _[1]));
-            words.Add(Category.MapName, mn.ToDictionary(_ => _[0], _ => _[1]));
-            toJPN.Add(Category.PokeName, p.ToDictionary(_ => _[1], _ => _[0]));
-            toJPN.Add(Category.Ability, ab.ToDictionary(_ => _[1], _ => _[0]));
-            toJPN.Add(Category.MapName, mn.ToDictionary(_ => _[1], _ => _[0]));
+            foreach (var kv in p) words.Add(kv[0], kv[1]);
+            foreach (var kv in ab) words.Add(kv[0], kv[1]);
+            foreach (var kv in mn) words.Add(kv[0], kv[1]);
+
+            foreach (var kv in p) toJPN.Add(kv[1], kv[0]);
+            foreach (var kv in ab) toJPN.Add(kv[1], kv[0]);
+            foreach (var kv in mn) toJPN.Add(kv[1], kv[0]);
         }
 
         public static Language JPN;
@@ -89,11 +85,11 @@ namespace SwShRNGLibrary
                 Nature = nature;
                 PokeType = pokeType;
             }
-            internal override string ToJPN(Category cat, string txt)
+            internal override string ToJPN(string txt)
             {
                 return txt;
             }
-            internal override string Translate(Category cat, string txt)
+            internal override string Translate(string txt)
             {
                 return txt;
             }
@@ -102,9 +98,9 @@ namespace SwShRNGLibrary
 
     public static class LangExtension
     {
-        public static string ToJPN(this string txt, Category cat, Language from)
+        public static string ToJPN(this string txt, Language from)
         {
-            return from.ToJPN(cat, txt);
+            return from.ToJPN(txt);
         }
         /// <summary>
         /// from JPN
@@ -113,13 +109,13 @@ namespace SwShRNGLibrary
         /// <param name="cat"></param>
         /// <param name="to"></param>
         /// <returns></returns>
-        public static string Translate(this string txt, Category cat, Language to)
+        public static string Translate(this string txt, Language to)
         {
-            return to.Translate(cat, txt);
+            return to.Translate(txt);
         }
-        public static string Translate(this string txt, Category cat, Language from, Language to)
+        public static string Translate(this string txt, Language from, Language to)
         {
-            return to.Translate(cat, from.ToJPN(cat, txt));
+            return to.Translate(from.ToJPN(txt));
         }
     }
 }
