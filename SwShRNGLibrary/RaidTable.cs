@@ -27,9 +27,16 @@ namespace SwShRNGLibrary
             this.table = table;
         }
 
-
-        public static Dictionary<string, IReadOnlyList<RaidTable>> SwordTables;
+        internal static Dictionary<string, IReadOnlyList<RaidTable>> SwordTables;
         internal static Dictionary<string, IReadOnlyList<RaidTable>> ShieldTables;
+
+        public static IReadOnlyList<RaidTable> DefaultTable = new RaidTable[] {
+            new RaidTable(new EventSlot1("ヌオー")),
+            new RaidTable(new EventSlot2("ヌオー")),
+            new RaidTable(new EventSlot3("ヌオー")),
+            new RaidTable(new EventSlot4("ヌオー")),
+            new RaidTable(new EventSlot5("ヌオー")),
+        };
 
         static RaidTable()
         {
