@@ -17,17 +17,17 @@
                 {"SlotType":"Common2", "Name":"ビブラーバ"},
                 {"SlotType":"Common3", "Name":"オノンド"},
                 {"SlotType":"Common4", "Name":"ヌメイル"},
-                {"SlotType":"Common4", "Name":"ヌメルゴン"}
+                {"SlotType":"Common4", "Name":"フライゴン"}
             ],
             [
                 {"SlotType":"Common3", "Name":"オノンド"},
                 {"SlotType":"Common4", "Name":"ヌメイル"},
-                {"SlotType":"Common4", "Name":"ヌメルゴン"},
+                {"SlotType":"Common4", "Name":"フライゴン"},
                 {"SlotType":"Common5", "Name":"オノノクス"}
             ],
             [
                 {"SlotType":"Common4", "Name":"ヌメイル"},
-                {"SlotType":"Common4", "Name":"ヌメルゴン"},
+                {"SlotType":"Common4", "Name":"フライゴン"},
                 {"SlotType":"Common5", "Name":"オノノクス"},
                 {"SlotType":"Common5", "Name":"ジジーロン"},
                 {"SlotType":"Common5", "Name":"ヌメルゴン"}
