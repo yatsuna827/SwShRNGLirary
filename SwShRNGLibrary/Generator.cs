@@ -24,6 +24,7 @@ namespace SwShRNGLibrary
             uint ShinyValue = (((DummyID ^ PID) >> 16) ^ ((DummyID ^ PID) & 0xFFFF));
             bool isShily = slot.ForceShiny || ShinyValue < 16;
             bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
+            if (slot.isShinyLocked && !slot.ForceShiny) isShily = isSquare = false;
 
             uint[] IVs = new uint[6];
             int i = 0;
@@ -54,7 +55,7 @@ namespace SwShRNGLibrary
             uint ShinyValue = (((DummyID ^ PID) >> 16) ^ ((DummyID ^ PID) & 0xFFFF));
             bool isShily = slot.ForceShiny || ShinyValue < 16;
             bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
-            if (!criteria.allowShiny && !slot.ForceShiny) isShily = isSquare = false;
+            if ((!criteria.allowShiny || slot.isShinyLocked) && !slot.ForceShiny) isShily = isSquare = false;
             if (!criteria.CheckShiny(isShily, isSquare)) return Pokemon.Individual.Empty;
 
             uint[] IVs = new uint[6];
@@ -92,6 +93,7 @@ namespace SwShRNGLibrary
             uint ShinyValue = (((DummyID ^ PID) >> 16) ^ ((DummyID ^ PID) & 0xFFFF));
             bool isShily = slot.ForceShiny || ShinyValue < 16;
             bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
+            if (slot.isShinyLocked && !slot.ForceShiny) isShily = isSquare = false;
 
             uint[] IVs = new uint[6];
             int i = 0;
@@ -121,7 +123,7 @@ namespace SwShRNGLibrary
             uint ShinyValue = (((DummyID ^ PID) >> 16) ^ ((DummyID ^ PID) & 0xFFFF));
             bool isShily = slot.ForceShiny || ShinyValue < 16;
             bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
-            if (!criteria.allowShiny && !slot.ForceShiny) isShily = isSquare = false;
+            if ((!criteria.allowShiny || slot.isShinyLocked) && !slot.ForceShiny) isShily = isSquare = false;
             if (!criteria.CheckShiny(isShily, isSquare)) return Pokemon.Individual.Empty;
 
             uint[] IVs = new uint[6];
@@ -161,7 +163,7 @@ namespace SwShRNGLibrary
     {
         public bool checkStar;
         public bool checkSquare;
-        public bool allowShiny = true;
+        public bool allowShiny { get; set; } = true;
         bool checkShiny => checkStar || checkSquare;
         bool checkIV => checkIVs.Any();
         public bool[] checkIVs;
