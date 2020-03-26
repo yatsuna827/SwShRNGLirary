@@ -16,9 +16,11 @@ namespace SwShRNGLibrary
         public Nature FixedNature { get; private set; } = Nature.other;
         public bool ForceShiny { get; private set; }
         public bool isUncatchable { get; private set; }
+        public bool isShinyLocked { get; private set; }
         internal RaidBattleSlot BeForceHiddenAbility() { ForceHiddenAbility = true; return this; }
         internal RaidBattleSlot BeForceShiny() { ForceShiny = true; return this; }
         internal RaidBattleSlot BeUncatchable() { isUncatchable = true; return this; }
+        internal RaidBattleSlot BeShinyLocked() { isShinyLocked = true; return this; }
         internal RaidBattleSlot FixGender(Gender gender) { FixedGender = gender; return this; }
         internal RaidBattleSlot FixNature(Nature nature) { FixedNature = nature; return this; }
 
