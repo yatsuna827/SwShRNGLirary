@@ -78,6 +78,7 @@ namespace SwShRNGLibrary
         public bool ForceShiny { get; set; }
         public bool ForceHiddenAbility { get; set; }
         public bool isUncatchable { get; set; }
+        public bool isShinyLocked { get; set; }
         internal RaidBattleSlot createSlot()
         {
             RaidBattleSlot slot;
@@ -109,6 +110,7 @@ namespace SwShRNGLibrary
             if (ForceShiny) slot = slot.BeForceShiny();
             if (ForceHiddenAbility) slot = slot.BeForceHiddenAbility();
             if (isUncatchable) slot = slot.BeUncatchable();
+            if (isShinyLocked) slot = slot.BeShinyLocked();
 
             return slot;
         }
