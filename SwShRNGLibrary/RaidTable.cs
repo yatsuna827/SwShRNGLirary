@@ -7,6 +7,7 @@ using SwShRNGLibrary.Properties;
 
 namespace SwShRNGLibrary
 {
+    // バージョンごと・タイプ別のレイドテーブルをまとめたクラス.
     public class RaidTable : IReadOnlyList<RaidBattleSlot>
     {
         private readonly RaidBattleSlot[] table;
@@ -30,7 +31,7 @@ namespace SwShRNGLibrary
         internal static Dictionary<string, IReadOnlyList<RaidTable>> SwordTables;
         internal static Dictionary<string, IReadOnlyList<RaidTable>> ShieldTables;
 
-        public static IReadOnlyList<RaidTable> DefaultTable = new RaidTable[] {
+        public static readonly IReadOnlyList<RaidTable> DefaultTable = new RaidTable[] {
             new RaidTable(new EventSlot1("ヌオー")),
             new RaidTable(new EventSlot2("ヌオー")),
             new RaidTable(new EventSlot3("ヌオー")),

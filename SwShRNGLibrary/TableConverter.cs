@@ -22,13 +22,13 @@ namespace SwShRNGLibrary
         public void Import(string json)
         {
             var t = JsonSerializer.Deserialize<EventTableConverter>(json);
-            eventTableList[0].Add(t.GetTable(0));
-            eventTableList[1].Add(t.GetTable(1));
+            eventTableList[0].Add(t.GetTable(Rom.Sword));
+            eventTableList[1].Add(t.GetTable(Rom.Shield));
             eventLabelList.Add(t.Label);
         }
-        public IReadOnlyList<IReadOnlyList<RaidTable>> GetEventList(int version)
+        public IReadOnlyList<IReadOnlyList<RaidTable>> GetEventList(Rom version)
         {
-            return eventTableList[version];
+            return eventTableList[(int)version];
         }
         public IReadOnlyList<string> GetEventLabelList()
         {
@@ -39,7 +39,7 @@ namespace SwShRNGLibrary
     {
         public string AreaName { get; set; }
         public DenPasser[] DenList { get; set; }
-        internal WildAreaMap createArea(Dictionary<string, IReadOnlyList<RaidTable>> table)
+        internal WildAreaMap CreateArea(Dictionary<string, IReadOnlyList<RaidTable>> table)
         {
             return new WildAreaMap(AreaName, DenList.Select(_ => new Den(_.Label, _.Index, table[_.Normal], table[_.Rare])).ToArray());
         }
@@ -65,9 +65,9 @@ namespace SwShRNGLibrary
         public string Label { get; set; }
         public SlotPasser[][] SwTable { get; set; }
         public SlotPasser[][] ShTable { get; set; }
-        public IReadOnlyList<RaidTable> GetTable(int version)
+        public IReadOnlyList<RaidTable> GetTable(Rom version)
         {
-            return (version == 0 ? SwTable.Select(_ => new RaidTable(_.Select(p => p.createSlot()).ToArray())) : ShTable.Select(_ => new RaidTable(_.Select(p => p.createSlot()).ToArray()))).ToArray();
+            return (version == Rom.Sword ? SwTable.Select(_ => new RaidTable(_.Select(p => p.createSlot()).ToArray())) : ShTable.Select(_ => new RaidTable(_.Select(p => p.createSlot()).ToArray()))).ToArray();
         }
     }
     class SlotPasser

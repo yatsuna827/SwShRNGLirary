@@ -60,53 +60,53 @@ namespace SwShRNGLibrary
     }
     public class CommonSlot1 : RaidBattleSlot
     {
-        internal CommonSlot1(string name, Rom appver = Rom.both) : base(name, false, 1) { }
-        internal CommonSlot1(string name, string form, Rom appver = Rom.both) : base(name, form, false, 1) { }
+        internal CommonSlot1(string name) : base(name, false, 1) { }
+        internal CommonSlot1(string name, string form) : base(name, form, false, 1) { }
     }
     public class CommonSlot2 : RaidBattleSlot
     {
-        internal CommonSlot2(string name, Rom appver = Rom.both) : base(name, false, 2) { }
-        internal CommonSlot2(string name, string form, Rom appver = Rom.both) : base(name, form, false, 2) { }
+        internal CommonSlot2(string name) : base(name, false, 2) { }
+        internal CommonSlot2(string name, string form) : base(name, form, false, 2) { }
     }
     public class CommonSlot3 : RaidBattleSlot
     {
-        internal CommonSlot3(string name, Rom appver = Rom.both) : base(name, false, 3) { }
-        internal CommonSlot3(string name, string form, Rom appver = Rom.both) : base(name, form, false, 3) { }
+        internal CommonSlot3(string name) : base(name, false, 3) { }
+        internal CommonSlot3(string name, string form) : base(name, form, false, 3) { }
     }
     public class CommonSlot4 : RaidBattleSlot
     {
-        internal CommonSlot4(string name, Rom appver = Rom.both) : base(name, false, 4) { }
-        internal CommonSlot4(string name, string form, Rom appver = Rom.both) : base(name, form, false, 4) { }
+        internal CommonSlot4(string name) : base(name, false, 4) { }
+        internal CommonSlot4(string name, string form) : base(name, form, false, 4) { }
     }
     public class CommonSlot5 : RaidBattleSlot
     {
-        internal CommonSlot5(string name, Rom appver = Rom.both) : base(name, true, 4) { }
-        internal CommonSlot5(string name, string form, Rom appver = Rom.both) : base(name, form, true, 4) { }
+        internal CommonSlot5(string name) : base(name, true, 4) { }
+        internal CommonSlot5(string name, string form) : base(name, form, true, 4) { }
     }
 
     public class EventSlot1 : RaidBattleSlot
     {
-        internal EventSlot1(string name, Rom appver = Rom.both) : base(name, true, 1) { }
-        internal EventSlot1(string name, string form, Rom appver = Rom.both) : base(name, form, true, 1) { }
+        internal EventSlot1(string name) : base(name, true, 1) { }
+        internal EventSlot1(string name, string form) : base(name, form, true, 1) { }
     }
     public class EventSlot2 : RaidBattleSlot
     {
-        internal EventSlot2(string name, Rom appver = Rom.both) : base(name, true, 2) { }
-        internal EventSlot2(string name, string form, Rom appver = Rom.both) : base(name, form, true, 2) { }
+        internal EventSlot2(string name) : base(name, true, 2) { }
+        internal EventSlot2(string name, string form) : base(name, form, true, 2) { }
     }
     public class EventSlot3 : RaidBattleSlot
     {
-        internal EventSlot3(string name, Rom appver = Rom.both) : base(name, true, 3) { }
-        internal EventSlot3(string name, string form, Rom appver = Rom.both) : base(name, form, true, 3) { }
+        internal EventSlot3(string name) : base(name, true, 3) { }
+        internal EventSlot3(string name, string form) : base(name, form, true, 3) { }
     }
     public class EventSlot4 : RaidBattleSlot
     {
-        internal EventSlot4(string name, Rom appver = Rom.both) : base(name, true, 4) { }
-        internal EventSlot4(string name, string form, Rom appver = Rom.both) : base(name, form, true, 4) { }
+        internal EventSlot4(string name) : base(name, true, 4) { }
+        internal EventSlot4(string name, string form) : base(name, form, true, 4) { }
     }
     public class EventSlot5 : RaidBattleSlot
     {
-        internal EventSlot5(string name, Rom appver = Rom.both) : base(name, true, 5) { }
-        internal EventSlot5(string name, string form, Rom appver = Rom.both) : base(name, form, true, 5) { }
+        internal EventSlot5(string name) : base(name, true, 5) { }
+        internal EventSlot5(string name, string form) : base(name, form, true, 5) { }
     }
 }
