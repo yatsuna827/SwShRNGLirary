@@ -15,6 +15,7 @@ namespace SwShRNGLibrary
         M3F1 = 0x3F,
         M1F1 = 0x7F,
         M1F3 = 0xBF,
+        M1F7 = 0xE1,
         FemaleOnly = 0x100,
         Genderless = 0x12C
     }
@@ -32,8 +33,8 @@ namespace SwShRNGLibrary
         Ground, Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark, Steel, Fairy, Non
     }
     public enum ShinyType { NotShiny, Star, Square }
-    public enum Rom { both, Sword, Shield }
-
+    public enum Rom { Sword, Shield }
+    public enum Region { Mainland, IsleOfArmor } // , CrownTundra
     public static class CommonExtension
     {
         static private readonly string[] Nature_GER =
