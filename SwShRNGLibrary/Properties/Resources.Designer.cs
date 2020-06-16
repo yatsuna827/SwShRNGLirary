@@ -101,42 +101,6 @@ namespace SwShRNGLibrary.Properties {
         /// <summary>
         ///   [
         ///    {
-        ///        &quot;AreaName&quot;: &quot;うららか草原&quot;,
-        ///        &quot;DenList&quot;: [
-        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 3, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; },
-        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 8, &quot;Normal&quot;: &quot;FightingA&quot;, &quot;Rare&quot;: &quot;FightingC&quot; },
-        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 9, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; }, 
-        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 1, &quot;Normal&quot;: &quot;GroundA&quot;, &quot;Rare&quot;: &quot;GroundC&quot; }, 
-        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 7, &quot;Normal&quot;: &quot;NormalA&quot;, &quot;Rare&quot;: &quot;NormalC&quot; }, 
-        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 5, &quot;N [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string AreaList_sh {
-            get {
-                return ResourceManager.GetString("AreaList_sh", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;AreaName&quot;: &quot;うららか草原&quot;,
-        ///        &quot;DenList&quot;: [
-        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 3, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; },
-        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 8, &quot;Normal&quot;: &quot;FightingA&quot;, &quot;Rare&quot;: &quot;FightingC&quot; },
-        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 9, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; }, 
-        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 1, &quot;Normal&quot;: &quot;GroundA&quot;, &quot;Rare&quot;: &quot;GroundC&quot; }, 
-        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 7, &quot;Normal&quot;: &quot;NormalA&quot;, &quot;Rare&quot;: &quot;NormalC&quot; }, 
-        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 5, &quot;N [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string AreaList_sw {
-            get {
-                return ResourceManager.GetString("AreaList_sw", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   [
-        ///    {
         ///        &quot;Label&quot;: &quot;BugA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
@@ -686,6 +650,42 @@ namespace SwShRNGLibrary.Properties {
         internal static string Ice_sw {
             get {
                 return ResourceManager.GetString("Ice_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;AreaName&quot;: &quot;うららか草原&quot;,
+        ///        &quot;DenList&quot;: [
+        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 3, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; },
+        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 8, &quot;Normal&quot;: &quot;FightingA&quot;, &quot;Rare&quot;: &quot;FightingC&quot; },
+        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 9, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; }, 
+        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 1, &quot;Normal&quot;: &quot;GroundA&quot;, &quot;Rare&quot;: &quot;GroundC&quot; }, 
+        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 7, &quot;Normal&quot;: &quot;NormalA&quot;, &quot;Rare&quot;: &quot;NormalC&quot; }, 
+        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 5, &quot;N [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MainlandAreaList_sh {
+            get {
+                return ResourceManager.GetString("MainlandAreaList_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;AreaName&quot;: &quot;うららか草原&quot;,
+        ///        &quot;DenList&quot;: [
+        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 3, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; },
+        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 8, &quot;Normal&quot;: &quot;FightingA&quot;, &quot;Rare&quot;: &quot;FightingC&quot; },
+        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 9, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; }, 
+        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 1, &quot;Normal&quot;: &quot;GroundA&quot;, &quot;Rare&quot;: &quot;GroundC&quot; }, 
+        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 7, &quot;Normal&quot;: &quot;NormalA&quot;, &quot;Rare&quot;: &quot;NormalC&quot; }, 
+        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 5, &quot;N [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MainlandAreaList_sw {
+            get {
+                return ResourceManager.GetString("MainlandAreaList_sw", resourceCulture);
             }
         }
         
