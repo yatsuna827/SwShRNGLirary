@@ -909,7 +909,6 @@
 スピン,Fan
 たそがれ,Dusk Mane
 ダルマ,Zen
-ノーマル,Normal
 ハイ,Amped
 ハイキョダイ,Amped Gigantamax
 ヒート,Heat
@@ -948,7 +947,7 @@
 霊獣,Therian
 サトシ,Ash
 10%,10%
-50%,10%
+50%,50%
 パーフェクト,Complete
 戒め,Confined
 解放,Unbound
