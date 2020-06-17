@@ -1250,8 +1250,8 @@ namespace SwShRNGLibrary
             DexData.Add(new Species(806, -1, "ズガドーン", "", new uint[] { 53, 127, 53, 151, 79, 107 }, (PokeType.Fire, PokeType.Ghost), new string[] { "ビーストブースト", "ビーストブースト", "ビーストブースト" }, GenderRatio.Genderless));
 
             DexData.Add(new Species(807, -1, "ダクマ", "", new uint[] { 60, 90, 60, 53, 50, 72 }, (PokeType.Fighting, PokeType.Non), new string[] { "せいしんりょく", "せいしんりょく", "せいしんりょく" }, GenderRatio.M1F1));
-            DexData.Add(new Species(808, -1, "ウーラオス", "いちげき", new uint[] { 100, 130, 100, 63, 60, 97 }, (PokeType.Fighting, PokeType.Dark), new string[] { "ふかしのこぶし", "ふかしのこぶし", "ふかしのこぶし" }, GenderRatio.M1F1));
-            DexData.Add(new Species(809, -1, "ウーラオス", "れんげき", new uint[] { 100, 130, 100, 63, 60, 97 }, (PokeType.Fighting, PokeType.Water), new string[] { "ふかしのこぶし", "ふかしのこぶし", "ふかしのこぶし" }, GenderRatio.M1F1));
+            DexData.Add(new AnotherForm(808, -1, "ウーラオス", "いちげき", new uint[] { 100, 130, 100, 63, 60, 97 }, (PokeType.Fighting, PokeType.Dark), new string[] { "ふかしのこぶし", "ふかしのこぶし", "ふかしのこぶし" }, GenderRatio.M1F1));
+            DexData.Add(new AnotherForm(809, -1, "ウーラオス", "れんげき", new uint[] { 100, 130, 100, 63, 60, 97 }, (PokeType.Fighting, PokeType.Water), new string[] { "ふかしのこぶし", "ふかしのこぶし", "ふかしのこぶし" }, GenderRatio.M1F1));
 
             // 名前+フォルムでDictionaryに追加。
             // フォルム名無しがないポケモンはDexDataの若いほうから.
