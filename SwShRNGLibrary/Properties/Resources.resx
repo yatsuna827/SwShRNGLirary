@@ -193,11 +193,17 @@
   <data name="Ice_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ice_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="IsleOfArmorAreaList_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IsleOfArmorAreaList_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="IsleOfArmorAreaList_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IsleOfArmorAreaList_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="MainlandAreaList_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AreaList_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\MainlandAreaList_sh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="MainlandAreaList_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AreaList_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\MainlandAreaList_sw.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="MapName_eng" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MapName_eng.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

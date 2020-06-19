@@ -186,5 +186,170 @@
                 {"SlotType":"Common5", "Name":"イオルブ", "Form":"キョダイ"}
             ]
         ]
+    },
+    {
+        "Label": "BugF",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "カイロス" },
+                { "SlotType": "Common1", "Name": "イシズマイ" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "カイロス" },
+                { "SlotType": "Common1", "Name": "イシズマイ" },
+                { "SlotType": "Common2", "Name": "レドームシ" },
+                { "SlotType": "Common2", "Name": "カイロス" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "レドームシ" },
+                { "SlotType": "Common2", "Name": "カイロス" },
+                { "SlotType": "Common3", "Name": "カイロス" },
+                { "SlotType": "Common3", "Name": "イワパレス" },
+                { "SlotType": "Common4", "Name": "ラッキー" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "カイロス" },
+                { "SlotType": "Common3", "Name": "イワパレス" },
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "ストライク"},
+                { "SlotType": "Common5", "Name": "カイロス" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "ストライク"},
+                { "SlotType": "Common5", "Name": "カイロス" },
+                { "SlotType": "Common5", "Name": "イオルブ" },
+                { "SlotType": "Common5", "Name": "ハッサム" }
+            ]
+        ]
+    },
+    {
+        "Label": "BugG",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ストライク", "ForceHiddenAbility": true },
+                { "SlotType": "Common1", "Name": "カイロス", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ストライク", "ForceHiddenAbility": true },
+                { "SlotType": "Common1", "Name": "カイロス", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ツボツボ", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ホイーガ", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ツボツボ", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ホイーガ", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "ストライク", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "イワパレス", "ForceHiddenAbility": true },
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ストライク", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "イワパレス", "ForceHiddenAbility": true },
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "ペンドラー", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "アギルダー", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "シュバルゴ", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "ペンドラー", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "アギルダー", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "シュバルゴ", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "カイロス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "ハッサム", "ForceHiddenAbility": true }
+            ]
+        ]
+    },
+    {
+        "Label": "BugH",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ミツハニー" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ミツハニー" },
+                { "SlotType": "Common2", "Name": "ミツハニー" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ミツハニー" },
+                { "SlotType": "Common3", "Name": "ミツハニー" },
+                { "SlotType": "Common4", "Name": "ラッキー" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ミツハニー" },
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "ビークイン" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "ビークイン" }
+            ]
+        ]
+    },
+    {
+        "Label": "BugI",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ミツハニー", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ミツハニー", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ミツハニー", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ミツハニー", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "ビークイン", "ForceHiddenAbility": true },
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ミツハニー", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "ビークイン", "ForceHiddenAbility": true },
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "ビークイン", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "ビークイン", "ForceHiddenAbility": true }
+            ]
+        ]
+    },
+    {
+        "Label": "BugJ",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "サッチムシ", "ForceHiddenAbility": true },
+                { "SlotType": "Common1", "Name": "アブリー", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "サッチムシ", "ForceHiddenAbility": true },
+                { "SlotType": "Common1", "Name": "アブリー", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "バチュル", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "カイロス", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "バチュル", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "カイロス", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "レドームシ", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "テッカニン", "ForceHiddenAbility": true },
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "レドームシ", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "テッカニン", "ForceHiddenAbility": true },
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "イオルブ", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "デンチュラ", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "アブリボン", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "イオルブ", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "デンチュラ", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "アブリボン", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "テッカニン", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "イオルブ", "Form": "キョダイ", "ForceHiddenAbility": true }
+            ]
+        ]
     }
 ]

@@ -11,7 +11,7 @@ namespace SwShRNGLibrary
         public readonly Pokemon.Species pokemon;
         public readonly bool allowHiddenAbility;
         public readonly int FlawlessIVs;
-        public bool ForceHiddenAbility { get; private set; }
+        public bool ForceHiddenAbility { get; private set; } // allowHiddenAbilityに依らず夢固定.
         public Gender FixedGender { get; private set; }
         public Nature FixedNature { get; private set; } = Nature.other;
         public bool ForceShiny { get; private set; }

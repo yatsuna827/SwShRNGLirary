@@ -150,16 +150,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;DarkA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョロネコ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スカンプー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニューラ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マーイーカ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョロネコ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スカンプー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニューラ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マーイーカ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニューラ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マーイーカ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コマタナ&quot;},
-        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニューラ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マーイーカ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コマタナ&quot; },
+        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Dark_sh {
             get {
@@ -173,16 +173,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;DarkA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョロネコ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スカンプー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニューラ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マーイーカ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョロネコ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スカンプー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニューラ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マーイーカ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニューラ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マーイーカ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コマタナ&quot;},
-        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニューラ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マーイーカ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コマタナ&quot; },
+        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Dark_sw {
             get {
@@ -196,17 +196,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;DragonA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;オンバット&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キバゴ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナックラー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;オンバット&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;キバゴ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナックラー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;オンバット&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナックラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ビブラーバ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ヌメラ&quot;}
-        ///            ],
-        ///            [ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;オンバット&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナックラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ビブラーバ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヌメラ&quot; }
+        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Dragon_sh {
             get {
@@ -220,18 +219,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;DragonA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;オンバット&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キバゴ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナックラー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;オンバット&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;キバゴ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナックラー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;オンバット&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キバゴ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ビブラーバ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ジャラコ&quot;}
-        ///            ],
-        ///            [
-        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;オンバット&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;キバゴ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ビブラーバ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ジャラコ&quot; }
+        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Dragon_sw {
             get {
@@ -245,16 +242,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;ElectricA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ピチュー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ラクライ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ピチュー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ラクライ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バチュル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;デンヂムシ&quot;},
-        ///                {&quot;SlotTyp [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バチュル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;デンヂムシ&quot;  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Electric_sh {
             get {
@@ -263,21 +259,22 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   [
+        ///   ,
         ///    {
-        ///        &quot;Label&quot;: &quot;ElectricA&quot;,
+        ///        &quot;Label&quot;: &quot;ElectricF&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ピチュー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ラクライ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;デデンネ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;コイル&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;デンヂムシ&quot;},
-        ///                {&quot;SlotTyp [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;デデンネ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;コイル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コリンク&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;モルペコ&quot; }
+        ///            ],
+        ///            [
+        ///                { &quot;SlotType&quot;: &quot;Co [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Electric_sw {
             get {
@@ -291,16 +288,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;FairyA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ピィ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;トゲピー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アブリー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;シュシュプ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ピィ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;トゲピー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アブリー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;シュシュプ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アブリー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;シュシュプ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ピッピ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Com [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アブリー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;シュシュプ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ピッピ&quot; },
+        ///     [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Fairy_sh {
             get {
@@ -314,16 +311,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;FairyA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ピィ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;トゲピー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アブリー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ペロッパフ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ピィ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;トゲピー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アブリー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ペロッパフ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アブリー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ペロッパフ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ピッピ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Com [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アブリー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ペロッパフ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ピッピ&quot; },
+        ///     [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Fairy_sw {
             get {
@@ -332,21 +329,20 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   [
+        ///           [
         ///    {
         ///        &quot;Label&quot;: &quot;FightingA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バルキー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ワンリキー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドッコラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;グレッグル&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バルキー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ワンリキー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;グレッグル&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドッコラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;グレッグル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ゴーリキー&quot;},
-        ///                {&quot;Slot [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;グレッグル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Fighting_sh {
             get {
@@ -360,16 +356,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;FightingA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バルキー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ワンリキー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドッコラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ズルッグ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バルキー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ワンリキー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ズルッグ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドッコラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ズルッグ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ゴーリキー&quot;},
-        ///                {&quot;SlotTy [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ズルッグ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ゴーリキー&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Fighting_sw {
             get {
@@ -383,16 +378,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;FireA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤクデ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤトウモリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒトモシ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ガーディ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤクデ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤトウモリ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒトモシ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ガーディ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤトウモリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒトモシ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;クイタラン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;C [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤトウモリ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒトモシ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;クイタラン&quot; },
+        ///   [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Fire_sh {
             get {
@@ -406,16 +401,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;FireA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤクデ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤトウモリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒトモシ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ロコン&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤクデ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤトウモリ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒトモシ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ロコン&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤトウモリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒトモシ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ダルマッカ&quot;, &quot;Form&quot;:&quot;ガラル&quot;},
-        ///                { [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤトウモリ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒトモシ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ダルマッカ&quot;, &quot;Form [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Fire_sw {
             get {
@@ -429,16 +423,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;FlyingA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホーホー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ネイティ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バルチャイ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホーホー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ネイティ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バルチャイ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ネイティ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バルチャイ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コロモリ&quot;},
-        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ネイティ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バルチャイ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コロモリ&quot; },
+        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Flying_sh {
             get {
@@ -452,16 +446,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;FlyingA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホーホー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ネイティ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ワシボン&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホーホー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ネイティ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ワシボン&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ネイティ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ワシボン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コロモリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;C [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ネイティ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ワシボン&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コロモリ&quot; },
+        ///   [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Flying_sw {
             get {
@@ -475,16 +469,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;GhostA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ゴース&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヨマワル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;フワンテ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ボクレー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;プルリル&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ゴース&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヨマワル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;フワンテ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ボクレー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;プルリル&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;フワンテ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ボクレー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Com [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;フワンテ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ボクレー&quot; },
+        ///     [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Ghost_sh {
             get {
@@ -498,16 +492,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;GhostA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ゴース&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヨマワル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;フワンテ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ボクレー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;プルリル&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ゴース&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヨマワル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;フワンテ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ボクレー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;プルリル&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;フワンテ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ボクレー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Com [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;フワンテ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ボクレー&quot; },
+        ///     [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Ghost_sw {
             get {
@@ -521,16 +515,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;GrassA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スボミー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アマカジ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ハスボー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スボミー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アマカジ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ハスボー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アマカジ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ハスブレロ&quot;},
-        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アマカジ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ハスブレロ&quot; },
+        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Grass_sh {
             get {
@@ -544,16 +538,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;GrassA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スボミー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アマカジ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;タネボー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スボミー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アマカジ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;タネボー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アマカジ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コノハナ&quot;},
-        ///                {&quot;SlotType&quot;:&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アマカジ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コノハナ&quot; },
+        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Grass_sw {
             get {
@@ -567,16 +561,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;GroundA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ディグダ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドロバンコ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;モグリュー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ディグダ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドロバンコ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ツチニン&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;モグリュー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;モグリュー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イワーク&quot;},
-        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ツチニン&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;モグリュー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イワーク&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Ground_sh {
             get {
@@ -590,16 +583,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;GroundA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ディグダ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドロバンコ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;モグリュー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ディグダ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドロバンコ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ツチニン&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;モグリュー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;モグリュー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イワーク&quot;},
-        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ツチニン&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;モグリュー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イワーク&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Ground_sw {
             get {
@@ -613,16 +605,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;IceA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バニプッチ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ウリムー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユキカブリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カチコール&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バニプッチ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ウリムー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユキカブリ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カチコール&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユキカブリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カチコール&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;デリバード&quot;},
-        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユキカブリ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カチコール&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;デリバード&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Ice_sh {
             get {
@@ -636,20 +627,55 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;IceA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バニプッチ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ウリムー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユキカブリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カチコール&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バニプッチ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ウリムー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユキカブリ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カチコール&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユキカブリ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カチコール&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;デリバード&quot;},
-        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユキカブリ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カチコール&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;デリバード&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Ice_sw {
             get {
                 return ResourceManager.GetString("Ice_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;AreaName&quot;: &quot;一礼野原&quot;,
+        ///        &quot;DenList&quot;: [
+        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 106, &quot;Normal&quot;: &quot;FireI&quot;, &quot;Rare&quot;: &quot;FireJ&quot; },
+        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 109, &quot;Normal&quot;: &quot;FightingE&quot;, &quot;Rare&quot;: &quot;FightingF&quot; },
+        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 104, &quot;Normal&quot;: &quot;WaterL&quot;, &quot;Rare&quot;: &quot;WaterM&quot; }, 
+        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 105, &quot;Normal&quot;: &quot;GrassH&quot;, &quot;Rare&quot;: &quot;GrassI&quot; }, 
+        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 110, &quot;Normal&quot;: &quot;WaterP&quot;, &quot;Rare&quot;: &quot;WaterQ&quot; }, 
+        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 1 [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string IsleOfArmorAreaList_sh {
+            get {
+                return ResourceManager.GetString("IsleOfArmorAreaList_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;AreaName&quot;: &quot;一礼野原&quot;,
+        ///        &quot;DenList&quot;: [
+        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 106, &quot;Normal&quot;: &quot;FireI&quot;, &quot;Rare&quot;: &quot;FireJ&quot; },
+        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 109, &quot;Normal&quot;: &quot;FightingE&quot;, &quot;Rare&quot;: &quot;FightingF&quot; },
+        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 104, &quot;Normal&quot;: &quot;WaterL&quot;, &quot;Rare&quot;: &quot;WaterM&quot; }, 
+        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 105, &quot;Normal&quot;: &quot;GrassH&quot;, &quot;Rare&quot;: &quot;GrassI&quot; }, 
+        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 110, &quot;Normal&quot;: &quot;WaterP&quot;, &quot;Rare&quot;: &quot;WaterQ&quot; }, 
+        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 1 [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string IsleOfArmorAreaList_sw {
+            get {
+                return ResourceManager.GetString("IsleOfArmorAreaList_sw", resourceCulture);
             }
         }
         
@@ -721,16 +747,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;NormalA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホルビー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホーホー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チラーミィ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホルビー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホーホー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チラーミィ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チラーミィ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;エリキテル&quot;},
-        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チラーミィ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;エリキテル&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Normal_sh {
             get {
@@ -744,16 +769,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;NormalA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホルビー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ホーホー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チラーミィ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホルビー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホーホー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チラーミィ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;マメパト&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チラーミィ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;エリキテル&quot;},
-        ///                {&quot;SlotType&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チラーミィ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;エリキテル&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Normal_sw {
             get {
@@ -767,16 +791,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;PoisonA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スカンプー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤブクロン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スコルピ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スカンプー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤブクロン&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スコルピ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スコルピ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ナゾノクサ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ロゼリア&quot;},
-        ///                {&quot;SlotType [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スコルピ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ロゼリア&quot; } [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Poison_sh {
             get {
@@ -790,16 +813,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;PoisonA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スカンプー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヤブクロン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スコルピ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒドイデ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スカンプー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤブクロン&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スコルピ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒドイデ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;スコルピ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ヒドイデ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ロゼリア&quot;},
-        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スコルピ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒドイデ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ロゼリア&quot; },
+        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Poison_sw {
             get {
@@ -820,28 +843,28 @@ namespace SwShRNGLibrary.Properties {
         ///キャタピー,Caterpie
         ///トランセル,Metapod
         ///バタフリー,Butterfree
+        ///ビードル,Weedle
+        ///コクーン,Kakuna
+        ///スピアー,Beedrill
+        ///ポッポ,Pidgey
+        ///ピジョン,Pidgeotto
+        ///ピジョット,Pidgeot
+        ///コラッタ,Rattata
+        ///ラッタ,Raticate
+        ///オニスズメ,Spearow
+        ///オニドリル,Fearow
+        ///アーボ,Ekans
+        ///アーボック,Arbok
         ///ピカチュウ,Pikachu
         ///ライチュウ,Raichu
-        ///ピッピ,Clefairy
-        ///ピクシー,Clefable
-        ///ロコン,Vulpix
-        ///キュウコン,Ninetales
-        ///ナゾノクサ,Oddish
-        ///クサイハナ,Gloom
-        ///ラフレシア,Vileplume
-        ///ディグダ,Diglett
-        ///ダグトリオ,Dugtrio
-        ///ニャース,Meowth
-        ///ペルシアン,Persian
-        ///ガーディ,Growlithe
-        ///ウインディ,Arcanine
-        ///ワンリキー,Machop
-        ///ゴーリキー,Machoke
-        ///カイリキー,Machamp
-        ///ポニータ,Ponyta
-        ///ギャロップ,Rapidash
-        ///カモネギ,Farfetch&apos;d
-        ///シェルダー, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///サンド,Sandshrew
+        ///サンドパン,Sandslash
+        ///ニドラン♀,Nidoran♀
+        ///ニドリーナ,Nidorina
+        ///ニドクイン,Nidoqueen
+        ///ニドラン♂,Nidoran♂
+        ///ニドリーノ,Nidorino
+        ///ニドキング,Nid [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string PokeName_eng {
             get {
@@ -855,16 +878,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;PsychicA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ラルトス&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ムンナ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャスパー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;リグレー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ユニラン&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ラルトス&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ムンナ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャスパー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;リグレー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユニラン&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャスパー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;リグレー&quot;},
-        ///                {&quot;SlotType&quot;: [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャスパー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;リグレー&quot; },
+        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Psychic_sh {
             get {
@@ -878,16 +901,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;PsychicA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ラルトス&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ムンナ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャスパー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;リグレー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ゴチム&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ラルトス&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ムンナ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャスパー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;リグレー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ゴチム&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャスパー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;リグレー&quot;},
-        ///                {&quot;SlotType&quot;:&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャスパー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;リグレー&quot; },
+        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Psychic_sw {
             get {
@@ -901,16 +924,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;RockA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ウソハチ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イシズマイ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カメテテ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ダンゴロ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ウソハチ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イシズマイ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カメテテ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ダンゴロ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イシズマイ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ダンゴロ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;サイホーン&quot;},
-        ///                {&quot;SlotType&quot;:&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イシズマイ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ダンゴロ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;サイホーン&quot; },
+        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Rock_sh {
             get {
@@ -924,16 +947,16 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;RockA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ウソハチ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イシズマイ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カメテテ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ダンゴロ&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ウソハチ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イシズマイ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カメテテ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ダンゴロ&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;イシズマイ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;カメテテ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;サイホーン&quot;},
-        ///                {&quot;SlotType&quot;:&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イシズマイ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カメテテ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;サイホーン&quot; },
+        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Rock_sw {
             get {
@@ -947,16 +970,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;SteelA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ギアル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャース&quot;, &quot;Form&quot;:&quot;ガラル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドーミラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッシード&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ギアル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャース&quot;, &quot;Form&quot;: &quot;ガラル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドーミラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッシード&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドーミラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッシード&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コマタナ&quot;},
-        ///               [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドーミラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッシード&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Na [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Steel_sh {
             get {
@@ -970,16 +992,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;SteelA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ギアル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ニャース&quot;, &quot;Form&quot;:&quot;ガラル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドーミラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッシード&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ギアル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャース&quot;, &quot;Form&quot;: &quot;ガラル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドーミラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッシード&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ドーミラー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッシード&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;コマタナ&quot;},
-        ///               [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドーミラー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッシード&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Na [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Steel_sw {
             get {
@@ -993,16 +1014,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;WaterA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;コイキング&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;タマンタ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッポウオ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;コイキング&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;タマンタ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッポウオ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッポウオ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ホエルコ&quot;},
-        ///                {&quot;SlotType [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッポウオ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ホエルコ&quot; } [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Water_sh {
             get {
@@ -1016,16 +1036,15 @@ namespace SwShRNGLibrary.Properties {
         ///        &quot;Label&quot;: &quot;WaterA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;コイキング&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;タマンタ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッポウオ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;}
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;コイキング&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;タマンタ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッポウオ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; }
         ///            ],
         ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;テッポウオ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;チョンチー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;ホエルコ&quot;},
-        ///                {&quot;SlotType [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッポウオ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ホエルコ&quot; } [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Water_sw {
             get {

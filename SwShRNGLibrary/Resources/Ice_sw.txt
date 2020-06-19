@@ -3,35 +3,35 @@
         "Label": "IceA",
         "Table": [
             [
-                {"SlotType":"Common1", "Name":"バニプッチ"},
-                {"SlotType":"Common1", "Name":"ウリムー"},
-                {"SlotType":"Common1", "Name":"ユキカブリ"},
-                {"SlotType":"Common1", "Name":"カチコール"}
+                { "SlotType": "Common1", "Name": "バニプッチ" },
+                { "SlotType": "Common1", "Name": "ウリムー" },
+                { "SlotType": "Common1", "Name": "ユキカブリ" },
+                { "SlotType": "Common1", "Name": "カチコール" }
             ],
             [
-                {"SlotType":"Common1", "Name":"ユキカブリ"},
-                {"SlotType":"Common1", "Name":"カチコール"},
-                {"SlotType":"Common1", "Name":"デリバード"},
-                {"SlotType":"Common2", "Name":"バニリッチ"}
+                { "SlotType": "Common1", "Name": "ユキカブリ" },
+                { "SlotType": "Common1", "Name": "カチコール" },
+                { "SlotType": "Common1", "Name": "デリバード" },
+                { "SlotType": "Common2", "Name": "バニリッチ" }
             ],
             [
-                {"SlotType":"Common2", "Name":"バニリッチ"},
-                {"SlotType":"Common3", "Name":"イノムー"},
-                {"SlotType":"Common4", "Name":"クレベース"},
-                {"SlotType":"Common4", "Name":"ユキノオー"}
+                { "SlotType": "Common2", "Name": "バニリッチ" },
+                { "SlotType": "Common3", "Name": "イノムー" },
+                { "SlotType": "Common4", "Name": "クレベース" },
+                { "SlotType": "Common4", "Name": "ユキノオー" }
             ],
             [
-                {"SlotType":"Common3", "Name":"イノムー"},
-                {"SlotType":"Common4", "Name":"クレベース"},
-                {"SlotType":"Common4", "Name":"ユキノオー"},
-                {"SlotType":"Common5", "Name":"パルシェン"}
+                { "SlotType": "Common3", "Name": "イノムー" },
+                { "SlotType": "Common4", "Name": "クレベース" },
+                { "SlotType": "Common4", "Name": "ユキノオー" },
+                { "SlotType": "Common5", "Name": "パルシェン" }
             ],
             [
-                {"SlotType":"Common4", "Name":"クレベース"},
-                {"SlotType":"Common4", "Name":"ユキノオー"},
-                {"SlotType":"Common5", "Name":"パルシェン"},
-                {"SlotType":"Common5", "Name":"バイバニラ"},
-                {"SlotType":"Common5", "Name":"ラプラス"}
+                { "SlotType": "Common4", "Name": "クレベース" },
+                { "SlotType": "Common4", "Name": "ユキノオー" },
+                { "SlotType": "Common5", "Name": "パルシェン" },
+                { "SlotType": "Common5", "Name": "バイバニラ" },
+                { "SlotType": "Common5", "Name": "ラプラス" }
             ]
         ]
     },
@@ -39,35 +39,35 @@
         "Label": "IceB",
         "Table": [
             [
-                {"SlotType":"Common1", "Name":"ウリムー"},
-                {"SlotType":"Common1", "Name":"クマシュン"},
-                {"SlotType":"Common1", "Name":"ユキハミ"},
-                {"SlotType":"Common1", "Name":"ニューラ"}
+                { "SlotType": "Common1", "Name": "ウリムー" },
+                { "SlotType": "Common1", "Name": "クマシュン" },
+                { "SlotType": "Common1", "Name": "ユキハミ" },
+                { "SlotType": "Common1", "Name": "ニューラ" }
             ],
             [
-                {"SlotType":"Common1", "Name":"ユキハミ"},
-                {"SlotType":"Common1", "Name":"ニューラ"},
-                {"SlotType":"Common1", "Name":"バリヤード", "Form":"ガラル"},
-                {"SlotType":"Common2", "Name":"イノムー"}
+                { "SlotType": "Common1", "Name": "ユキハミ" },
+                { "SlotType": "Common1", "Name": "ニューラ" },
+                { "SlotType": "Common1", "Name": "バリヤード", "Form": "ガラル" },
+                { "SlotType": "Common2", "Name": "イノムー" }
             ],
             [
-                {"SlotType":"Common2", "Name":"イノムー"},
-                {"SlotType":"Common3", "Name":"パルシェン"},
-                {"SlotType":"Common4", "Name":"バリコオル"},
-                {"SlotType":"Common4", "Name":"ツンベアー"}
+                { "SlotType": "Common2", "Name": "イノムー" },
+                { "SlotType": "Common3", "Name": "パルシェン" },
+                { "SlotType": "Common4", "Name": "バリコオル" },
+                { "SlotType": "Common4", "Name": "ツンベアー" }
             ],
             [
-                {"SlotType":"Common3", "Name":"パルシェン"},
-                {"SlotType":"Common4", "Name":"バリコオル"},
-                {"SlotType":"Common4", "Name":"ツンベアー"},
-                {"SlotType":"Common5", "Name":"マンムー"}
+                { "SlotType": "Common3", "Name": "パルシェン" },
+                { "SlotType": "Common4", "Name": "バリコオル" },
+                { "SlotType": "Common4", "Name": "ツンベアー" },
+                { "SlotType": "Common5", "Name": "マンムー" }
             ],
             [
-                {"SlotType":"Common4", "Name":"バリコオル"},
-                {"SlotType":"Common4", "Name":"ツンベアー"},
-                {"SlotType":"Common5", "Name":"マンムー"},
-                {"SlotType":"Common5", "Name":"モスノウ"},
-                {"SlotType":"Common5", "Name":"マニューラ"}
+                { "SlotType": "Common4", "Name": "バリコオル" },
+                { "SlotType": "Common4", "Name": "ツンベアー" },
+                { "SlotType": "Common5", "Name": "マンムー" },
+                { "SlotType": "Common5", "Name": "モスノウ" },
+                { "SlotType": "Common5", "Name": "マニューラ" }
             ]
         ]
     },
@@ -75,35 +75,35 @@
         "Label": "IceC",
         "Table": [
             [
-                {"SlotType":"Common1", "Name":"ユキワラシ"},
-                {"SlotType":"Common1", "Name":"ユキハミ"},
-                {"SlotType":"Common1", "Name":"ニューラ"},
-                {"SlotType":"Common1", "Name":"ダルマッカ", "Form":"ガラル"}
+                { "SlotType": "Common1", "Name": "ユキワラシ" },
+                { "SlotType": "Common1", "Name": "ユキハミ" },
+                { "SlotType": "Common1", "Name": "ニューラ" },
+                { "SlotType": "Common1", "Name": "ダルマッカ", "Form": "ガラル" }
             ],
             [
-                {"SlotType":"Common1", "Name":"ニューラ"},
-                {"SlotType":"Common1", "Name":"ダルマッカ", "Form":"ガラル"},
-                {"SlotType":"Common2", "Name":"バリヤード", "Form":"ガラル"},
-                {"SlotType":"Common3", "Name":"ユキカブリ"}
+                { "SlotType": "Common1", "Name": "ニューラ" },
+                { "SlotType": "Common1", "Name": "ダルマッカ", "Form": "ガラル" },
+                { "SlotType": "Common2", "Name": "バリヤード", "Form": "ガラル" },
+                { "SlotType": "Common3", "Name": "ユキカブリ" }
             ],
             [
-                {"SlotType":"Common3", "Name":"ユキカブリ"},
-                {"SlotType":"Common3", "Name":"ユキノオー"},
-                {"SlotType":"Common4", "Name":"バリコオル"},
-                {"SlotType":"Common4", "Name":"オニゴーリ"}
+                { "SlotType": "Common3", "Name": "ユキカブリ" },
+                { "SlotType": "Common3", "Name": "ユキノオー" },
+                { "SlotType": "Common4", "Name": "バリコオル" },
+                { "SlotType": "Common4", "Name": "オニゴーリ" }
             ],
             [
-                {"SlotType":"Common3", "Name":"ユキノオー"},
-                {"SlotType":"Common4", "Name":"バリコオル"},
-                {"SlotType":"Common4", "Name":"オニゴーリ"},
-                {"SlotType":"Common5", "Name":"モスノウ"}
+                { "SlotType": "Common3", "Name": "ユキノオー" },
+                { "SlotType": "Common4", "Name": "バリコオル" },
+                { "SlotType": "Common4", "Name": "オニゴーリ" },
+                { "SlotType": "Common5", "Name": "モスノウ" }
             ],
             [
-                {"SlotType":"Common4", "Name":"バリコオル"},
-                {"SlotType":"Common4", "Name":"オニゴーリ"},
-                {"SlotType":"Common5", "Name":"モスノウ"},
-                {"SlotType":"Common5", "Name":"ユキメノコ"},
-                {"SlotType":"Common5", "Name":"ヒヒダルマ", "Form":"ガラル"}
+                { "SlotType": "Common4", "Name": "バリコオル" },
+                { "SlotType": "Common4", "Name": "オニゴーリ" },
+                { "SlotType": "Common5", "Name": "モスノウ" },
+                { "SlotType": "Common5", "Name": "ユキメノコ" },
+                { "SlotType": "Common5", "Name": "ヒヒダルマ", "Form": "ガラル" }
             ]
         ]
     },
@@ -111,35 +111,35 @@
         "Label": "IceD",
         "Table": [
             [
-                {"SlotType":"Common1", "Name":"バニプッチ"},
-                {"SlotType":"Common1", "Name":"バリヤード", "Form":"ガラル"},
-                {"SlotType":"Common1", "Name":"カチコール"},
-                {"SlotType":"Common1", "Name":"ダルマッカ", "Form":"ガラル"}
+                { "SlotType": "Common1", "Name": "バニプッチ" },
+                { "SlotType": "Common1", "Name": "バリヤード", "Form": "ガラル" },
+                { "SlotType": "Common1", "Name": "カチコール" },
+                { "SlotType": "Common1", "Name": "ダルマッカ", "Form": "ガラル" }
             ],
             [
-                {"SlotType":"Common1", "Name":"バリヤード", "Form":"ガラル"},
-                {"SlotType":"Common1", "Name":"カチコール"},
-                {"SlotType":"Common2", "Name":"ユキワラシ"},
-                {"SlotType":"Common2", "Name":"デリバード"}
+                { "SlotType": "Common1", "Name": "バリヤード", "Form": "ガラル" },
+                { "SlotType": "Common1", "Name": "カチコール" },
+                { "SlotType": "Common2", "Name": "ユキワラシ" },
+                { "SlotType": "Common2", "Name": "デリバード" }
             ],
             [
-                {"SlotType":"Common2", "Name":"ユキワラシ"},
-                {"SlotType":"Common2", "Name":"デリバード"},
-                {"SlotType":"Common3", "Name":"クレベース"},
-                {"SlotType":"Common4", "Name":"オニゴーリ"}
+                { "SlotType": "Common2", "Name": "ユキワラシ" },
+                { "SlotType": "Common2", "Name": "デリバード" },
+                { "SlotType": "Common3", "Name": "クレベース" },
+                { "SlotType": "Common4", "Name": "オニゴーリ" }
             ],
             [
-                {"SlotType":"Common3", "Name":"クレベース"},
-                {"SlotType":"Common4", "Name":"オニゴーリ"},
-                {"SlotType":"Common5", "Name":"バイバニラ"},
-                {"SlotType":"Common5", "Name":"バリコオル"}
+                { "SlotType": "Common3", "Name": "クレベース" },
+                { "SlotType": "Common4", "Name": "オニゴーリ" },
+                { "SlotType": "Common5", "Name": "バイバニラ" },
+                { "SlotType": "Common5", "Name": "バリコオル" }
             ],
             [
-                {"SlotType":"Common4", "Name":"オニゴーリ"},
-                {"SlotType":"Common5", "Name":"バイバニラ"},
-                {"SlotType":"Common5", "Name":"バリコオル"},
-                {"SlotType":"Common5", "Name":"ラプラス"},
-                {"SlotType":"Common5", "Name":"ヒヒダルマ", "Form":"ガラル"}
+                { "SlotType": "Common4", "Name": "オニゴーリ" },
+                { "SlotType": "Common5", "Name": "バイバニラ" },
+                { "SlotType": "Common5", "Name": "バリコオル" },
+                { "SlotType": "Common5", "Name": "ラプラス" },
+                { "SlotType": "Common5", "Name": "ヒヒダルマ", "Form": "ガラル" }
             ]
         ]
     },
@@ -147,36 +147,36 @@
         "Label": "IceE",
         "Table": [
             [
-                {"SlotType":"Common1", "Name":"バニプッチ"},
-                {"SlotType":"Common1", "Name":"ユキハミ"},
-                {"SlotType":"Common1", "Name":"バリヤード", "Form":"ガラル"},
-                {"SlotType":"Common1", "Name":"カチコール"}
+                { "SlotType": "Common1", "Name": "バニプッチ" },
+                { "SlotType": "Common1", "Name": "ユキハミ" },
+                { "SlotType": "Common1", "Name": "バリヤード", "Form": "ガラル" },
+                { "SlotType": "Common1", "Name": "カチコール" }
             ],
             [
-                {"SlotType":"Common1", "Name":"バリヤード", "Form":"ガラル"},
-                {"SlotType":"Common1", "Name":"カチコール"},
-                {"SlotType":"Common2", "Name":"ユキワラシ"},
-                {"SlotType":"Common2", "Name":"バニリッチ"}
+                { "SlotType": "Common1", "Name": "バリヤード", "Form": "ガラル" },
+                { "SlotType": "Common1", "Name": "カチコール" },
+                { "SlotType": "Common2", "Name": "ユキワラシ" },
+                { "SlotType": "Common2", "Name": "バニリッチ" }
             ],
             [
-                {"SlotType":"Common2", "Name":"ユキワラシ"},
-                {"SlotType":"Common2", "Name":"バニリッチ"},
-                {"SlotType":"Common3", "Name":"クレベース"},
-                {"SlotType":"Common4", "Name":"モスノウ"}
+                { "SlotType": "Common2", "Name": "ユキワラシ" },
+                { "SlotType": "Common2", "Name": "バニリッチ" },
+                { "SlotType": "Common3", "Name": "クレベース" },
+                { "SlotType": "Common4", "Name": "モスノウ" }
             ],
             [
-                {"SlotType":"Common3", "Name":"クレベース"},
-                {"SlotType":"Common4", "Name":"モスノウ"},
-                {"SlotType":"Common5", "Name":"バイバニラ"},
-                {"SlotType":"Common5", "Name":"バリコオル"}
+                { "SlotType": "Common3", "Name": "クレベース" },
+                { "SlotType": "Common4", "Name": "モスノウ" },
+                { "SlotType": "Common5", "Name": "バイバニラ" },
+                { "SlotType": "Common5", "Name": "バリコオル" }
             ],
             [
-                {"SlotType":"Common4", "Name":"モスノウ"},
-                {"SlotType":"Common5", "Name":"バイバニラ"},
-                {"SlotType":"Common5", "Name":"バリコオル"},
-                {"SlotType":"Common5", "Name":"ラプラス"},
-                {"SlotType":"Common5", "Name":"ユキメノコ"},
-                {"SlotType":"Common5", "Name":"グレイシア"}
+                { "SlotType": "Common4", "Name": "モスノウ" },
+                { "SlotType": "Common5", "Name": "バイバニラ" },
+                { "SlotType": "Common5", "Name": "バリコオル" },
+                { "SlotType": "Common5", "Name": "ラプラス" },
+                { "SlotType": "Common5", "Name": "ユキメノコ" },
+                { "SlotType": "Common5", "Name": "グレイシア" }
             ]
         ]
     }

@@ -3,34 +3,34 @@
         "Label": "DragonA",
         "Table": [
             [
-                {"SlotType":"Common1", "Name":"オンバット"},
-                {"SlotType":"Common1", "Name":"キバゴ"},
-                {"SlotType":"Common1", "Name":"ナックラー"}
+                { "SlotType": "Common1", "Name": "オンバット" },
+                { "SlotType": "Common1", "Name": "キバゴ" },
+                { "SlotType": "Common1", "Name": "ナックラー" }
             ],
             [
-                {"SlotType":"Common1", "Name":"オンバット"},
-                {"SlotType":"Common1", "Name":"キバゴ"},
-                {"SlotType":"Common2", "Name":"ビブラーバ"},
-                {"SlotType":"Common2", "Name":"ジャラコ"}
+                { "SlotType": "Common1", "Name": "オンバット" },
+                { "SlotType": "Common1", "Name": "キバゴ" },
+                { "SlotType": "Common2", "Name": "ビブラーバ" },
+                { "SlotType": "Common2", "Name": "ジャラコ" }
             ],
             [
-                {"SlotType":"Common2", "Name":"ビブラーバ"},
-                {"SlotType":"Common3", "Name":"ジャランゴ"},
-                {"SlotType":"Common4", "Name":"オノンド"},
-                {"SlotType":"Common4", "Name":"オノノクス"}
+                { "SlotType": "Common2", "Name": "ビブラーバ" },
+                { "SlotType": "Common3", "Name": "ジャランゴ" },
+                { "SlotType": "Common4", "Name": "オノンド" },
+                { "SlotType": "Common4", "Name": "オノノクス" }
             ],
             [
-                {"SlotType":"Common3", "Name":"ジャランゴ"},
-                {"SlotType":"Common4", "Name":"オノンド"},
-                {"SlotType":"Common4", "Name":"オノノクス"},
-                {"SlotType":"Common5", "Name":"フライゴン"}
+                { "SlotType": "Common3", "Name": "ジャランゴ" },
+                { "SlotType": "Common4", "Name": "オノンド" },
+                { "SlotType": "Common4", "Name": "オノノクス" },
+                { "SlotType": "Common5", "Name": "フライゴン" }
             ],
             [
-                {"SlotType":"Common4", "Name":"オノンド"},
-                {"SlotType":"Common4", "Name":"オノノクス"},
-                {"SlotType":"Common5", "Name":"フライゴン"},
-                {"SlotType":"Common5", "Name":"バクガメス"},
-                {"SlotType":"Common5", "Name":"ジャラランガ"}
+                { "SlotType": "Common4", "Name": "オノンド" },
+                { "SlotType": "Common4", "Name": "オノノクス" },
+                { "SlotType": "Common5", "Name": "フライゴン" },
+                { "SlotType": "Common5", "Name": "バクガメス" },
+                { "SlotType": "Common5", "Name": "ジャラランガ" }
             ]
         ]
     },
@@ -38,35 +38,35 @@
         "Label": "DragonB",
         "Table": [
             [
-                {"SlotType":"Common1", "Name":"オンバット"},
-                {"SlotType":"Common1", "Name":"カジッチュ"},
-                {"SlotType":"Common1", "Name":"ドラメシヤ"},
-                {"SlotType":"Common1", "Name":"ジャラコ"}
+                { "SlotType": "Common1", "Name": "オンバット" },
+                { "SlotType": "Common1", "Name": "カジッチュ" },
+                { "SlotType": "Common1", "Name": "ドラメシヤ" },
+                { "SlotType": "Common1", "Name": "ジャラコ" }
             ],
             [
-                {"SlotType":"Common1", "Name":"ドラメシヤ"},
-                {"SlotType":"Common1", "Name":"ジャラコ"},
-                {"SlotType":"Common2", "Name":"オンバット"},
-                {"SlotType":"Common2", "Name":"カジッチュ"}
+                { "SlotType": "Common1", "Name": "ドラメシヤ" },
+                { "SlotType": "Common1", "Name": "ジャラコ" },
+                { "SlotType": "Common2", "Name": "オンバット" },
+                { "SlotType": "Common2", "Name": "カジッチュ" }
             ],
             [
-                {"SlotType":"Common2", "Name":"カジッチュ"},
-                {"SlotType":"Common3", "Name":"ドロンチ"},
-                {"SlotType":"Common4", "Name":"オンバーン"},
-                {"SlotType":"Common4", "Name":"ジャランゴ"}
+                { "SlotType": "Common2", "Name": "カジッチュ" },
+                { "SlotType": "Common3", "Name": "ドロンチ" },
+                { "SlotType": "Common4", "Name": "オンバーン" },
+                { "SlotType": "Common4", "Name": "ジャランゴ" }
             ],
             [
-                {"SlotType":"Common3", "Name":"ドロンチ"},
-                {"SlotType":"Common4", "Name":"オンバーン"},
-                {"SlotType":"Common4", "Name":"ジャランゴ"},
-                {"SlotType":"Common5", "Name":"ジャラランガ"}
+                { "SlotType": "Common3", "Name": "ドロンチ" },
+                { "SlotType": "Common4", "Name": "オンバーン" },
+                { "SlotType": "Common4", "Name": "ジャランゴ" },
+                { "SlotType": "Common5", "Name": "ジャラランガ" }
             ],
             [
-                {"SlotType":"Common4", "Name":"オンバーン"},
-                {"SlotType":"Common4", "Name":"ジャランゴ"},
-                {"SlotType":"Common5", "Name":"ドラパルト"},
-                {"SlotType":"Common5", "Name":"ジャラランガ"},
-                {"SlotType":"Common5", "Name":"アップリュー"}
+                { "SlotType": "Common4", "Name": "オンバーン" },
+                { "SlotType": "Common4", "Name": "ジャランゴ" },
+                { "SlotType": "Common5", "Name": "ドラパルト" },
+                { "SlotType": "Common5", "Name": "ジャラランガ" },
+                { "SlotType": "Common5", "Name": "アップリュー" }
             ]
         ]
     },
@@ -74,36 +74,112 @@
         "Label": "DragonC",
         "Table": [
             [
-                {"SlotType":"Common1", "Name":"キバゴ"},
-                {"SlotType":"Common1", "Name":"ナックラー"},
-                {"SlotType":"Common1", "Name":"カジッチュ"},
-                {"SlotType":"Common1", "Name":"ジャラコ"}
+                { "SlotType": "Common1", "Name": "キバゴ" },
+                { "SlotType": "Common1", "Name": "ナックラー" },
+                { "SlotType": "Common1", "Name": "カジッチュ" },
+                { "SlotType": "Common1", "Name": "ジャラコ" }
             ],
             [
-                {"SlotType":"Common1", "Name":"キバゴ"},
-                {"SlotType":"Common1", "Name":"ジャラコ"},
-                {"SlotType":"Common2", "Name":"ドラメシヤ"},
-                {"SlotType":"Common2", "Name":"オノンド"}
+                { "SlotType": "Common1", "Name": "キバゴ" },
+                { "SlotType": "Common1", "Name": "ジャラコ" },
+                { "SlotType": "Common2", "Name": "ドラメシヤ" },
+                { "SlotType": "Common2", "Name": "オノンド" }
             ],
             [
-                {"SlotType":"Common2", "Name":"ドラメシヤ"},
-                {"SlotType":"Common2", "Name":"オノンド"},
-                {"SlotType":"Common4", "Name":"バクガメス"},
-                {"SlotType":"Common4", "Name":"ジャランゴ"}
+                { "SlotType": "Common2", "Name": "ドラメシヤ" },
+                { "SlotType": "Common2", "Name": "オノンド" },
+                { "SlotType": "Common4", "Name": "バクガメス" },
+                { "SlotType": "Common4", "Name": "ジャランゴ" }
             ],
             [
-                {"SlotType":"Common4", "Name":"バクガメス"},
-                {"SlotType":"Common4", "Name":"ジャランゴ"},
-                {"SlotType":"Common5", "Name":"ドロンチ"},
-                {"SlotType":"Common5", "Name":"ジャラランガ"}
+                { "SlotType": "Common4", "Name": "バクガメス" },
+                { "SlotType": "Common4", "Name": "ジャランゴ" },
+                { "SlotType": "Common5", "Name": "ドロンチ" },
+                { "SlotType": "Common5", "Name": "ジャラランガ" }
             ],
             [
-                {"SlotType":"Common4", "Name":"バクガメス"},
-                {"SlotType":"Common4", "Name":"ジャランゴ"},
-                {"SlotType":"Common5", "Name":"ドロンチ"},
-                {"SlotType":"Common5", "Name":"ジャラランガ"},
-                {"SlotType":"Common5", "Name":"ドラパルト"},
-                {"SlotType":"Common5", "Name":"オノノクス"}
+                { "SlotType": "Common4", "Name": "バクガメス" },
+                { "SlotType": "Common4", "Name": "ジャランゴ" },
+                { "SlotType": "Common5", "Name": "ドロンチ" },
+                { "SlotType": "Common5", "Name": "ジャラランガ" },
+                { "SlotType": "Common5", "Name": "ドラパルト" },
+                { "SlotType": "Common5", "Name": "オノノクス" }
+            ]
+        ]
+    },
+    {
+        "Label": "DragonD",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ジャラコ" },
+                { "SlotType": "Common1", "Name": "タッツー" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ジャラコ" },
+                { "SlotType": "Common1", "Name": "タッツー" },
+                { "SlotType": "Common2", "Name": "カジッチュ" },
+                { "SlotType": "Common2", "Name": "シードラ" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "カジッチュ" },
+                { "SlotType": "Common2", "Name": "シードラ" },
+                { "SlotType": "Common3", "Name": "クリムガン" },
+                { "SlotType": "Common3", "Name": "ジャランゴ" },
+                { "SlotType": "Common4", "Name": "ラッキー" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "クリムガン" },
+                { "SlotType": "Common3", "Name": "ジャランゴ" },
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "クリムガン" },
+                { "SlotType": "Common5", "Name": "ギャラドス" },
+                { "SlotType": "Common5", "Name": "アップリュー" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "クリムガン" },
+                { "SlotType": "Common5", "Name": "ギャラドス" },
+                { "SlotType": "Common5", "Name": "アップリュー" },
+                { "SlotType": "Common5", "Name": "キングドラ" },
+                { "SlotType": "Common5", "Name": "ジャラランガ" }
+            ]
+        ]
+    },
+    {
+        "Label": "DragonE",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "タッツー", "ForceHiddenAbility": true },
+                { "SlotType": "Common1", "Name": "クリムガン", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "タッツー", "ForceHiddenAbility": true },
+                { "SlotType": "Common1", "Name": "クリムガン", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "バクガメス", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ジャラコ", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "バクガメス", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ジャラコ", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "シードラ", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "ジャランゴ", "ForceHiddenAbility": true },
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "シードラ", "ForceHiddenAbility": true },
+                { "SlotType": "Common3", "Name": "ジャランゴ", "ForceHiddenAbility": true },
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "バクガメス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "クリムガン", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "オンバーン", "ForceHiddenAbility": true }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "バクガメス", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "クリムガン", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "オンバーン", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "キングドラ", "ForceHiddenAbility": true },
+                { "SlotType": "Common5", "Name": "ジャラランガ", "ForceHiddenAbility": true }
             ]
         ]
     }
