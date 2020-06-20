@@ -1175,7 +1175,7 @@ namespace SwShRNGLibrary
             DexData.Add(new Species(656, -1, "ケロマツ", "", new uint[] { 41, 56, 40, 62, 44, 71 }, (PokeType.Water, PokeType.Non), new string[] { "げきりゅう", "げきりゅう", "へんげんじざい" }, GenderRatio.M7F1));
             DexData.Add(new Species(657, -1, "ゲコガシラ", "", new uint[] { 54, 63, 52, 83, 56, 97 }, (PokeType.Water, PokeType.Non), new string[] { "げきりゅう", "げきりゅう", "へんげんじざい" }, GenderRatio.M7F1));
             DexData.Add(new Species(658, -1, "ゲッコウガ", "", new uint[] { 72, 95, 67, 103, 71, 122 }, (PokeType.Water, PokeType.Dark), new string[] { "げきりゅう", "げきりゅう", "へんげんじざい" }, GenderRatio.M7F1));
-            DexData.Add(new AnotherForm(658, -1, "ゲッコウガ", "サトシゲッコウガ", new uint[] { 72, 145, 67, 153, 71, 132 }, (PokeType.Water, PokeType.Dark), new string[] { "きずなへんげ", "きずなへんげ", "きずなへんげ" }, GenderRatio.Genderless));
+            DexData.Add(new AnotherForm(658, -1, "ゲッコウガ", "サトシ", new uint[] { 72, 145, 67, 153, 71, 132 }, (PokeType.Water, PokeType.Dark), new string[] { "きずなへんげ", "きずなへんげ", "きずなへんげ" }, GenderRatio.Genderless));
             DexData.Add(new Species(661, -1, "ヤヤコマ", "", new uint[] { 45, 50, 43, 40, 38, 62 }, (PokeType.Normal, PokeType.Flying), new string[] { "はとむね", "はとむね", "はやてのつばさ" }, GenderRatio.M1F1));
             DexData.Add(new Species(662, -1, "ヒノヤコマ", "", new uint[] { 62, 73, 55, 56, 52, 84 }, (PokeType.Fire, PokeType.Flying), new string[] { "ほのおのからだ", "ほのおのからだ", "はやてのつばさ" }, GenderRatio.M1F1));
             DexData.Add(new Species(663, -1, "ファイアロー", "", new uint[] { 78, 81, 71, 74, 69, 126 }, (PokeType.Fire, PokeType.Flying), new string[] { "ほのおのからだ", "ほのおのからだ", "はやてのつばさ" }, GenderRatio.M1F1));
