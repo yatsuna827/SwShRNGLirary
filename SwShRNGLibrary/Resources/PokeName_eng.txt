@@ -960,3 +960,5 @@
 まいまい,Sensu
 コア,Core
 流星,Meteor
+れんげき,Rapid Strike
+いちげき,Single Strike

@@ -256,3 +256,4 @@ ARシステム,RKS System
 かがくへんかガス,Neutralizing Gas
 パステルベール,Pastel Veil
 はらぺこスイッチ,Hunger Switch
+ふかしのこぶし,Unseen Fist
