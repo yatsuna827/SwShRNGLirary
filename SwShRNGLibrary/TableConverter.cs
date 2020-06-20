@@ -79,6 +79,7 @@ namespace SwShRNGLibrary
         public bool ForceHiddenAbility { get; set; }
         public bool isUncatchable { get; set; }
         public bool isShinyLocked { get; set; }
+        public string GenderFixation { get; set; }
         internal RaidBattleSlot createSlot()
         {
             RaidBattleSlot slot;
@@ -111,6 +112,8 @@ namespace SwShRNGLibrary
             if (ForceHiddenAbility) slot = slot.BeForceHiddenAbility();
             if (isUncatchable) slot = slot.BeUncatchable();
             if (isShinyLocked) slot = slot.BeShinyLocked();
+            if (!slot.pokemon.GenderRatio.isFixed() && (GenderFixation.ToLower() == "male" || GenderFixation == "♂")) slot.FixGender(Gender.Male);
+            if (!slot.pokemon.GenderRatio.isFixed() && (GenderFixation.ToLower() == "female" || GenderFixation == "♀")) slot.FixGender(Gender.Female);
 
             return slot;
         }
