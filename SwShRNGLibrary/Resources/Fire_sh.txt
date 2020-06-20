@@ -296,11 +296,11 @@
                 { "SlotType": "Common1", "Name": "ヤヤコマ" },
                 { "SlotType": "Common1", "Name": "ヤトウモリ" },
                 { "SlotType": "Common2", "Name": "メラルバ" },
-                { "SlotType": "Common2", "Name": "ヤトウモリ" }
+                { "SlotType": "Common2", "Name": "ヤトウモリ", "GenderFixation": "Female" }
             ],
             [
                 { "SlotType": "Common2", "Name": "メラルバ" },
-                { "SlotType": "Common2", "Name": "ヤトウモリ" },
+                { "SlotType": "Common2", "Name": "ヤトウモリ", "GenderFixation": "Female" },
                 { "SlotType": "Common3", "Name": "ヒノヤコマ" },
                 { "SlotType": "Common3", "Name": "メラルバ" },
                 { "SlotType": "Common4", "Name": "ラッキー" }
@@ -334,11 +334,11 @@
                 { "SlotType": "Common1", "Name": "メラルバ", "ForceHiddenAbility": true },
                 { "SlotType": "Common1", "Name": "ヒトモシ", "ForceHiddenAbility": true },
                 { "SlotType": "Common2", "Name": "メラルバ", "ForceHiddenAbility": true },
-                { "SlotType": "Common2", "Name": "ヤトウモリ", "ForceHiddenAbility": true }
+                { "SlotType": "Common2", "Name": "ヤトウモリ", "GenderFixation": "Female", "ForceHiddenAbility": true }
             ],
             [
                 { "SlotType": "Common2", "Name": "メラルバ", "ForceHiddenAbility": true },
-                { "SlotType": "Common2", "Name": "ヤトウモリ", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ヤトウモリ", "GenderFixation": "Female", "ForceHiddenAbility": true },
                 { "SlotType": "Common3", "Name": "コータス", "ForceHiddenAbility": true },
                 { "SlotType": "Common3", "Name": "エンニュート", "ForceHiddenAbility": true },
                 { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true }

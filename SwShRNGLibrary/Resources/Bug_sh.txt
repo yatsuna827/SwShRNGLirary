@@ -291,19 +291,18 @@
         "Label": "BugI",
         "Table": [
             [
-                { "SlotType": "Common1", "Name": "ミツハニー", "ForceHiddenAbility": true }
+                { "SlotType": "Common1", "Name": "ミツハニー", "GenderFixation": "Female", "ForceHiddenAbility": true }
             ],
             [
-                { "SlotType": "Common1", "Name": "ミツハニー", "ForceHiddenAbility": true },
-                { "SlotType": "Common2", "Name": "ミツハニー", "ForceHiddenAbility": true }
+                { "SlotType": "Common1", "Name": "ミツハニー", "GenderFixation": "Female", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ミツハニー", "GenderFixation": "Female", "ForceHiddenAbility": true }
             ],
             [
-                { "SlotType": "Common2", "Name": "ミツハニー", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ミツハニー", "GenderFixation": "Female", "ForceHiddenAbility": true },
                 { "SlotType": "Common3", "Name": "ビークイン", "ForceHiddenAbility": true },
                 { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true }
             ],
             [
-                { "SlotType": "Common2", "Name": "ミツハニー", "ForceHiddenAbility": true },
                 { "SlotType": "Common3", "Name": "ビークイン", "ForceHiddenAbility": true },
                 { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true },
                 { "SlotType": "Common5", "Name": "ビークイン", "ForceHiddenAbility": true }
