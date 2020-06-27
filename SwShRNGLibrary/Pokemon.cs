@@ -152,11 +152,40 @@ namespace SwShRNGLibrary
                 Type = type;
                 GenderRatio = ratio;
             }
+            internal Species(int dexID, int galarDexID, int armorDexID, string name, string formName, uint[] bs, (PokeType type1, PokeType type2) type, string[] ability, GenderRatio ratio)
+            {
+                DexID = dexID;
+                GalarDexID = galarDexID;
+                ArmorDexID = armorDexID;
+                Name = name;
+                FormName = formName;
+                BS = bs;
+                Ability = ability;
+                Type = type;
+                GenderRatio = ratio;
+            }
+            internal Species(int dexID, int galarDexID, int armorDexID, int crownDexID, string name, string formName, uint[] bs, (PokeType type1, PokeType type2) type, string[] ability, GenderRatio ratio)
+            {
+                DexID = dexID;
+                GalarDexID = galarDexID;
+                ArmorDexID = armorDexID;
+                CrownDexID = crownDexID; 
+                Name = name;
+                FormName = formName;
+                BS = bs;
+                Ability = ability;
+                Type = type;
+                GenderRatio = ratio;
+            }
         }
         class AnotherForm : Species
         {
             internal AnotherForm(int dexID, int galarDexID, string name, string formName, uint[] bs, (PokeType type1, PokeType type2) type, string[] ability, GenderRatio ratio)
                 : base(dexID, galarDexID, name, formName, bs, type, ability, ratio) { }
+            internal AnotherForm(int dexID, int galarDexID, int armorDexID, string name, string formName, uint[] bs, (PokeType type1, PokeType type2) type, string[] ability, GenderRatio ratio)
+                : base(dexID, galarDexID, armorDexID, name, formName, bs, type, ability, ratio) { }
+            internal AnotherForm(int dexID, int galarDexID, int armorDexID, int crownDexID, string name, string formName, uint[] bs, (PokeType type1, PokeType type2) type, string[] ability, GenderRatio ratio)
+                : base(dexID, galarDexID, armorDexID, crownDexID, name, formName, bs, type, ability, ratio) { }
             public override string GetDefaultName()
             {
                 return $"{Name}({FormName})";

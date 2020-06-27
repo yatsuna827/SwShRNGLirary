@@ -94,7 +94,7 @@
             { "Label": "B", "Index": 153, "Normal": "GrassH", "Rare": "GrassI" },
             { "Label": "C", "Index": 155, "Normal": "NormalG", "Rare": "NormalH" },
             { "Label": "D", "Index": 150, "Normal": "GrassJ", "Rare": "GrassK" },
-            { "Label": "E", "Index": 154, "Normal": "BugG", "Rare": "BugJ" },
+            { "Label": "E", "Index": 154, "Normal": "BugF", "Rare": "BugJ" },
             { "Label": "F", "Index": 149, "Normal": "PoisonE", "Rare": "PoisonF" },
             { "Label": "G", "Index": 151, "Normal": "PsychicF", "Rare": "PsychicG" }
         ]
