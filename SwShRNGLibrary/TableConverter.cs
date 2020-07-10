@@ -30,6 +30,14 @@ namespace SwShRNGLibrary
         {
             return eventTableList[(int)version];
         }
+
+        // 高々数十個しかデータ登録されないはずなので線形探索で事足りるという判断をしました.
+        public IReadOnlyList<RaidTable> GetEventRaidTable(Rom version, string label)
+        {
+            var idx = eventLabelList.FindIndex(_ => _ == label);
+            if (idx < 0) throw new KeyNotFoundException($"イベントデータ【{label}】が見つかりませんでした");
+            return eventTableList[(int)version][idx];
+        }
         public IReadOnlyList<string> GetEventLabelList()
         {
             return eventLabelList;
