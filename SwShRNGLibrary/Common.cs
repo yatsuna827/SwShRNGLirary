@@ -143,5 +143,24 @@ namespace SwShRNGLibrary
         {
             return romname[(int)rom];
         }
+        public static string ToJapanese(this Rom version)
+        {
+            return version == Rom.Sword ? "ソード" : "シールド";
+        }
+        public static string ToAbbreviation(this Rom version)
+        {
+            return version == Rom.Sword ? "SW" : "SH";
+        }
+        public static string ToJapanese(this Region region)
+        {
+            return region == Region.Mainland ? "ガラル本土" : "ヨロイ島";
+        }
+        public static Gender ConvertToGender(this string symbol)
+        {
+            if (symbol == "♂") return Gender.Male;
+            if (symbol == "♀") return Gender.Female;
+            return Gender.Genderless;
+        }
+
     }
 }
