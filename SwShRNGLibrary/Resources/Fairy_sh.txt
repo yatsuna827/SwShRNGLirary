@@ -266,11 +266,11 @@
                 { "SlotType": "Common1", "Name": "ピィ", "ForceHiddenAbility": true },
                 { "SlotType": "Common1", "Name": "ネマシュ", "ForceHiddenAbility": true },
                 { "SlotType": "Common2", "Name": "マリル", "ForceHiddenAbility": true },
-                { "SlotType": "Common2", "Name": "プリン", "ForceHiddenAbility": true }
+                { "SlotType": "Common2", "Name": "ピッピ", "ForceHiddenAbility": true }
             ],
             [
                 { "SlotType": "Common2", "Name": "マリル", "ForceHiddenAbility": true },
-                { "SlotType": "Common2", "Name": "プリン", "ForceHiddenAbility": true },
+                { "SlotType": "Common2", "Name": "ピッピ", "ForceHiddenAbility": true },
                 { "SlotType": "Common3", "Name": "キルリア", "ForceHiddenAbility": true },
                 { "SlotType": "Common3", "Name": "クレッフィ", "ForceHiddenAbility": true },
                 { "SlotType": "Common4", "Name": "ハピナス", "ForceHiddenAbility": true }
