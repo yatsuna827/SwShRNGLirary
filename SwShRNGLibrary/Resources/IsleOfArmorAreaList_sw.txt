@@ -81,7 +81,7 @@
     {
         "AreaName": "円環の入り江",
         "DenList": [
-            { "Label": "A", "Index": 146, "Normal": "DragonD", "Rare": "DragonE" },
+            { "Label": "A", "Index": 146, "Normal": "DragonD", "Rare": "GrassL" },
             { "Label": "B", "Index": 148, "Normal": "FlyingE", "Rare": "FlyingF" },
             { "Label": "C", "Index": 145, "Normal": "FireI", "Rare": "FireJ" },
             { "Label": "D", "Index": 147, "Normal": "WaterP", "Rare": "WaterQ" }
