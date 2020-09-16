@@ -51,7 +51,6 @@
                 { "SlotType": "Common2", "Name": "ロゼリア" }
             ],
             [
-                { "SlotType": "Common2", "Name": "チェリンボ" },
                 { "SlotType": "Common2", "Name": "ロゼリア" },
                 { "SlotType": "Common3", "Name": "テッシード" },
                 { "SlotType": "Common4", "Name": "ナットレイ" },
