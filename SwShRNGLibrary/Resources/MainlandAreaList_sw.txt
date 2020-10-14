@@ -123,7 +123,7 @@
             { "Label": "G", "Index": 60, "Normal": "RockA", "Rare": "RockC" }, 
             { "Label": "H", "Index": 65, "Normal": "SteelB", "Rare": "SteelF" }, 
             { "Label": "I", "Index": 66, "Normal": "IceB", "Rare": "IceD" }, 
-            { "Label": "J", "Index": 67, "Normal": "PsychicC", "Rare": "PsychicE" }, 
+            { "Label": "J", "Index": 67, "Normal": "PsychicC", "Rare": "PsychicD" }, 
             { "Label": "K", "Index": 68, "Normal": "FireA", "Rare": "FireE" }, 
             { "Label": "L", "Index": 58, "Normal": "NormalB", "Rare": "NormalD" }
         ]
