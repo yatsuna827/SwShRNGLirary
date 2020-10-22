@@ -33,7 +33,7 @@ namespace SwShRNGLibrary
     }
     public enum ShinyType { NotShiny, Star, Square }
     public enum Rom { Sword, Shield }
-    public enum Region { Mainland, IsleOfArmor, CrownTundra } // , CrownTundra
+    public enum Region { Mainland, IsleOfArmor, CrownTundra } 
     public static class CommonExtension
     {
         static private readonly string[] Nature_GER =
@@ -152,7 +152,9 @@ namespace SwShRNGLibrary
         }
         public static string ToJapanese(this Region region)
         {
-            return region == Region.Mainland ? "ガラル本土" : "ヨロイ島";
+            if (region == Region.Mainland) return "ガラル本土";
+            if (region == Region.IsleOfArmor) return "ヨロイ島";
+            return "カンムリ雪原";
         }
         public static Gender ConvertToGender(this string symbol)
         {
