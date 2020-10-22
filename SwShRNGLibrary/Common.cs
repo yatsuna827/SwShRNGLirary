@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace SwShRNGLibrary
 {
-
     public enum Gender { Male, Female, Genderless }
     public enum GenderRatio : uint
     {
@@ -34,7 +33,7 @@ namespace SwShRNGLibrary
     }
     public enum ShinyType { NotShiny, Star, Square }
     public enum Rom { Sword, Shield }
-    public enum Region { Mainland, IsleOfArmor } // , CrownTundra
+    public enum Region { Mainland, IsleOfArmor, CrownTundra } // , CrownTundra
     public static class CommonExtension
     {
         static private readonly string[] Nature_GER =
