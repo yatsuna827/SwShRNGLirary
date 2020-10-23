@@ -31,3 +31,15 @@
 離れ島海域,Insular Sea
 ハニカームの海,Honeycalm Sea
 ハニカーム島,Honeycalm Island
+滑り出し雪原,Slippery Slope
+氷点雪原,Frostpoint Field
+巨人の寝床,Giant's Bed
+いにしえの墓地,Old Cemetery
+雪中渓谷,Snowslide Slope
+頂への雪道,Path to the Peak
+カンムリ神殿,Crown Shrine
+巨人の靴底,Giant's Foot
+凍てつきの海,Frigid Sea
+三つまたヶ原,Three-Point Pass
+ボールレイクの湖畔,Ballimere Lake
+ダイ木の丘,Dyna Tree Hill
