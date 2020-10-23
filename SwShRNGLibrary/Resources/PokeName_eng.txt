@@ -890,10 +890,12 @@
 ムゲンダイナ,Eternatus
 ダクマ,Kubfu
 ウーラオス,Urshifu
-バドレックス,Calyrex
 ザルード,Zarude
 レジエレキ,Regieleki
 レジドラゴ,Regidrago
+ブリザポス,Glastrier
+レイスポス,Spectrier
+バドレックス,Calyrex
 ♂,Male
 ♀,Female
 あお,Blue
@@ -962,3 +964,5 @@
 流星,Meteor
 れんげき,Rapid Strike
 いちげき,Single Strike
+はくばじょう,Ice Rider
+こくばじょう,Shadow Rider
