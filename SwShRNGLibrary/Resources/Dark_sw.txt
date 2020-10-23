@@ -256,5 +256,77 @@
                 { "SlotType": "Common5", "Name": "ワルビアル", "ForceHiddenAbility": true }
             ]
         ]
+    },
+    {
+        "Label": "Dark_CT_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ニューラ" },
+                { "SlotType": "Common1", "Name": "ベロバー" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ニューラ" },
+                { "SlotType": "Common1", "Name": "ベロバー" },
+                { "SlotType": "Common2", "Name": "ベロバー" },
+                { "SlotType": "Common2", "Name": "ギモー" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ベロバー" },
+                { "SlotType": "Common2", "Name": "ギモー" },
+                { "SlotType": "Common3", "Name": "ニューラ" },
+                { "SlotType": "Common3", "Name": "マッスグマ", "Form": "ガラル" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ニューラ" },
+                { "SlotType": "Common3", "Name": "マッスグマ", "Form": "ガラル" },
+                { "SlotType": "Common5", "Name": "オーロンゲ" },
+                { "SlotType": "Common5", "Name": "アブソル" },
+                { "SlotType": "Common5", "Name": "タチフサグマ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "オーロンゲ" },
+                { "SlotType": "Common5", "Name": "アブソル" },
+                { "SlotType": "Common5", "Name": "タチフサグマ" },
+                { "SlotType": "Common5", "Name": "マニューラ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Dark_CT_B",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "ベロバー" },
+                { "SlotType": "Rare2", "Name": "アブソル" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ベロバー" },
+                { "SlotType": "Rare2", "Name": "アブソル" },
+                { "SlotType": "Rare3", "Name": "ニューラ" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "ニューラ" },
+                { "SlotType": "Rare4", "Name": "フォクスライ" },
+                { "SlotType": "Rare4", "Name": "レパルダス" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "フォクスライ" },
+                { "SlotType": "Rare4", "Name": "レパルダス" },
+                { "SlotType": "Rare5", "Name": "アブソル" },
+                { "SlotType": "Rare5", "Name": "オーロンゲ" },
+                { "SlotType": "Rare5", "Name": "マニューラ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "アブソル" },
+                { "SlotType": "Rare5", "Name": "オーロンゲ" },
+                { "SlotType": "Rare5", "Name": "マニューラ" },
+                { "SlotType": "Rare5", "Name": "オーロンゲ", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
     }
 ]

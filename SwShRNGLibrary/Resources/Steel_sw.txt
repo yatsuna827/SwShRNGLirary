@@ -292,5 +292,77 @@
                 { "SlotType": "Common5", "Name": "キリキザン", "ForceHiddenAbility": true }
             ]
         ]
+    },
+    {
+        "Label": "Steel_CT_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ココドラ" },
+                { "SlotType": "Common1", "Name": "アイアント" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ココドラ" },
+                { "SlotType": "Common1", "Name": "アイアント" },
+                { "SlotType": "Common2", "Name": "ココドラ" },
+                { "SlotType": "Common2", "Name": "ダンバル" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ココドラ" },
+                { "SlotType": "Common2", "Name": "ダンバル" },
+                { "SlotType": "Common3", "Name": "コドラ" },
+                { "SlotType": "Common3", "Name": "メタング" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "コドラ" },
+                { "SlotType": "Common3", "Name": "メタング" },
+                { "SlotType": "Common5", "Name": "アーマーガア" },
+                { "SlotType": "Common5", "Name": "アイアント" },
+                { "SlotType": "Common5", "Name": "ダイオウドウ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "アーマーガア" },
+                { "SlotType": "Common5", "Name": "アイアント" },
+                { "SlotType": "Common5", "Name": "ダイオウドウ" },
+                { "SlotType": "Common5", "Name": "ボスゴドラ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Steel_CT_B",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "ココドラ" },
+                { "SlotType": "Rare2", "Name": "ニャース", "Form": "ガラル" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ココドラ" },
+                { "SlotType": "Rare2", "Name": "ニャース", "Form": "ガラル" },
+                { "SlotType": "Rare3", "Name": "アイアント" },
+                { "SlotType": "Rare3", "Name": "コドラ" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "アイアント" },
+                { "SlotType": "Rare3", "Name": "コドラ" },
+                { "SlotType": "Rare4", "Name": "ニャイキング" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ニャイキング" },
+                { "SlotType": "Rare5", "Name": "ダイオウドウ" },
+                { "SlotType": "Rare5", "Name": "ボスゴドラ" },
+                { "SlotType": "Rare5", "Name": "メタグロス" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "ダイオウドウ" },
+                { "SlotType": "Rare5", "Name": "ボスゴドラ" },
+                { "SlotType": "Rare5", "Name": "メタグロス" },
+                { "SlotType": "Rare5", "Name": "ダイオウドウ", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
     }
 ]

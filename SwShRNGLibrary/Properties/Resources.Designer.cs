@@ -147,6 +147,56 @@ namespace SwShRNGLibrary.Properties {
         /// <summary>
         ///   [
         ///    {
+        ///        &quot;Label&quot;: &quot;Sinistea_CT_A&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; }
+        ///            ],
+        ///            [
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; }
+        ///            ],
+        ///            [
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common3&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common5&quot;, &quot;Name&quot;: &quot;タブンネ&quot; }
+        ///            ],
+        ///            [ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string concept_sh {
+            get {
+                return ResourceManager.GetString("concept_sh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
+        ///        &quot;Label&quot;: &quot;Sinistea_CT_A&quot;,
+        ///        &quot;Table&quot;: [
+        ///            [
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; }
+        ///            ],
+        ///            [
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; }
+        ///            ],
+        ///            [
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common3&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common5&quot;, &quot;Name&quot;: &quot;タブンネ&quot; }
+        ///            ],
+        ///            [ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string concept_sw {
+            get {
+                return ResourceManager.GetString("concept_sw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [
+        ///    {
         ///        &quot;Label&quot;: &quot;DarkA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
@@ -259,22 +309,20 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   ,
+        ///   [
         ///    {
-        ///        &quot;Label&quot;: &quot;ElectricF&quot;,
+        ///        &quot;Label&quot;: &quot;ElectricA&quot;,
         ///        &quot;Table&quot;: [
         ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;デデンネ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;コイル&quot; }
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ピチュー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ラクライ&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バチュル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; }
         ///            ],
         ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;デデンネ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;コイル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コリンク&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;モルペコ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Co [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バチュル&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; },
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;デンヂムシ&quot;  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Electric_sw {
             get {
@@ -733,7 +781,12 @@ namespace SwShRNGLibrary.Properties {
         ///巨人の鏡池,Giant&apos;s Mirror
         ///ナックル丘陵,Hammerlocke Hills
         ///げきりんの湖,Lake of Outrage
-        ///イベント,Event に類似しているローカライズされた文字列を検索します。
+        ///イベント,Event
+        ///一礼野原,Fields of Honor
+        ///清涼湿原,Soothing Wetlands
+        ///集中の森,Forest of Focus
+        ///チャレンジビーチ,Challange Beach
+        ///ファイトケ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string MapName_eng {
             get {
