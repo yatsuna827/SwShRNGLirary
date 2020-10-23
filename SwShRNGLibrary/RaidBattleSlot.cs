@@ -11,12 +11,12 @@ namespace SwShRNGLibrary
         public readonly Pokemon.Species pokemon;
         public readonly bool allowHiddenAbility;
         public readonly int FlawlessIVs;
-        public bool ForceHiddenAbility { get; private set; } // allowHiddenAbilityに依らず夢固定.
-        public Gender FixedGender { get; private set; }
-        public Nature FixedNature { get; private set; } = Nature.other;
-        public bool ForceShiny { get; private set; }
-        public bool isUncatchable { get; private set; }
-        public bool isShinyLocked { get; private set; }
+        public bool ForceHiddenAbility { get; private protected set; } // allowHiddenAbilityに依らず夢固定.
+        public Gender FixedGender { get; private protected set; }
+        public Nature FixedNature { get; private protected set; } = Nature.other;
+        public bool ForceShiny { get; private protected set; }
+        public bool isUncatchable { get; private protected set; }
+        public bool isShinyLocked { get; private protected set; }
         internal RaidBattleSlot BeForceHiddenAbility() { ForceHiddenAbility = true; return this; }
         internal RaidBattleSlot BeForceShiny() { ForceShiny = true; return this; }
         internal RaidBattleSlot BeUncatchable() { isUncatchable = true; return this; }
@@ -82,6 +82,32 @@ namespace SwShRNGLibrary
     {
         internal CommonSlot5(string name) : base(name, true, 4) { }
         internal CommonSlot5(string name, string form) : base(name, form, true, 4) { }
+    }
+
+    public class RareSlot1 : RaidBattleSlot
+    {
+        internal RareSlot1(string name) : base(name, true, 1) { ForceHiddenAbility = true; }
+        internal RareSlot1(string name, string form) : base(name, form, true, 1) { ForceHiddenAbility = true; }
+    }
+    public class RareSlot2 : RaidBattleSlot
+    {
+        internal RareSlot2(string name) : base(name, true, 2) { ForceHiddenAbility = true; }
+        internal RareSlot2(string name, string form) : base(name, form, true, 2) { ForceHiddenAbility = true; }
+    }
+    public class RareSlot3 : RaidBattleSlot
+    {
+        internal RareSlot3(string name) : base(name, true, 3) { ForceHiddenAbility = true; }
+        internal RareSlot3(string name, string form) : base(name, form, true, 3) { ForceHiddenAbility = true; }
+    }
+    public class RareSlot4 : RaidBattleSlot
+    {
+        internal RareSlot4(string name) : base(name, true, 4) { ForceHiddenAbility = true; }
+        internal RareSlot4(string name, string form) : base(name, form, true, 4) { ForceHiddenAbility = true; }
+    }
+    public class RareSlot5 : RaidBattleSlot
+    {
+        internal RareSlot5(string name) : base(name, true, 5) { ForceHiddenAbility = true; }
+        internal RareSlot5(string name, string form) : base(name, form, true, 5) { ForceHiddenAbility = true; }
     }
 
     public class EventSlot1 : RaidBattleSlot

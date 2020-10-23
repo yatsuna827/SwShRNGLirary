@@ -105,6 +105,17 @@ namespace SwShRNGLibrary
                 case "Common5": 
                     slot = Form == "" ? new RaidBattleSlot(Name, true, 4) : new RaidBattleSlot(Name, Form, true, 4); break;
 
+                case "Rare1":
+                    slot = Form == "" ? new RareSlot1(Name) : new RareSlot1(Name, Form); break;
+                case "Rare2":
+                    slot = Form == "" ? new RareSlot2(Name) : new RareSlot2(Name, Form); break;
+                case "Rare3":
+                    slot = Form == "" ? new RareSlot3(Name) : new RareSlot3(Name, Form); break;
+                case "Rare4":
+                    slot = Form == "" ? new RareSlot4(Name) : new RareSlot4(Name, Form); break;
+                case "Rare5":
+                    slot = Form == "" ? new RareSlot5(Name) : new RareSlot5(Name, Form); break;
+
                 case "Event1": 
                     slot = Form == "" ? new RaidBattleSlot(Name, true, 1) : new RaidBattleSlot(Name, Form, true, 1); break;
                 case "Event2": 
