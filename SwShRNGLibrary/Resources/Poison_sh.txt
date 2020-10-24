@@ -209,5 +209,76 @@
                 { "SlotType": "Common5", "Name": "マタドガス", "Form": "ガラル", "ForceHiddenAbility": true }
             ]
         ]
+    },
+    {
+        "Label": "Poison_CT_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ニドラン♂" },
+                { "SlotType": "Common1", "Name": "ズバット" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ニドラン♂" },
+                { "SlotType": "Common1", "Name": "ズバット" },
+                { "SlotType": "Common2", "Name": "ニドラン♂" },
+                { "SlotType": "Common2", "Name": "ニドラン♀" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ニドラン♂" },
+                { "SlotType": "Common2", "Name": "ニドラン♀" },
+                { "SlotType": "Common3", "Name": "ニドリーノ" },
+                { "SlotType": "Common3", "Name": "ニドリーナ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ニドリーノ" },
+                { "SlotType": "Common3", "Name": "ニドリーナ" },
+                { "SlotType": "Common5", "Name": "ニドキング" },
+                { "SlotType": "Common5", "Name": "ゴルバット" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "ニドキング" },
+                { "SlotType": "Common5", "Name": "ゴルバット" },
+                { "SlotType": "Common5", "Name": "ニドクイン" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Poison_CT_B",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "ズバット" },
+                { "SlotType": "Rare2", "Name": "ヤブクロン" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ズバット" },
+                { "SlotType": "Rare2", "Name": "ヤブクロン" },
+                { "SlotType": "Rare3", "Name": "ニドリーノ" },
+                { "SlotType": "Rare3", "Name": "ヤドン", "Form": "ガラル" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "ニドリーノ" },
+                { "SlotType": "Rare3", "Name": "ヤドン", "Form": "ガラル" },
+                { "SlotType": "Rare4", "Name": "ゴルバット" },
+                { "SlotType": "Rare4", "Name": "ダストダス" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ゴルバット" },
+                { "SlotType": "Rare4", "Name": "ダストダス" },
+                { "SlotType": "Rare5", "Name": "ニドキング" },
+                { "SlotType": "Rare5", "Name": "ニドクイン" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "ニドキング" },
+                { "SlotType": "Rare5", "Name": "ニドクイン" },
+                { "SlotType": "Rare5", "Name": "クロバット" },
+                { "SlotType": "Rare5", "Name": "ダストダス", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
     }
 ]

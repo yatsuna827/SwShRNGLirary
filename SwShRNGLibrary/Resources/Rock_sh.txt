@@ -244,5 +244,78 @@
                 { "SlotType": "Common5", "Name": "ルガルガン", "Form": "夕", "ForceHiddenAbility": true }
             ]
         ]
+    },
+    {
+        "Label": "Rock_CT_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "タンドン" },
+                { "SlotType": "Common1", "Name": "ココドラ" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "イシヘンジン" },
+                { "SlotType": "Common1", "Name": "ココドラ" },
+                { "SlotType": "Common2", "Name": "ココドラ" },
+                { "SlotType": "Common2", "Name": "トロッゴン" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ココドラ" },
+                { "SlotType": "Common2", "Name": "トロッゴン" },
+                { "SlotType": "Common3", "Name": "トロッゴン" },
+                { "SlotType": "Common3", "Name": "コドラ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "トロッゴン" },
+                { "SlotType": "Common3", "Name": "コドラ" },
+                { "SlotType": "Common5", "Name": "ヤミラミ" },
+                { "SlotType": "Common5", "Name": "コドラ" },
+                { "SlotType": "Common5", "Name": "メレシー" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "ヤミラミ" },
+                { "SlotType": "Common5", "Name": "コドラ" },
+                { "SlotType": "Common5", "Name": "メレシー" },
+                { "SlotType": "Common5", "Name": "ボスゴドラ" },
+                { "SlotType": "Common5", "Name": "セキタンザン" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Rock_CT_B",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "ヤミラミ" },
+                { "SlotType": "Rare2", "Name": "ココドラ" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ヤミラミ" },
+                { "SlotType": "Rare2", "Name": "ココドラ" },
+                { "SlotType": "Rare3", "Name": "コドラ" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "コドラ" },
+                { "SlotType": "Rare4", "Name": "ツボツボ" },
+                { "SlotType": "Rare4", "Name": "ヤミラミ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ツボツボ" },
+                { "SlotType": "Rare4", "Name": "ヤミラミ" },
+                { "SlotType": "Rare5", "Name": "ヤミラミ" },
+                { "SlotType": "Rare5", "Name": "セキタンザン" },
+                { "SlotType": "Rare5", "Name": "ボスゴドラ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "ヤミラミ" },
+                { "SlotType": "Rare5", "Name": "セキタンザン" },
+                { "SlotType": "Rare5", "Name": "ボスゴドラ" },
+                { "SlotType": "Rare5", "Name": "セキタンザン" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
     }
 ]

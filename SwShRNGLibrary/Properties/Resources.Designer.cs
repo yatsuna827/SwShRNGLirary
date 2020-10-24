@@ -163,9 +163,9 @@ namespace SwShRNGLibrary.Properties {
         ///            ],
         ///            [ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string concept_sh {
+        internal static string Concept_sh {
             get {
-                return ResourceManager.GetString("concept_sh", resourceCulture);
+                return ResourceManager.GetString("Concept_sh", resourceCulture);
             }
         }
         
@@ -188,9 +188,9 @@ namespace SwShRNGLibrary.Properties {
         ///            ],
         ///            [ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string concept_sw {
+        internal static string Concept_sw {
             get {
-                return ResourceManager.GetString("concept_sw", resourceCulture);
+                return ResourceManager.GetString("Concept_sw", resourceCulture);
             }
         }
         
@@ -377,7 +377,7 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///           [
+        ///   [
         ///    {
         ///        &quot;Label&quot;: &quot;FightingA&quot;,
         ///        &quot;Table&quot;: [
@@ -390,7 +390,7 @@ namespace SwShRNGLibrary.Properties {
         ///            [
         ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
         ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;グレッグル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ゴーリキ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Fighting_sh {
             get {

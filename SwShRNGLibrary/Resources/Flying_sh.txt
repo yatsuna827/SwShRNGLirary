@@ -215,5 +215,81 @@
                 { "SlotType": "Common5", "Name": "バルジーナ", "ForceHiddenAbility": true }
             ]
         ]
+    },
+    {
+        "Label": "Flying_CT_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ズバット" },
+                { "SlotType": "Common1", "Name": "オンバット" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ズバット" },
+                { "SlotType": "Common1", "Name": "オンバット" },
+                { "SlotType": "Common2", "Name": "チルット" },
+                { "SlotType": "Common2", "Name": "ゴルバット" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "チルット" },
+                { "SlotType": "Common2", "Name": "ゴルバット" },
+                { "SlotType": "Common3", "Name": "ゴルバット" },
+                { "SlotType": "Common3", "Name": "アオガラス" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ゴルバット" },
+                { "SlotType": "Common3", "Name": "アオガラス" },
+                { "SlotType": "Common5", "Name": "ゴルバット" },
+                { "SlotType": "Common5", "Name": "チルタリス" },
+                { "SlotType": "Common5", "Name": "オンバーン" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "ゴルバット" },
+                { "SlotType": "Common5", "Name": "チルタリス" },
+                { "SlotType": "Common5", "Name": "オンバーン" },
+                { "SlotType": "Common5", "Name": "アーマーガア" },
+                { "SlotType": "Common5", "Name": "クロバット" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Flying_CT_B",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "ズバット" },
+                { "SlotType": "Rare2", "Name": "コロモリ" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ズバット" },
+                { "SlotType": "Rare2", "Name": "コロモリ" },
+                { "SlotType": "Rare3", "Name": "アオガラス" },
+                { "SlotType": "Rare3", "Name": "ゴルバット" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "アオガラス" },
+                { "SlotType": "Rare3", "Name": "ゴルバット" },
+                { "SlotType": "Rare4", "Name": "ココロモリ" },
+                { "SlotType": "Rare4", "Name": "アーマーガア" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ココロモリ" },
+                { "SlotType": "Rare4", "Name": "アーマーガア" },
+                { "SlotType": "Rare5", "Name": "プテラ" },
+                { "SlotType": "Rare5", "Name": "チルタリス" },
+                { "SlotType": "Rare5", "Name": "クロバット" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "プテラ" },
+                { "SlotType": "Rare5", "Name": "チルタリス" },
+                { "SlotType": "Rare5", "Name": "クロバット" },
+                { "SlotType": "Rare5", "Name": "オンバーン" },
+                { "SlotType": "Rare5", "Name": "アーマーガア", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
     }
 ]

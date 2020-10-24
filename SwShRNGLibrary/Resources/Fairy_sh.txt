@@ -292,5 +292,78 @@
                 { "SlotType": "Common5", "Name": "マリルリ", "ForceHiddenAbility": true }
             ]
         ]
+    },
+    {
+        "Label": "Fairy_CT_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ピィ" },
+                { "SlotType": "Common1", "Name": "メレシー" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ピィ" },
+                { "SlotType": "Common1", "Name": "メレシー" },
+                { "SlotType": "Common2", "Name": "ミブリム" },
+                { "SlotType": "Common2", "Name": "ピィ" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ミブリム" },
+                { "SlotType": "Common2", "Name": "ピィ" },
+                { "SlotType": "Common3", "Name": "テブリム" },
+                { "SlotType": "Common3", "Name": "ピッピ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "テブリム" },
+                { "SlotType": "Common3", "Name": "ピッピ" },
+                { "SlotType": "Common5", "Name": "メレシー" },
+                { "SlotType": "Common5", "Name": "ピクシー" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "メレシー" },
+                { "SlotType": "Common5", "Name": "ピクシー" },
+                { "SlotType": "Common5", "Name": "エルフーン" },
+                { "SlotType": "Common5", "Name": "ブリムオン" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Fairy_CT_B",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "メレシー" },
+                { "SlotType": "Rare2", "Name": "モンメン" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "メレシー" },
+                { "SlotType": "Rare2", "Name": "モンメン" },
+                { "SlotType": "Rare3", "Name": "ピッピ" },
+                { "SlotType": "Rare3", "Name": "メレシー" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "ピッピ" },
+                { "SlotType": "Rare3", "Name": "メレシー" },
+                { "SlotType": "Rare4", "Name": "メレシー" },
+                { "SlotType": "Rare4", "Name": "エルフーン" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "メレシー" },
+                { "SlotType": "Rare4", "Name": "エルフーン" },
+                { "SlotType": "Rare5", "Name": "マタドガス", "Form": "ガラル" },
+                { "SlotType": "Rare5", "Name": "ブリムオン" },
+                { "SlotType": "Rare5", "Name": "ピクシー" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "マタドガス", "Form": "ガラル" },
+                { "SlotType": "Rare5", "Name": "ブリムオン" },
+                { "SlotType": "Rare5", "Name": "ピクシー" },
+                { "SlotType": "Rare5", "Name": "ブリムオン", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
     }
 ]

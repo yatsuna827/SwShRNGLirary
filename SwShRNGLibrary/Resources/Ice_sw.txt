@@ -324,7 +324,7 @@
                 { "SlotType": "Rare5", "Name": "トドゼルガ" },
                 { "SlotType": "Rare5", "Name": "ラプラス" },
                 { "SlotType": "Rare5", "Name": "バイバニラ" },
-                { "SlotType": "Rare5", "Name": "ラプラス", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "ラプラス" },
                 { "SlotType": "Rare5", "Name": "デリバード" }
             ]
         ]

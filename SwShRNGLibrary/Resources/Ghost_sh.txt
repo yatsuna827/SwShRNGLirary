@@ -219,5 +219,78 @@
                 { "SlotType": "Common5", "Name": "サニゴーン", "ForceHiddenAbility": true }
             ]
         ]
+    },
+    {
+        "Label": "Ghost_CT_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ドラメシヤ" },
+                { "SlotType": "Common1", "Name": "ボクレー" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ドラメシヤ" },
+                { "SlotType": "Common1", "Name": "ボクレー" },
+                { "SlotType": "Common2", "Name": "ミミッキュ" },
+                { "SlotType": "Common2", "Name": "ユキワラシ" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ミミッキュ" },
+                { "SlotType": "Common2", "Name": "ユキワラシ" },
+                { "SlotType": "Common3", "Name": "ドロンチ" },
+                { "SlotType": "Common3", "Name": "ミミッキュ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ドロンチ" },
+                { "SlotType": "Common3", "Name": "ミミッキュ" },
+                { "SlotType": "Common5", "Name": "ヤミラミ" },
+                { "SlotType": "Common5", "Name": "オニゴーリ" },
+                { "SlotType": "Common5", "Name": "ユキメノコ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "ヤミラミ" },
+                { "SlotType": "Common5", "Name": "オニゴーリ" },
+                { "SlotType": "Common5", "Name": "ユキメノコ" },
+                { "SlotType": "Common5", "Name": "オーロット" },
+                { "SlotType": "Common5", "Name": "ミミッキュ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Ghost_CT_B",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "ドラメシヤ" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ドラメシヤ" },
+                { "SlotType": "Rare3", "Name": "ドラメシヤ" },
+                { "SlotType": "Rare3", "Name": "サニーゴ", "Form": "ガラル" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "ドラメシヤ" },
+                { "SlotType": "Rare3", "Name": "サニーゴ", "Form": "ガラル" },
+                { "SlotType": "Rare4", "Name": "ヤミラミ" },
+                { "SlotType": "Rare4", "Name": "オーロット" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ヤミラミ" },
+                { "SlotType": "Rare4", "Name": "オーロット" },
+                { "SlotType": "Rare5", "Name": "サニゴーン" },
+                { "SlotType": "Rare5", "Name": "ヤミラミ" },
+                { "SlotType": "Rare5", "Name": "ドラパルト" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "オーロット" },
+                { "SlotType": "Rare5", "Name": "クチート" },
+                { "SlotType": "Rare5", "Name": "ドラパルト" },
+                { "SlotType": "Rare5", "Name": "ゲンガー", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
     }
 ]

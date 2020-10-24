@@ -237,7 +237,7 @@
                 { "SlotType": "Common2", "Name": "ゴビット" },
                 { "SlotType": "Common2", "Name": "トロッゴン" },
                 { "SlotType": "Common3", "Name": "ドテッコツ" },
-                { "SlotType": "Common3", "Name": "ゴルーグ" }
+                { "SlotType": "Common3", "Name": "ゴルーグ" },
                 { "SlotType": "Common5", "Name": "タブンネ" }
             ],
             [

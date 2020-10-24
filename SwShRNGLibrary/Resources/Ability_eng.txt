@@ -257,6 +257,7 @@ ARシステム,RKS System
 パステルベール,Pastel Veil
 はらぺこスイッチ,Hunger Switch
 ふかしのこぶし,Unseen Fist
+きみょうなくすり,Curious Medicine
 トランジスタ,Transistor
 りゅうのあぎと,Dragon's Maw
 しろのいななき,Chilling Neigh

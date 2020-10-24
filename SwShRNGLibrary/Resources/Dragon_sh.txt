@@ -182,5 +182,79 @@
                 { "SlotType": "Common5", "Name": "ヌメルゴン", "ForceHiddenAbility": true }
             ]
         ]
+    },
+    {
+        "Label": "Dragon_CT_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "クリムガン" },
+                { "SlotType": "Common1", "Name": "フカマル" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "クリムガン" },
+                { "SlotType": "Common1", "Name": "フカマル" },
+                { "SlotType": "Common2", "Name": "フカマル" },
+                { "SlotType": "Common2", "Name": "チゴラス" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "フカマル" },
+                { "SlotType": "Common2", "Name": "チゴラス" },
+                { "SlotType": "Common3", "Name": "ガバイト" },
+                { "SlotType": "Common3", "Name": "ミニリュウ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ガバイト" },
+                { "SlotType": "Common3", "Name": "ミニリュウ" },
+                { "SlotType": "Common5", "Name": "ガバイト" },
+                { "SlotType": "Common5", "Name": "クリムガン" },
+                { "SlotType": "Common5", "Name": "ガチゴラス" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "ガバイト" },
+                { "SlotType": "Common5", "Name": "クリムガン" },
+                { "SlotType": "Common5", "Name": "ガチゴラス" },
+                { "SlotType": "Common5", "Name": "ガブリアス" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Dragon_CT_B",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "ジュラルドン" },
+                { "SlotType": "Rare2", "Name": "フカマル" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ジュラルドン" },
+                { "SlotType": "Rare2", "Name": "フカマル" },
+                { "SlotType": "Rare3", "Name": "チゴラス" },
+                { "SlotType": "Rare3", "Name": "ジジーロン" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "チゴラス" },
+                { "SlotType": "Rare3", "Name": "ジジーロン" },
+                { "SlotType": "Rare4", "Name": "ガバイト" },
+                { "SlotType": "Rare4", "Name": "ジュラルドン" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ガバイト" },
+                { "SlotType": "Rare4", "Name": "ジュラルドン" },
+                { "SlotType": "Rare5", "Name": "カイリュー" },
+                { "SlotType": "Rare5", "Name": "ガチゴラス" },
+                { "SlotType": "Rare5", "Name": "ガブリアス" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "カイリュー" },
+                { "SlotType": "Rare5", "Name": "ガチゴラス" },
+                { "SlotType": "Rare5", "Name": "ガブリアス" },
+                { "SlotType": "Rare5", "Name": "ジュラルドン", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
     }
 ]
