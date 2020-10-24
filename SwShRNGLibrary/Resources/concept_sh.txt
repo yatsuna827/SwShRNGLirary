@@ -44,11 +44,13 @@
             [
                 { "SlotType": "Rare4", "Name": "ヤバチャ" },
                 { "SlotType": "Rare5", "Name": "ヤバチャ" },
+                { "SlotType": "Rare5", "Name": "マホイップ" },
                 { "SlotType": "Rare5", "Name": "デリバード" }
             ],
             [
                 { "SlotType": "Rare4", "Name": "ヤバチャ" },
                 { "SlotType": "Rare5", "Name": "ヤバチャ" },
+                { "SlotType": "Rare5", "Name": "マホイップ" },
                 { "SlotType": "Rare5", "Name": "ポットデス" },
                 { "SlotType": "Rare5", "Name": "マホイップ", "Form": "キョダイ" },
                 { "SlotType": "Rare5", "Name": "デリバード" }
