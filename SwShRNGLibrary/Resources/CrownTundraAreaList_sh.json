@@ -1,0 +1,148 @@
+[
+    {
+        "AreaName": "滑り出し雪原",
+        "DenList": [
+            { "Label": "", "Index": 1, "Normal": "Bug_CT_A", "Rare": "Bug_CT_B" },
+            { "Label": "", "Index": 2, "Normal": "Rock_CT_A", "Rare": "Rock_CT_B" },
+            { "Label": "", "Index": 3, "Normal": "Ice_CT_A", "Rare": "Ice_CT_C" },
+            { "Label": "", "Index": 4, "Normal": "Normal_CT_A", "Rare": "Normal_CT_B" },
+            { "Label": "", "Index": 5, "Normal": "Ghost_CT_A", "Rare": "Ghost_CT_B" },
+            { "Label": "", "Index": 6, "Normal": "Ice_CT_A", "Rare": "Ice_CT_C" }
+        ]
+    },
+    {
+        "AreaName": "氷点雪原",
+        "DenList": [
+            { "Label": "", "Index": 7, "Normal": "Fairy_CT_A", "Rare": "Fairy_CT_B" },
+            { "Label": "", "Index": 8, "Normal": "Flying_CT_A", "Rare": "Flying_CT_B" },
+            { "Label": "", "Index": 9, "Normal": "Dark_CT_A", "Rare": "Dark_CT_B" },
+            { "Label": "", "Index": 10, "Normal": "Fighting_CT_A", "Rare": "Fighting_CT_B" },
+            { "Label": "", "Index": 11, "Normal": "Electric_CT_A", "Rare": "Electric_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "巨人の寝床",
+        "DenList": [
+            { "Label": "", "Index": 12, "Normal": "Steel_CT_A", "Rare": "Steel_CT_B" },
+            { "Label": "", "Index": 13, "Normal": "Fire_CT_A", "Rare": "Fire_CT_B" },
+            { "Label": "", "Index": 14, "Normal": "Poison_CT_A", "Rare": "Poison_CT_B" },
+            { "Label": "", "Index": 15, "Normal": "Sinistea_CT_A", "Rare": "Sinistea_CT_B" },
+            { "Label": "", "Index": 16, "Normal": "Normal_CT_A", "Rare": "Normal_CT_B" },
+            { "Label": "", "Index": 17, "Normal": "Water_CT_A", "Rare": "Water_CT_B" },
+            { "Label": "", "Index": 18, "Normal": "Dragon_CT_A", "Rare": "Dragon_CT_B" },
+            { "Label": "", "Index": 19, "Normal": "Fighting_CT_A", "Rare": "Fighting_CT_B" },
+            { "Label": "", "Index": 20, "Normal": "Bug_CT_A", "Rare": "Bug_CT_B" },
+            { "Label": "", "Index": 21, "Normal": "Rock_CT_A", "Rare": "Rock_CT_B" },
+            { "Label": "", "Index": 22, "Normal": "Poison_CT_A", "Rare": "Poison_CT_B" },
+            { "Label": "", "Index": 23, "Normal": "Dark_CT_A", "Rare": "Dark_CT_B" },
+            { "Label": "", "Index": 24, "Normal": "Fairy_CT_A", "Rare": "Fairy_CT_B" },
+            { "Label": "", "Index": 25, "Normal": "Rock_CT_A", "Rare": "Rock_CT_B" },
+            { "Label": "", "Index": 26, "Normal": "Ice_CT_B", "Rare": "Ice_CT_D" },
+            { "Label": "", "Index": 27, "Normal": "Water_CT_A", "Rare": "Water_CT_B" },
+            { "Label": "", "Index": 28, "Normal": "Ice_CT_B", "Rare": "Ice_CT_D" },
+            { "Label": "", "Index": 29, "Normal": "Psychic_CT_A", "Rare": "Psychic_CT_B" },
+            { "Label": "", "Index": 30, "Normal": "Electric_CT_A", "Rare": "Electric_CT_B" },
+            { "Label": "", "Index": 31, "Normal": "Fire_CT_A", "Rare": "Fire_CT_B" },
+            { "Label": "", "Index": 32, "Normal": "Flying_CT_A", "Rare": "Flying_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "いにしえの墓地",
+        "DenList": [
+            { "Label": "", "Index": 33, "Normal": "Ghost_CT_A", "Rare": "Ghost_CT_B" },
+            { "Label": "", "Index": 34, "Normal": "Sinistea_CT_A", "Rare": "Sinistea_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "雪中渓谷",
+        "DenList": [
+            { "Label": "", "Index": 35, "Normal": "Rock_CT_A", "Rare": "Rock_CT_B" },
+            { "Label": "", "Index": 36, "Normal": "Fighting_CT_A", "Rare": "Fighting_CT_B" },
+            { "Label": "", "Index": 37, "Normal": "Steel_CT_A", "Rare": "Steel_CT_B" },
+            { "Label": "", "Index": 38, "Normal": "Psychic_CT_A", "Rare": "Psychic_CT_B" },
+            { "Label": "", "Index": 39, "Normal": "Dark_CT_A", "Rare": "Dark_CT_B" },
+            { "Label": "", "Index": 40, "Normal": "Ice_CT_A", "Rare": "Ice_CT_C" },
+            { "Label": "", "Index": 41, "Normal": "Fairy_CT_A", "Rare": "Fairy_CT_B" },
+            { "Label": "", "Index": 42, "Normal": "Fire_CT_A", "Rare": "Fire_CT_B" },
+            { "Label": "", "Index": 43, "Normal": "Fossil_CT_A", "Rare": "Fossil_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "頂への雪道",
+        "DenList": [
+            { "Label": "", "Index": 44, "Normal": "Steel_CT_A", "Rare": "Steel_CT_B" },
+            { "Label": "", "Index": 45, "Normal": "Dragon_CT_A", "Rare": "Dragon_CT_B" },
+            { "Label": "", "Index": 46, "Normal": "Psychic_CT_A", "Rare": "Psychic_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "カンムリ神殿",
+        "DenList": [
+            { "Label": "A", "Index": 47, "Normal": "Bug_CT_A", "Rare": "Bug_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "巨人の靴底",
+        "DenList": [
+            { "Label": "", "Index": 48, "Normal": "Normal_CT_A", "Rare": "Normal_CT_B" },
+            { "Label": "", "Index": 49, "Normal": "Water_CT_A", "Rare": "Water_CT_B" },
+            { "Label": "", "Index": 50, "Normal": "Dark_CT_A", "Rare": "Dark_CT_B" },
+            { "Label": "", "Index": 51, "Normal": "Bug_CT_A", "Rare": "Bug_CT_B" },
+            { "Label": "", "Index": 52, "Normal": "Ghost_CT_A", "Rare": "Ghost_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "凍てつきの海",
+        "DenList": [
+            { "Label": "", "Index": 53, "Normal": "Ice_CT_B", "Rare": "Ice_CT_D" },
+            { "Label": "", "Index": 54, "Normal": "Dragon_CT_A", "Rare": "Dragon_CT_B" },
+            { "Label": "", "Index": 55, "Normal": "Water_CT_A", "Rare": "Water_CT_B" },
+            { "Label": "", "Index": 56, "Normal": "Fighting_CT_A", "Rare": "Fighting_CT_B" },
+            { "Label": "", "Index": 57, "Normal": "Steel_CT_A", "Rare": "Steel_CT_B" },
+            { "Label": "", "Index": 58, "Normal": "Ice_CT_B", "Rare": "Ice_CT_D" },
+            { "Label": "", "Index": 59, "Normal": "Poison_CT_A", "Rare": "Poison_CT_B" },
+            { "Label": "", "Index": 60, "Normal": "Ghost_CT_A", "Rare": "Ghost_CT_B" },
+            { "Label": "", "Index": 61, "Normal": "Dark_CT_A", "Rare": "Dark_CT_B" },
+            { "Label": "", "Index": 62, "Normal": "Fairy_CT_A", "Rare": "Fairy_CT_B" },
+            { "Label": "", "Index": 63, "Normal": "Ice_CT_A", "Rare": "Ice_CT_C" },
+            { "Label": "", "Index": 64, "Normal": "Electric_CT_A", "Rare": "Electric_CT_B" },
+            { "Label": "", "Index": 65, "Normal": "Flying_CT_A", "Rare": "Flying_CT_B" },
+            { "Label": "", "Index": 66, "Normal": "Ice_CT_B", "Rare": "Ice_CT_D" }
+        ]
+    },
+    {
+        "AreaName": "三つまたヶ原",
+        "DenList": [
+            { "Label": "", "Index": 67, "Normal": "Dragon_CT_A", "Rare": "Dragon_CT_B" },
+            { "Label": "", "Index": 68, "Normal": "Electric_CT_A", "Rare": "Electric_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "ボールレイクの湖畔",
+        "DenList": [
+            { "Label": "", "Index": 69, "Normal": "Normal_CT_A", "Rare": "Normal_CT_B" },
+            { "Label": "", "Index": 70, "Normal": "Flying_CT_A", "Rare": "Flying_CT_B" },
+            { "Label": "", "Index": 71, "Normal": "Poison_CT_A", "Rare": "Poison_CT_B" },
+            { "Label": "", "Index": 72, "Normal": "Rock_CT_A", "Rare": "Rock_CT_B" },
+            { "Label": "", "Index": 73, "Normal": "Fire_CT_A", "Rare": "Fire_CT_B" },
+            { "Label": "", "Index": 74, "Normal": "Fire_CT_A", "Rare": "Fire_CT_B" },
+            { "Label": "", "Index": 75, "Normal": "Bug_CT_A", "Rare": "Bug_CT_B" },
+            { "Label": "", "Index": 76, "Normal": "Poison_CT_A", "Rare": "Poison_CT_B" },
+            { "Label": "", "Index": 77, "Normal": "Electric_CT_A", "Rare": "Electric_CT_B" },
+            { "Label": "", "Index": 78, "Normal": "Fighting_CT_A", "Rare": "Fighting_CT_B" },
+            { "Label": "", "Index": 79, "Normal": "Eevee_CT_A", "Rare": "Eevee_CT_B" },
+            { "Label": "", "Index": 80, "Normal": "Sinistea_CT_A", "Rare": "Sinistea_CT_B" },
+            { "Label": "", "Index": 81, "Normal": "Fairy_CT_A", "Rare": "Fairy_CT_B" },
+            { "Label": "", "Index": 82, "Normal": "Water_CT_A", "Rare": "Water_CT_B" },
+            { "Label": "", "Index": 83, "Normal": "Psychic_CT_A", "Rare": "Psychic_CT_B" },
+            { "Label": "", "Index": 84, "Normal": "Ghost_CT_A", "Rare": "Ghost_CT_B" },
+            { "Label": "", "Index": 85, "Normal": "Dragon_CT_A", "Rare": "Dragon_CT_B" }
+        ]
+    },
+    {
+        "AreaName": "ダイ木の丘",
+        "DenList": [
+            { "Label": "", "Index": 86, "Normal": "Flying_CT_A", "Rare": "Flying_CT_B" }
+        ]
+    }
+]

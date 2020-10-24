@@ -368,21 +368,21 @@
                 { "SlotType": "Common2", "Name": "アノプス" },
                 { "SlotType": "Common2", "Name": "リリーラ" },
                 { "SlotType": "Common3", "Name": "アノプス" },
-                { "SlotType": "Common3", "Name": "ワタガシラ" },
+                { "SlotType": "Common3", "Name": "ワタシラガ" },
                 { "SlotType": "Common5", "Name": "タブンネ" }
             ],
             [
                 { "SlotType": "Common3", "Name": "アノプス" },
-                { "SlotType": "Common3", "Name": "ワタガシラ" },
+                { "SlotType": "Common3", "Name": "ワタシラガ" },
                 { "SlotType": "Common5", "Name": "アーマルド" },
                 { "SlotType": "Common5", "Name": "オニシズクモ" },
-                { "SlotType": "Common5", "Name": "ワタガシラ" },
+                { "SlotType": "Common5", "Name": "ワタシラガ" },
                 { "SlotType": "Common5", "Name": "タブンネ" }
             ],
             [
                 { "SlotType": "Common5", "Name": "アーマルド" },
                 { "SlotType": "Common5", "Name": "オニシズクモ" },
-                { "SlotType": "Common5", "Name": "ワタガシラ" },
+                { "SlotType": "Common5", "Name": "ワタシラガ" },
                 { "SlotType": "Common5", "Name": "ナットレイ" },
                 { "SlotType": "Common5", "Name": "ユレイドル" },
                 { "SlotType": "Common5", "Name": "タブンネ" }
@@ -414,13 +414,13 @@
                 { "SlotType": "Rare4", "Name": "バタフリー" },
                 { "SlotType": "Rare5", "Name": "アーマルド" },
                 { "SlotType": "Rare5", "Name": "ユレイドル" },
-                { "SlotType": "Rare5", "Name": "ワタガシラ" },
+                { "SlotType": "Rare5", "Name": "ワタシラガ" },
                 { "SlotType": "Rare5", "Name": "デリバード" }
             ],
             [
                 { "SlotType": "Rare5", "Name": "アーマルド" },
                 { "SlotType": "Rare5", "Name": "ユレイドル" },
-                { "SlotType": "Rare5", "Name": "ワタガシラ" },
+                { "SlotType": "Rare5", "Name": "ワタシラガ" },
                 { "SlotType": "Rare5", "Name": "アーマルド" },
                 { "SlotType": "Rare5", "Name": "バタフリー", "Form": "キョダイ" },
                 { "SlotType": "Rare5", "Name": "デリバード" }

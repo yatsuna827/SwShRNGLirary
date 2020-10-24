@@ -195,6 +195,26 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static byte[] CrownTundraAreaList_sh {
+            get {
+                object obj = ResourceManager.GetObject("CrownTundraAreaList_sh", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static byte[] CrownTundraAreaList_sw {
+            get {
+                object obj = ResourceManager.GetObject("CrownTundraAreaList_sw", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   [
         ///    {
         ///        &quot;Label&quot;: &quot;DarkA&quot;,

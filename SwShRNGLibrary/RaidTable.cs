@@ -61,6 +61,7 @@ namespace SwShRNGLibrary
                 Resources.Rock_sw,
                 Resources.Steel_sw,
                 Resources.Water_sw,
+                Resources.Concept_sw
             };
             var swTable = new Dictionary<string, IReadOnlyList<RaidTable>>();
             foreach (var data in swdata)
@@ -94,6 +95,7 @@ namespace SwShRNGLibrary
                 Resources.Rock_sh,
                 Resources.Steel_sh,
                 Resources.Water_sh,
+                Resources.Concept_sh
             };
             var shTable = new Dictionary<string, IReadOnlyList<RaidTable>>();
             foreach (var data in shdata)
