@@ -213,7 +213,7 @@
                 { "SlotType": "Rare2", "Name": "カブト" }
             ],
             [
-                { "SlotType": "Rare3", "Name": "カブトプス" },
+                { "SlotType": "Rare2", "Name": "カブトプス" },
                 { "SlotType": "Rare3", "Name": "プテラ" },
                 { "SlotType": "Rare3", "Name": "ウオチルドン" },
                 { "SlotType": "Rare4", "Name": "ウオノラゴン" },
