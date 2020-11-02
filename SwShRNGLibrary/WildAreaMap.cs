@@ -40,6 +40,13 @@ namespace SwShRNGLibrary
             return version == Rom.Sword ? swordMapList[(int)region] : shieldMapList[(int)region];
         }
         
+
+        public static WildAreaMap GetMap(Rom version, Region region, int index)
+        {
+            if (swordMapList[(int)region].Count <= index) throw new IndexOutOfRangeException($"index = {index}は範囲外です.");
+            return version == Rom.Sword ? swordMapList[(int)region][index] : shieldMapList[(int)region][index];
+        }
+
         /// <summary>
         /// エリア名からマップ情報を取得します.
         /// エリア名はUniqueなのでリージョン指定は不要です.

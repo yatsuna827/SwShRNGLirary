@@ -285,8 +285,8 @@
                 { "SlotType": "Rare5", "Name": "デリバード" }
             ],
             [
-                { "SlotType": "Rare5", "Name": "オーロット" },
-                { "SlotType": "Rare5", "Name": "クチート" },
+                { "SlotType": "Rare5", "Name": "サニゴーン" },
+                { "SlotType": "Rare5", "Name": "ヤミラミ" },
                 { "SlotType": "Rare5", "Name": "ドラパルト" },
                 { "SlotType": "Rare5", "Name": "ゲンガー", "Form": "キョダイ" },
                 { "SlotType": "Rare5", "Name": "デリバード" }
