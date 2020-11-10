@@ -28,8 +28,21 @@ namespace SwShRNGLibrary
             this.table = table;
         }
 
-        internal static Dictionary<string, IReadOnlyList<RaidTable>> SwordTables;
-        internal static Dictionary<string, IReadOnlyList<RaidTable>> ShieldTables;
+        internal static Dictionary<string, IReadOnlyList<RaidTable>> swordTables;
+        internal static Dictionary<string, IReadOnlyList<RaidTable>> shieldTables;
+
+        public static IReadOnlyList<RaidTable> GetTable(Rom version, string key)
+        {
+            var t = version == Rom.Sword ? swordTables : shieldTables;
+            if (!t.ContainsKey(key)) throw new KeyNotFoundException($"{key}は存在しません");
+
+            return t[key];
+        }
+        public static IEnumerable<string> EnumerateKeys(Rom version, string key)
+        {
+            var t = version == Rom.Sword ? swordTables : shieldTables;
+            return t.Select(_ => _.Key).Where(__ => __.Contains(key));
+        }
 
         public static readonly IReadOnlyList<RaidTable> DefaultTable = new RaidTable[] {
             new RaidTable(new EventSlot1("ヌオー")),
@@ -41,7 +54,7 @@ namespace SwShRNGLibrary
 
         static RaidTable()
         {
-            var swdata = new string[]
+            var swdata = new byte[][]
             {
                 Resources.Bug_sw,
                 Resources.Dark_sw,
@@ -73,9 +86,9 @@ namespace SwShRNGLibrary
                     swTable.Add(t.Label, table);
                 }
             }
-            SwordTables = swTable;
+            swordTables = swTable;
 
-            var shdata = new string[]
+            var shdata = new byte[][]
             {
                 Resources.Bug_sh,
                 Resources.Dark_sh,
@@ -107,7 +120,7 @@ namespace SwShRNGLibrary
                     shTable.Add(t.Label, table);
                 }
             }
-            ShieldTables = shTable;
+            shieldTables = shTable;
         }
     }
 }

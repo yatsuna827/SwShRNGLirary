@@ -1,0 +1,186 @@
+[
+    {
+        "AreaName": "うららか草原",
+        "DenList": [
+            { "Label": "A", "Index": 3, "Normal": "Flying_Common_A", "Rare": "Bug_Rare_B" },
+            { "Label": "B", "Index": 8, "Normal": "Fighting_Common_A", "Rare": "Fighting_Rare_A" },
+            { "Label": "C", "Index": 9, "Normal": "Flying_Common_A", "Rare": "Bug_Rare_B" }, 
+            { "Label": "D", "Index": 1, "Normal": "Ground_Common_A", "Rare": "Ground_Rare_A" }, 
+            { "Label": "E", "Index": 7, "Normal": "Normal_Common_A", "Rare": "Normal_Rare_A" }, 
+            { "Label": "F", "Index": 5, "Normal": "Bug_Common_A", "Rare": "Bug_Rare_A" }, 
+            { "Label": "G", "Index": 2, "Normal": "Dragon_Common_A", "Rare": "Dragon_Rare_A" }, 
+            { "Label": "H", "Index": 4, "Normal": "Rock_Common_A", "Rare": "Rock_Rare_A" }, 
+            { "Label": "I", "Index": 6, "Normal": "Fairy_Common_A", "Rare": "Fairy_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "こもれび林",
+        "DenList": [
+            { "Label": "A", "Index": 12, "Normal": "Grass_Common_A", "Rare": "Grass_Rare_A" }, 
+            { "Label": "B", "Index": 11, "Normal": "Grass_Common_C", "Rare": "Grass_Rare_D" }, 
+            { "Label": "C", "Index": 14, "Normal": "Grass_Common_A", "Rare": "Grass_Rare_B" }, 
+            { "Label": "D", "Index": 13, "Normal": "Bug_Common_A", "Rare": "Bug_Rare_C" }, 
+            { "Label": "E", "Index": 10, "Normal": "Grass_Common_A", "Rare": "Grass_Rare_B" }
+        ]
+    },
+    {
+        "AreaName": "見張り塔跡地",
+        "DenList": [
+            { "Label": "A", "Index": 15, "Normal": "Ghost_Common_A", "Rare": "Ghost_Rare_B" }, 
+            { "Label": "C", "Index": 16, "Normal": "Psychic_Common_A", "Rare": "Psychic_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "キバ湖・西",
+        "DenList": [
+            { "Label": "A", "Index": 26, "Normal": "Dark_Common_A", "Rare": "Dark_Rare_A" }, 
+            { "Label": "B", "Index": 25, "Normal": "Water_Common_C", "Rare": "Water_Rare_F" }, 
+            { "Label": "C", "Index": 22, "Normal": "Water_Common_C", "Rare": "Water_Rare_C" }, 
+            { "Label": "D", "Index": 21, "Normal": "Water_Common_C", "Rare": "Water_Rare_C" }, 
+            { "Label": "E", "Index": 24, "Normal": "Water_Common_A", "Rare": "Water_Rare_A" }, 
+            { "Label": "F", "Index": 23, "Normal": "Water_Common_E", "Rare": "Water_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "キバ湖・東",
+        "DenList": [
+            { "Label": "A", "Index": 18, "Normal": "Normal_Common_A", "Rare": "Normal_Rare_A" }, 
+            { "Label": "B", "Index": 43, "Normal": "Poison_Common_A", "Rare": "Poison_Rare_B" }, 
+            { "Label": "C", "Index": 19, "Normal": "Flying_Common_A", "Rare": "Flying_Rare_A" }, 
+            { "Label": "D", "Index": 20, "Normal": "Flying_Common_A", "Rare": "Flying_Rare_A" }, 
+            { "Label": "E", "Index": 17, "Normal": "Water_Common_A", "Rare": "Water_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "キバ湖の瞳",
+        "DenList": [
+            { "Label": "A", "Index": 27, "Normal": "Dragon_Common_B", "Rare": "Dragon_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "ミロカロ湖・南",
+        "DenList": [
+            { "Label": "A", "Index": 31, "Normal": "Bug_Common_B", "Rare": "Bug_Rare_A" }, 
+            { "Label": "B", "Index": 32, "Normal": "Fighting_Common_A", "Rare": "Ghost_Rare_A" }, 
+            { "Label": "C", "Index": 28, "Normal": "Water_Common_B", "Rare": "Water_Rare_F" }, 
+            { "Label": "D", "Index": 29, "Normal": "Water_Common_D", "Rare": "Water_Rare_D" }, 
+            { "Label": "E", "Index": 30, "Normal": "Water_Common_D", "Rare": "Water_Rare_D" } 
+        ]
+    },
+    {
+        "AreaName": "ミロカロ湖・北",
+        "DenList": [
+            { "Label": "A", "Index": 40, "Normal": "Poison_Common_A", "Rare": "Poison_Rare_A" }, 
+            { "Label": "B", "Index": 42, "Normal": "Poison_Common_A", "Rare": "Poison_Rare_A" }, 
+            { "Label": "C", "Index": 41, "Normal": "Water_Common_D", "Rare": "Water_Rare_D" }, 
+            { "Label": "D", "Index": 39, "Normal": "Water_Common_D", "Rare": "Water_Rare_D" }, 
+            { "Label": "E", "Index": 38, "Normal": "Fighting_Common_B", "Rare": "Fighting_Rare_A" }, 
+            { "Label": "F", "Index": 44, "Normal": "Fighting_Common_B", "Rare": "Fighting_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "巨人の腰かけ",
+        "DenList": [
+            { "Label": "A", "Index": 37, "Normal": "Steel_Common_A", "Rare": "Steel_Rare_C" }, 
+            { "Label": "B", "Index": 34, "Normal": "Steel_Common_B", "Rare": "Steel_Rare_A" }, 
+            { "Label": "C", "Index": 35, "Normal": "Steel_Common_A", "Rare": "Steel_Rare_B" }, 
+            { "Label": "D", "Index": 36, "Normal": "Rock_Common_B", "Rare": "Ice_Rare_C" }, 
+            { "Label": "E", "Index": 33, "Normal": "Rock_Common_B", "Rare": "Rock_Rare_A" } 
+        ]
+    },
+    {
+        "AreaName": "エンジンリバーサイド",
+        "DenList": [
+            { "Label": "A", "Index": 46, "Normal": "Poison_Common_B", "Rare": "Poison_Rare_A" }, 
+            { "Label": "B", "Index": 45, "Normal": "Psychic_Common_C", "Rare": "Psychic_Rare_A" }, 
+            { "Label": "C", "Index": 47, "Normal": "Electric_Common_A", "Rare": "Electric_Rare_A" }, 
+            { "Label": "D", "Index": 48, "Normal": "Normal_Common_B", "Rare": "Normal_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "ハシノマ原っぱ",
+        "DenList": [
+            { "Label": "A", "Index": 49, "Normal": "Fairy_Common_B", "Rare": "Fairy_Rare_C" }, 
+            { "Label": "B", "Index": 53, "Normal": "Normal_Common_B", "Rare": "Normal_Rare_A" }, 
+            { "Label": "C", "Index": 55, "Normal": "Bug_Common_B", "Rare": "Bug_Rare_A" }, 
+            { "Label": "D", "Index": 56, "Normal": "Dark_Common_B", "Rare": "Dark_Rare_A" }, 
+            { "Label": "E", "Index": 54, "Normal": "Bug_Common_A", "Rare": "Bug_Rare_C" }, 
+            { "Label": "F", "Index": 50, "Normal": "Psychic_Common_B", "Rare": "Fairy_Rare_D" }, 
+            { "Label": "G", "Index": 57, "Normal": "Grass_Common_B", "Rare": "Grass_Rare_B" }, 
+            { "Label": "H", "Index": 51, "Normal": "Water_Common_B", "Rare": "Water_Rare_A" }, 
+            { "Label": "I", "Index": 52, "Normal": "Ground_Common_A", "Rare": "Ground_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "ストーンズ原野",
+        "DenList": [
+            { "Label": "A", "Index": 64, "Normal": "Psychic_Common_A", "Rare": "Psychic_Rare_A" }, 
+            { "Label": "B", "Index": 63, "Normal": "Grass_Common_B", "Rare": "Grass_Rare_B" }, 
+            { "Label": "C", "Index": 69, "Normal": "Dark_Common_A", "Rare": "Dark_Rare_A" }, 
+            { "Label": "D", "Index": 61, "Normal": "Fire_Common_B", "Rare": "Fire_Rare_E" }, 
+            { "Label": "E", "Index": 59, "Normal": "Fighting_Common_A", "Rare": "Ghost_Rare_C" }, 
+            { "Label": "F", "Index": 62, "Normal": "Ghost_Common_A", "Rare": "Ghost_Rare_A" }, 
+            { "Label": "G", "Index": 60, "Normal": "Rock_Common_A", "Rare": "Rock_Rare_A" }, 
+            { "Label": "H", "Index": 65, "Normal": "Steel_Common_B", "Rare": "Steel_Rare_D" }, 
+            { "Label": "I", "Index": 66, "Normal": "Ice_Common_B", "Rare": "Ice_Rare_A" }, 
+            { "Label": "J", "Index": 67, "Normal": "Psychic_Common_C", "Rare": "Psychic_Rare_A" }, 
+            { "Label": "K", "Index": 68, "Normal": "Fire_Common_A", "Rare": "Fire_Rare_B" }, 
+            { "Label": "L", "Index": 58, "Normal": "Normal_Common_B", "Rare": "Ditto" }
+        ]
+    },
+    {
+        "AreaName": "砂塵の窪地",
+        "DenList": [
+            { "Label": "A", "Index": 73, "Normal": "Water_Common_C", "Rare": "Water_Rare_C" }, 
+            { "Label": "B", "Index": 74, "Normal": "Steel_Common_A", "Rare": "Steel_Rare_B" }, 
+            { "Label": "C", "Index": 76, "Normal": "Ice_Common_A", "Rare": "Ice_Rare_A" }, 
+            { "Label": "D", "Index": 71, "Normal": "Ground_Common_B", "Rare": "Ground_Rare_A" }, 
+            { "Label": "E", "Index": 72, "Normal": "Rock_Common_B", "Rare": "Ground_Rare_B" }, 
+            { "Label": "F", "Index": 79, "Normal": "Dark_Common_B", "Rare": "Dark_Rare_C" }, 
+            { "Label": "G", "Index": 75, "Normal": "Fighting_Common_B", "Rare": "Fighting_Rare_A" }, 
+            { "Label": "H", "Index": 70, "Normal": "Ground_Common_B", "Rare": "Ground_Rare_B" }, 
+            { "Label": "I", "Index": 77, "Normal": "Fire_Common_C", "Rare": "Fire_Rare_B" }
+        ]
+    },
+    {
+        "AreaName": "巨人の帽子",
+        "DenList": [
+            { "Label": "A", "Index": 94, "Normal": "Flying_Common_B", "Rare": "Flying_Rare_B" }, 
+            { "Label": "B", "Index": 95, "Normal": "Electric_Common_A", "Rare": "Water_Rare_E" }, 
+            { "Label": "C", "Index": 92, "Normal": "Ice_Common_C", "Rare": "Ice_Rare_A" }, 
+            { "Label": "D", "Index": 93, "Normal": "Fire_Common_A", "Rare": "Fire_Rare_C" }, 
+            { "Label": "E", "Index": 91, "Normal": "Poison_Common_B", "Rare": "Poison_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "巨人の鏡池",
+        "DenList": [
+            { "Label": "A", "Index": 82, "Normal": "Grass_Common_B", "Rare": "Grass_Rare_C" }, 
+            { "Label": "B", "Index": 81, "Normal": "Dark_Common_B", "Rare": "Dark_Rare_B" }, 
+            { "Label": "C", "Index": 83, "Normal": "Electric_Common_B", "Rare": "Electric_Rare_C" }, 
+            { "Label": "D", "Index": 80, "Normal": "Water_Common_E", "Rare": "Water_Rare_B" }, 
+            { "Label": "E", "Index": 78, "Normal": "Grass_Common_C", "Rare": "Ghost_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "ナックル丘陵",
+        "DenList": [
+            { "Label": "A", "Index": 86, "Normal": "Poison_Common_B", "Rare": "Electric_Rare_B" }, 
+            { "Label": "B", "Index": 84, "Normal": "Steel_Common_B", "Rare": "Steel_Rare_A" }, 
+            { "Label": "C", "Index": 88, "Normal": "Ice_Common_C", "Rare": "Ice_Rare_B" }, 
+            { "Label": "D", "Index": 89, "Normal": "Fairy_Common_A", "Rare": "Fairy_Rare_A" }, 
+            { "Label": "E", "Index": 87, "Normal": "Fire_Common_B", "Rare": "Fire_Rare_A" }, 
+            { "Label": "F", "Index": 85, "Normal": "Flying_Common_B", "Rare": "Flying_Rare_A" }, 
+            { "Label": "G", "Index": 90, "Normal": "Psychic_Common_C", "Rare": "Psychic_Rare_B" }
+        ]
+    },
+    {
+        "AreaName": "げきりんの湖",
+        "DenList": [
+            { "Label": "A", "Index": 97, "Normal": "Fire_Common_A", "Rare": "Fire_Rare_D" }, 
+            { "Label": "B", "Index": 99, "Normal": "Fairy_Common_B", "Rare": "Fairy_Rare_B" }, 
+            { "Label": "C", "Index": 98, "Normal": "Water_Common_B", "Rare": "Water_Rare_A" }, 
+            { "Label": "D", "Index": 96, "Normal": "Electric_Common_B", "Rare": "Electric_Rare_A" }
+        ]
+    }
+]

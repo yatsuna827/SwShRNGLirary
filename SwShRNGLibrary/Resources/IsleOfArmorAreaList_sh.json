@@ -1,0 +1,167 @@
+[
+    {
+        "AreaName": "一礼野原",
+        "DenList": [
+            { "Label": "A", "Index": 106, "Normal": "Fire_IoA_Common_A", "Rare": "Fire_IoA_Rare_A" },
+            { "Label": "B", "Index": 109, "Normal": "Fighting_IoA_Common_A", "Rare": "Fighting_IoA_Rare_A" },
+            { "Label": "C", "Index": 104, "Normal": "Water_IoA_Common_A", "Rare": "Water_IoA_Rare_A" }, 
+            { "Label": "D", "Index": 105, "Normal": "Grass_IoA_Common_A", "Rare": "Grass_IoA_Rare_A" }, 
+            { "Label": "E", "Index": 110, "Normal": "Water_IoA_Common_C", "Rare": "Water_IoA_Rare_C" }, 
+            { "Label": "F", "Index": 108, "Normal": "Electric_IoA_Common_A", "Rare": "Electric_IoA_Rare_A" }, 
+            { "Label": "G", "Index": 103, "Normal": "Bug_IoA_Common_A", "Rare": "Bug_IoA_Rare_A" }, 
+            { "Label": "H", "Index": 102, "Normal": "Fairy_IoA_Common_A", "Rare": "Fairy_IoA_Rare_A" }, 
+            { "Label": "I", "Index": 101, "Normal": "Rock_IoA_Common_A", "Rare": "Rock_IoA_Rare_A" },
+            { "Label": "J", "Index": 107, "Normal": "Normal_IoA_Common_A", "Rare": "Normal_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "清涼湿原",
+        "DenList": [
+            { "Label": "A", "Index": 116, "Normal": "Psychic_IoA_Common_A", "Rare": "Psychic_IoA_Rare_A" },
+            { "Label": "B", "Index": 117, "Normal": "Normal_IoA_Common_B", "Rare": "Normal_IoA_Rare_B" },
+            { "Label": "C", "Index": 114, "Normal": "Dark_IoA_Common_A", "Rare": "Dark_IoA_Rare_A" },
+            { "Label": "D", "Index": 113, "Normal": "Fairy_IoA_Common_A", "Rare": "Fairy_IoA_Rare_A" },
+            { "Label": "E", "Index": 119, "Normal": "Water_IoA_Common_A", "Rare": "Water_IoA_Rare_A" },
+            { "Label": "F", "Index": 115, "Normal": "Poison_IoA_Common_A", "Rare": "Poison_IoA_Rare_A" },
+            { "Label": "G", "Index": 111, "Normal": "Water_IoA_Common_B", "Rare": "Water_IoA_Rare_B" },
+            { "Label": "H", "Index": 112, "Normal": "Grass_IoA_Common_A", "Rare": "Grass_IoA_Rare_A" },
+            { "Label": "I", "Index": 118, "Normal": "Normal_IoA_Common_A", "Rare": "Normal_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "集中の森",
+        "DenList": [
+            { "Label": "A", "Index": 124, "Normal": "Poison_IoA_Common_A", "Rare": "Poison_IoA_Rare_A" },
+            { "Label": "B", "Index": 123, "Normal": "Fairy_IoA_Common_A", "Rare": "Fairy_IoA_Rare_A" },
+            { "Label": "C", "Index": 122, "Normal": "Electric_IoA_Common_A", "Rare": "Electric_IoA_Rare_A" },
+            { "Label": "D", "Index": 120, "Normal": "Bug_IoA_Common_A", "Rare": "Bug_IoA_Rare_A" },
+            { "Label": "E", "Index": 125, "Normal": "Water_IoA_Common_B", "Rare": "Water_IoA_Rare_B" },
+            { "Label": "F", "Index": 121, "Normal": "Grass_IoA_Common_B", "Rare": "Grass_IoA_Rare_B" }
+        ]
+    },
+    {
+        "AreaName": "チャレンジビーチ",
+        "DenList": [
+            { "Label": "A", "Index": 131, "Normal": "Water_IoA_Common_C", "Rare": "Water_IoA_Rare_C" },
+            { "Label": "B", "Index": 126, "Normal": "Fire_IoA_Common_A", "Rare": "Fire_IoA_Rare_A" },
+            { "Label": "C", "Index": 127, "Normal": "Water_IoA_Common_B", "Rare": "Water_IoA_Rare_B" }, 
+            { "Label": "D", "Index": 132, "Normal": "Ground_IoA_Common_A", "Rare": "Ground_IoA_Rare_A" }, 
+            { "Label": "E", "Index": 133, "Normal": "Ghost_IoA_Common_A", "Rare": "Ghost_IoA_Rare_A" }, 
+            { "Label": "F", "Index": 128, "Normal": "Electric_IoA_Common_A", "Rare": "Electric_IoA_Rare_A" }, 
+            { "Label": "G", "Index": 130, "Normal": "Psychic_IoA_Common_A", "Rare": "Psychic_IoA_Rare_A" }, 
+            { "Label": "H", "Index": 129, "Normal": "Fighting_IoA_Common_A", "Rare": "Fighting_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "ファイトケイブ",
+        "DenList": [
+            { "Label": "A", "Index": 134, "Normal": "Steel_IoA_Common_A", "Rare": "Steel_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "チャレンジロード",
+        "DenList": [
+            { "Label": "A", "Index": 138, "Normal": "Dark_IoA_Common_A", "Rare": "Dark_IoA_Rare_A" },
+            { "Label": "B", "Index": 137, "Normal": "Flying_IoA_Common_A", "Rare": "Flying_IoA_Rare_A" },
+            { "Label": "C", "Index": 136, "Normal": "Rockruff_Common", "Rare": "Rockruff_Rare" },
+            { "Label": "D", "Index": 135, "Normal": "Fighting_IoA_Common_A", "Rare": "Fighting_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "闘心の洞窟",
+        "DenList": [
+            { "Label": "A", "Index": 140, "Normal": "Water_IoA_Common_B", "Rare": "Water_IoA_Rare_G" },
+            { "Label": "B", "Index": 142, "Normal": "Steel_IoA_Common_A", "Rare": "Steel_IoA_Rare_A" },
+            { "Label": "C", "Index": 141, "Normal": "Ghost_IoA_Common_A", "Rare": "Ghost_IoA_Rare_A" },
+            { "Label": "D", "Index": 139, "Normal": "Ground_IoA_Common_A", "Rare": "Ground_IoA_Rare_A" },
+            { "Label": "E", "Index": 144, "Normal": "Normal_IoA_Common_B", "Rare": "Normal_IoA_Rare_B" },
+            { "Label": "F", "Index": 143, "Normal": "Water_IoA_Common_A", "Rare": "Water_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "円環の入り江",
+        "DenList": [
+            { "Label": "A", "Index": 146, "Normal": "Dragon_IoA_Common_A", "Rare": "Grass_IoA_Rare_C" },
+            { "Label": "B", "Index": 148, "Normal": "Flying_IoA_Common_A", "Rare": "Flying_IoA_Rare_A" },
+            { "Label": "C", "Index": 145, "Normal": "Fire_IoA_Common_A", "Rare": "Fire_IoA_Rare_A" },
+            { "Label": "D", "Index": 147, "Normal": "Water_IoA_Common_C", "Rare": "Water_IoA_Rare_C" }
+        ]
+    },
+    {
+        "AreaName": "鍛錬平原",
+        "DenList": [
+            { "Label": "A", "Index": 152, "Normal": "Rock_IoA_Common_A", "Rare": "Rock_IoA_Rare_A" },
+            { "Label": "B", "Index": 153, "Normal": "Grass_IoA_Common_A", "Rare": "Grass_IoA_Rare_A" },
+            { "Label": "C", "Index": 155, "Normal": "Normal_IoA_Common_B", "Rare": "Normal_IoA_Rare_B" },
+            { "Label": "D", "Index": 150, "Normal": "Grass_IoA_Common_B", "Rare": "Grass_IoA_Rare_B" },
+            { "Label": "E", "Index": 154, "Normal": "Bug_IoA_Common_A", "Rare": "Bug_IoA_Rare_B" },
+            { "Label": "F", "Index": 149, "Normal": "Poison_IoA_Common_A", "Rare": "Poison_IoA_Rare_A" },
+            { "Label": "G", "Index": 151, "Normal": "Psychic_IoA_Common_A", "Rare": "Psychic_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "鍋底砂漠",
+        "DenList": [
+            { "Label": "A", "Index": 156, "Normal": "Ground_IoA_Common_A", "Rare": "Ground_IoA_Rare_B" },
+            { "Label": "B", "Index": 157, "Normal": "Fire_IoA_Common_A", "Rare": "Fire_IoA_Rare_A" },
+            { "Label": "C", "Index": 158, "Normal": "Rock_IoA_Common_A", "Rare": "Rock_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "ワークアウトの海",
+        "DenList": [
+            { "Label": "A", "Index": 159, "Normal": "Water_IoA_Common_E", "Rare": "Water_IoA_Rare_E" },
+            { "Label": "B", "Index": 165, "Normal": "Dragon_IoA_Common_A", "Rare": "Dragon_IoA_Rare_A" },
+            { "Label": "C", "Index": 163, "Normal": "Bug_IoA_Common_A", "Rare": "Bug_IoA_Rare_A" },
+            { "Label": "D", "Index": 160, "Normal": "Water_IoA_Common_D", "Rare": "Water_IoA_Rare_D" },
+            { "Label": "E", "Index": 164, "Normal": "Flying_IoA_Common_A", "Rare": "Flying_IoA_Rare_A" },
+            { "Label": "F", "Index": 162, "Normal": "Dark_IoA_Common_A", "Rare": "Dark_IoA_Rare_A" },
+            { "Label": "G", "Index": 161, "Normal": "Ditto_IoA_Common", "Rare": "Ditto_IoA_Rare" }
+        ]
+    },
+    {
+        "AreaName": "並ぶ島の海",
+        "DenList": [
+            { "Label": "A", "Index": 169, "Normal": "Poison_IoA_Common_A", "Rare": "Poison_IoA_Rare_A" },
+            { "Label": "B", "Index": 168, "Normal": "Water_IoA_Common_E", "Rare": "Water_IoA_Rare_E" },
+            { "Label": "C", "Index": 170, "Normal": "Steel_IoA_Common_A", "Rare": "Steel_IoA_Rare_A" },
+            { "Label": "D", "Index": 167, "Normal": "Psychic_IoA_Common_A", "Rare": "Psychic_IoA_Rare_A" },
+            { "Label": "E", "Index": 171, "Normal": "Normal_IoA_Common_A", "Rare": "Normal_IoA_Rare_A" },
+            { "Label": "F", "Index": 174, "Normal": "Fairy_IoA_Common_A", "Rare": "Fairy_IoA_Rare_A" },
+            { "Label": "G", "Index": 166, "Normal": "Ground_IoA_Common_A", "Rare": "Ground_IoA_Rare_A" },
+            { "Label": "H", "Index": 173, "Normal": "Water_IoA_Common_D", "Rare": "Water_IoA_Rare_D" },
+            { "Label": "I", "Index": 172, "Normal": "Ghost_IoA_Common_A", "Rare": "Ghost_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "離れ島海域",
+        "DenList": [
+            { "Label": "A", "Index": 179, "Normal": "Water_IoA_Common_C", "Rare": "Water_IoA_Rare_F" },
+            { "Label": "B", "Index": 178, "Normal": "Water_IoA_Common_D", "Rare": "Water_IoA_Rare_D" },
+            { "Label": "C", "Index": 177, "Normal": "Grass_IoA_Common_A", "Rare": "Grass_IoA_Rare_A" },
+            { "Label": "D", "Index": 176, "Normal": "Normal_IoA_Common_A", "Rare": "Normal_IoA_Rare_A" },
+            { "Label": "E", "Index": 175, "Normal": "Fairy_IoA_Common_A", "Rare": "Fairy_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "ハニカームの海",
+        "DenList": [
+            { "Label": "A", "Index": 183, "Normal": "Water_IoA_Common_D", "Rare": "Water_IoA_Rare_D" },
+            { "Label": "B", "Index": 182, "Normal": "Dark_IoA_Common_A", "Rare": "Dark_IoA_Rare_A" },
+            { "Label": "C", "Index": 184, "Normal": "Electric_IoA_Common_A", "Rare": "Electric_IoA_Rare_A" },
+            { "Label": "D", "Index": 181, "Normal": "Fighting_IoA_Common_A", "Rare": "Fighting_IoA_Rare_A" },
+            { "Label": "E", "Index": 180, "Normal": "Dragon_IoA_Common_A", "Rare": "Dragon_IoA_Rare_A" }
+        ]
+    },
+    {
+        "AreaName": "ハニカーム島",
+        "DenList": [
+            { "Label": "A", "Index": 185, "Normal": "Combee_Common", "Rare": "Combee_Rare" },
+            { "Label": "B", "Index": 186, "Normal": "Combee_Common", "Rare": "Combee_Rare" },
+            { "Label": "C", "Index": 190, "Normal": "Combee_Common", "Rare": "Combee_Rare" },
+            { "Label": "D", "Index": 187, "Normal": "Combee_Common", "Rare": "Combee_Rare" },
+            { "Label": "E", "Index": 189, "Normal": "Combee_Common", "Rare": "Combee_Rare" },
+            { "Label": "F", "Index": 188, "Normal": "Combee_Common", "Rare": "Combee_Rare" }
+        ]
+    }
+]

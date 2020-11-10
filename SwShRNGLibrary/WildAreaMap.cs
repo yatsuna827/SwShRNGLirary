@@ -78,12 +78,12 @@ namespace SwShRNGLibrary
         {
             swordMapList = new IReadOnlyList<WildAreaMap>[3];
             shieldMapList = new IReadOnlyList<WildAreaMap>[3];
-            swordMapList[0] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.MainlandAreaList_sw).Select(_ => _.CreateArea(RaidTable.SwordTables)).ToArray();
-            swordMapList[1] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.IsleOfArmorAreaList_sw).Select(_ => _.CreateArea(RaidTable.SwordTables)).ToArray();
-            swordMapList[2] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.CrownTundraAreaList_sw).Select(_ => _.CreateArea(RaidTable.SwordTables)).ToArray();
-            shieldMapList[0] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.MainlandAreaList_sh).Select(_ => _.CreateArea(RaidTable.ShieldTables)).ToArray();
-            shieldMapList[1] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.IsleOfArmorAreaList_sh).Select(_ => _.CreateArea(RaidTable.ShieldTables)).ToArray();
-            shieldMapList[2] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.CrownTundraAreaList_sh).Select(_ => _.CreateArea(RaidTable.ShieldTables)).ToArray();
+            swordMapList[0] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.MainlandAreaList_sw).Select(_ => _.CreateArea(RaidTable.swordTables)).ToArray();
+            swordMapList[1] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.IsleOfArmorAreaList_sw).Select(_ => _.CreateArea(RaidTable.swordTables)).ToArray();
+            swordMapList[2] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.CrownTundraAreaList_sw).Select(_ => _.CreateArea(RaidTable.swordTables)).ToArray();
+            shieldMapList[0] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.MainlandAreaList_sh).Select(_ => _.CreateArea(RaidTable.shieldTables)).ToArray();
+            shieldMapList[1] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.IsleOfArmorAreaList_sh).Select(_ => _.CreateArea(RaidTable.shieldTables)).ToArray();
+            shieldMapList[2] = JsonSerializer.Deserialize<AreaPasser[]>(Resources.CrownTundraAreaList_sh).Select(_ => _.CreateArea(RaidTable.shieldTables)).ToArray();
 
             mapNameList = swordMapList.Select(_ => _.Select(__ => __.MapName).ToArray()).ToArray();
 

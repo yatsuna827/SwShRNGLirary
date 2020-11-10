@@ -99,98 +99,42 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;BugA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キャタピー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アゴジムシ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;}
-        ///            ],
-        ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;トランセル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;C [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Bug_sh {
+        internal static byte[] Bug_sh {
             get {
-                return ResourceManager.GetString("Bug_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Bug_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;BugA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;キャタピー&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;アゴジムシ&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;}
-        ///            ],
-        ///            [
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;ツチニン&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common1&quot;, &quot;Name&quot;:&quot;バチュル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;Common2&quot;, &quot;Name&quot;:&quot;トランセル&quot;},
-        ///                {&quot;SlotType&quot;:&quot;C [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Bug_sw {
+        internal static byte[] Bug_sw {
             get {
-                return ResourceManager.GetString("Bug_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Bug_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;Sinistea_CT_A&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common3&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common5&quot;, &quot;Name&quot;: &quot;タブンネ&quot; }
-        ///            ],
-        ///            [ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Concept_sh {
+        internal static byte[] Concept_sh {
             get {
-                return ResourceManager.GetString("Concept_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Concept_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;Sinistea_CT_A&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common3&quot;, &quot;Name&quot;: &quot;ヤバチャ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common5&quot;, &quot;Name&quot;: &quot;タブンネ&quot; }
-        ///            ],
-        ///            [ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Concept_sw {
+        internal static byte[] Concept_sw {
             get {
-                return ResourceManager.GetString("Concept_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Concept_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -215,571 +159,262 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;DarkA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョロネコ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スカンプー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニューラ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マーイーカ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニューラ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マーイーカ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コマタナ&quot; },
-        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Dark_sh {
+        internal static byte[] Dark_sh {
             get {
-                return ResourceManager.GetString("Dark_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Dark_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;DarkA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョロネコ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スカンプー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニューラ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マーイーカ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニューラ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マーイーカ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コマタナ&quot; },
-        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Dark_sw {
+        internal static byte[] Dark_sw {
             get {
-                return ResourceManager.GetString("Dark_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Dark_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;DragonA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;オンバット&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;キバゴ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナックラー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;オンバット&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナックラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ビブラーバ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ヌメラ&quot; }
-        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Dragon_sh {
+        internal static byte[] Dragon_sh {
             get {
-                return ResourceManager.GetString("Dragon_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Dragon_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;DragonA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;オンバット&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;キバゴ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナックラー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;オンバット&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;キバゴ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ビブラーバ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ジャラコ&quot; }
-        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Dragon_sw {
+        internal static byte[] Dragon_sw {
             get {
-                return ResourceManager.GetString("Dragon_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Dragon_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;ElectricA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ピチュー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ラクライ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バチュル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バチュル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;デンヂムシ&quot;  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Electric_sh {
+        internal static byte[] Electric_sh {
             get {
-                return ResourceManager.GetString("Electric_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Electric_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;ElectricA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ピチュー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ラクライ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バチュル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バチュル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;デンヂムシ&quot;  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Electric_sw {
+        internal static byte[] Electric_sw {
             get {
-                return ResourceManager.GetString("Electric_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Electric_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;FairyA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ピィ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;トゲピー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アブリー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;シュシュプ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アブリー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;シュシュプ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ピッピ&quot; },
-        ///     [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Fairy_sh {
+        internal static byte[] Fairy_sh {
             get {
-                return ResourceManager.GetString("Fairy_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Fairy_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;FairyA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ピィ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;トゲピー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アブリー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ペロッパフ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アブリー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ペロッパフ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ピッピ&quot; },
-        ///     [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Fairy_sw {
+        internal static byte[] Fairy_sw {
             get {
-                return ResourceManager.GetString("Fairy_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Fairy_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;FightingA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バルキー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ワンリキー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;グレッグル&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;グレッグル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ゴーリキ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Fighting_sh {
+        internal static byte[] Fighting_sh {
             get {
-                return ResourceManager.GetString("Fighting_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Fighting_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;FightingA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バルキー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ワンリキー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ズルッグ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドッコラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ズルッグ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ゴーリキー&quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Fighting_sw {
+        internal static byte[] Fighting_sw {
             get {
-                return ResourceManager.GetString("Fighting_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Fighting_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;FireA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤクデ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤトウモリ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒトモシ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ガーディ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤトウモリ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒトモシ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;クイタラン&quot; },
-        ///   [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Fire_sh {
+        internal static byte[] Fire_sh {
             get {
-                return ResourceManager.GetString("Fire_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Fire_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;FireA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤクデ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤトウモリ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒトモシ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ロコン&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤトウモリ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒトモシ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ダルマッカ&quot;, &quot;Form [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Fire_sw {
+        internal static byte[] Fire_sw {
             get {
-                return ResourceManager.GetString("Fire_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Fire_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;FlyingA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホーホー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ネイティ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バルチャイ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ネイティ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バルチャイ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コロモリ&quot; },
-        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Flying_sh {
+        internal static byte[] Flying_sh {
             get {
-                return ResourceManager.GetString("Flying_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Flying_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;FlyingA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホーホー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ネイティ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ワシボン&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ネイティ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ワシボン&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コロモリ&quot; },
-        ///   [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Flying_sw {
+        internal static byte[] Flying_sw {
             get {
-                return ResourceManager.GetString("Flying_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Flying_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;GhostA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ゴース&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヨマワル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;フワンテ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ボクレー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;プルリル&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;フワンテ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ボクレー&quot; },
-        ///     [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Ghost_sh {
+        internal static byte[] Ghost_sh {
             get {
-                return ResourceManager.GetString("Ghost_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Ghost_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;GhostA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ゴース&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヨマワル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;フワンテ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ボクレー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;プルリル&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;フワンテ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ボクレー&quot; },
-        ///     [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Ghost_sw {
+        internal static byte[] Ghost_sw {
             get {
-                return ResourceManager.GetString("Ghost_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Ghost_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;GrassA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スボミー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アマカジ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ハスボー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アマカジ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ハスブレロ&quot; },
-        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Grass_sh {
+        internal static byte[] Grass_sh {
             get {
-                return ResourceManager.GetString("Grass_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Grass_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;GrassA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スボミー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アマカジ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;タネボー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;アマカジ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;コノハナ&quot; },
-        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Grass_sw {
+        internal static byte[] Grass_sw {
             get {
-                return ResourceManager.GetString("Grass_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Grass_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;GroundA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ディグダ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドロバンコ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ツチニン&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;モグリュー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ツチニン&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;モグリュー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イワーク&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Ground_sh {
+        internal static byte[] Ground_sh {
             get {
-                return ResourceManager.GetString("Ground_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Ground_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;GroundA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ディグダ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドロバンコ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ツチニン&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;モグリュー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ツチニン&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;モグリュー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イワーク&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Ground_sw {
+        internal static byte[] Ground_sw {
             get {
-                return ResourceManager.GetString("Ground_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Ground_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;IceA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バニプッチ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ウリムー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユキカブリ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カチコール&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユキカブリ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カチコール&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;デリバード&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Ice_sh {
+        internal static byte[] Ice_sh {
             get {
-                return ResourceManager.GetString("Ice_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Ice_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;IceA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;バニプッチ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ウリムー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユキカブリ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カチコール&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユキカブリ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カチコール&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;デリバード&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Ice_sw {
+        internal static byte[] Ice_sw {
             get {
-                return ResourceManager.GetString("Ice_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Ice_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;AreaName&quot;: &quot;一礼野原&quot;,
-        ///        &quot;DenList&quot;: [
-        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 106, &quot;Normal&quot;: &quot;FireI&quot;, &quot;Rare&quot;: &quot;FireJ&quot; },
-        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 109, &quot;Normal&quot;: &quot;FightingE&quot;, &quot;Rare&quot;: &quot;FightingF&quot; },
-        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 104, &quot;Normal&quot;: &quot;WaterL&quot;, &quot;Rare&quot;: &quot;WaterM&quot; }, 
-        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 105, &quot;Normal&quot;: &quot;GrassH&quot;, &quot;Rare&quot;: &quot;GrassI&quot; }, 
-        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 110, &quot;Normal&quot;: &quot;WaterP&quot;, &quot;Rare&quot;: &quot;WaterQ&quot; }, 
-        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 1 [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string IsleOfArmorAreaList_sh {
+        internal static byte[] IsleOfArmorAreaList_sh {
             get {
-                return ResourceManager.GetString("IsleOfArmorAreaList_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("IsleOfArmorAreaList_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;AreaName&quot;: &quot;一礼野原&quot;,
-        ///        &quot;DenList&quot;: [
-        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 106, &quot;Normal&quot;: &quot;FireI&quot;, &quot;Rare&quot;: &quot;FireJ&quot; },
-        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 109, &quot;Normal&quot;: &quot;FightingE&quot;, &quot;Rare&quot;: &quot;FightingF&quot; },
-        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 104, &quot;Normal&quot;: &quot;WaterL&quot;, &quot;Rare&quot;: &quot;WaterM&quot; }, 
-        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 105, &quot;Normal&quot;: &quot;GrassH&quot;, &quot;Rare&quot;: &quot;GrassI&quot; }, 
-        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 110, &quot;Normal&quot;: &quot;WaterP&quot;, &quot;Rare&quot;: &quot;WaterQ&quot; }, 
-        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 1 [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string IsleOfArmorAreaList_sw {
+        internal static byte[] IsleOfArmorAreaList_sw {
             get {
-                return ResourceManager.GetString("IsleOfArmorAreaList_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("IsleOfArmorAreaList_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;AreaName&quot;: &quot;うららか草原&quot;,
-        ///        &quot;DenList&quot;: [
-        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 3, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; },
-        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 8, &quot;Normal&quot;: &quot;FightingA&quot;, &quot;Rare&quot;: &quot;FightingC&quot; },
-        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 9, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; }, 
-        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 1, &quot;Normal&quot;: &quot;GroundA&quot;, &quot;Rare&quot;: &quot;GroundC&quot; }, 
-        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 7, &quot;Normal&quot;: &quot;NormalA&quot;, &quot;Rare&quot;: &quot;NormalC&quot; }, 
-        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 5, &quot;N [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string MainlandAreaList_sh {
+        internal static byte[] MainlandAreaList_sh {
             get {
-                return ResourceManager.GetString("MainlandAreaList_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("MainlandAreaList_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;AreaName&quot;: &quot;うららか草原&quot;,
-        ///        &quot;DenList&quot;: [
-        ///            { &quot;Label&quot;: &quot;A&quot;, &quot;Index&quot;: 3, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; },
-        ///            { &quot;Label&quot;: &quot;B&quot;, &quot;Index&quot;: 8, &quot;Normal&quot;: &quot;FightingA&quot;, &quot;Rare&quot;: &quot;FightingC&quot; },
-        ///            { &quot;Label&quot;: &quot;C&quot;, &quot;Index&quot;: 9, &quot;Normal&quot;: &quot;FlyingA&quot;, &quot;Rare&quot;: &quot;BugD&quot; }, 
-        ///            { &quot;Label&quot;: &quot;D&quot;, &quot;Index&quot;: 1, &quot;Normal&quot;: &quot;GroundA&quot;, &quot;Rare&quot;: &quot;GroundC&quot; }, 
-        ///            { &quot;Label&quot;: &quot;E&quot;, &quot;Index&quot;: 7, &quot;Normal&quot;: &quot;NormalA&quot;, &quot;Rare&quot;: &quot;NormalC&quot; }, 
-        ///            { &quot;Label&quot;: &quot;F&quot;, &quot;Index&quot;: 5, &quot;N [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string MainlandAreaList_sw {
+        internal static byte[] MainlandAreaList_sw {
             get {
-                return ResourceManager.GetString("MainlandAreaList_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("MainlandAreaList_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -815,91 +450,42 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;NormalA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホルビー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホーホー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チラーミィ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チラーミィ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;エリキテル&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Normal_sh {
+        internal static byte[] Normal_sh {
             get {
-                return ResourceManager.GetString("Normal_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Normal_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;NormalA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホルビー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ホーホー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チラーミィ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;マメパト&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チラーミィ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;エリキテル&quot; }, [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Normal_sw {
+        internal static byte[] Normal_sw {
             get {
-                return ResourceManager.GetString("Normal_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Normal_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;PoisonA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スカンプー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤブクロン&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スコルピ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スコルピ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ナゾノクサ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ロゼリア&quot; } [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Poison_sh {
+        internal static byte[] Poison_sh {
             get {
-                return ResourceManager.GetString("Poison_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Poison_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;PoisonA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スカンプー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヤブクロン&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スコルピ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒドイデ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;スコルピ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ヒドイデ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ロゼリア&quot; },
-        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Poison_sw {
+        internal static byte[] Poison_sw {
             get {
-                return ResourceManager.GetString("Poison_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Poison_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -946,182 +532,82 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;PsychicA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ラルトス&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ムンナ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャスパー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;リグレー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ユニラン&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャスパー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;リグレー&quot; },
-        /// [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Psychic_sh {
+        internal static byte[] Psychic_sh {
             get {
-                return ResourceManager.GetString("Psychic_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Psychic_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;PsychicA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ラルトス&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ムンナ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャスパー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;リグレー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ゴチム&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャスパー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;リグレー&quot; },
-        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Psychic_sw {
+        internal static byte[] Psychic_sw {
             get {
-                return ResourceManager.GetString("Psychic_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Psychic_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;RockA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ウソハチ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イシズマイ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カメテテ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ダンゴロ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イシズマイ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ダンゴロ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;サイホーン&quot; },
-        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Rock_sh {
+        internal static byte[] Rock_sh {
             get {
-                return ResourceManager.GetString("Rock_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Rock_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;RockA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ウソハチ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イシズマイ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カメテテ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ダンゴロ&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;イシズマイ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;カメテテ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;サイホーン&quot; },
-        ///  [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Rock_sw {
+        internal static byte[] Rock_sw {
             get {
-                return ResourceManager.GetString("Rock_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Rock_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;SteelA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ギアル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャース&quot;, &quot;Form&quot;: &quot;ガラル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドーミラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッシード&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドーミラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッシード&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Na [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Steel_sh {
+        internal static byte[] Steel_sh {
             get {
-                return ResourceManager.GetString("Steel_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Steel_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;SteelA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ギアル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ニャース&quot;, &quot;Form&quot;: &quot;ガラル&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドーミラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッシード&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;ドーミラー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッシード&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Na [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Steel_sw {
+        internal static byte[] Steel_sw {
             get {
-                return ResourceManager.GetString("Steel_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Steel_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;WaterA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;コイキング&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;タマンタ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッポウオ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッポウオ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ホエルコ&quot; } [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Water_sh {
+        internal static byte[] Water_sh {
             get {
-                return ResourceManager.GetString("Water_sh", resourceCulture);
+                object obj = ResourceManager.GetObject("Water_sh", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   [
-        ///    {
-        ///        &quot;Label&quot;: &quot;WaterA&quot;,
-        ///        &quot;Table&quot;: [
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;コイキング&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;タマンタ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッポウオ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; }
-        ///            ],
-        ///            [
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;テッポウオ&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common1&quot;, &quot;Name&quot;: &quot;チョンチー&quot; },
-        ///                { &quot;SlotType&quot;: &quot;Common2&quot;, &quot;Name&quot;: &quot;ホエルコ&quot; } [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
         /// </summary>
-        internal static string Water_sw {
+        internal static byte[] Water_sw {
             get {
-                return ResourceManager.GetString("Water_sw", resourceCulture);
+                object obj = ResourceManager.GetObject("Water_sw", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

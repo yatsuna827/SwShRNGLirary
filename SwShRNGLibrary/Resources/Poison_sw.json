@@ -1,0 +1,284 @@
+[
+    {
+        "Label": "Poison_Common_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "スカンプー" },
+                { "SlotType": "Common1", "Name": "ヤブクロン" },
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common1", "Name": "ヒドイデ" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common1", "Name": "ヒドイデ" },
+                { "SlotType": "Common2", "Name": "ロゼリア" },
+                { "SlotType": "Common2", "Name": "ナゾノクサ" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ロゼリア" },
+                { "SlotType": "Common3", "Name": "ハリーセン" },
+                { "SlotType": "Common4", "Name": "ドラピオン" },
+                { "SlotType": "Common4", "Name": "ラフレシア" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ハリーセン" },
+                { "SlotType": "Common4", "Name": "ドラピオン" },
+                { "SlotType": "Common4", "Name": "ラフレシア" },
+                { "SlotType": "Common5", "Name": "ドヒドイデ" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ドラピオン" },
+                { "SlotType": "Common4", "Name": "ラフレシア" },
+                { "SlotType": "Common5", "Name": "ドヒドイデ" },
+                { "SlotType": "Common5", "Name": "スカタンク" },
+                { "SlotType": "Common5", "Name": "ダストダス" }
+            ]
+        ]
+    },
+    {
+        "Label": "Poison_Common_B",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "エレズン" },
+                { "SlotType": "Common1", "Name": "ゴース" },
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common1", "Name": "ナゾノクサ" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common1", "Name": "ナゾノクサ" },
+                { "SlotType": "Common2", "Name": "クサイハナ" },
+                { "SlotType": "Common2", "Name": "ゴースト" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ゴースト" },
+                { "SlotType": "Common3", "Name": "ドガース" },
+                { "SlotType": "Common4", "Name": "ハリーセン" },
+                { "SlotType": "Common4", "Name": "ラフレシア" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ドガース" },
+                { "SlotType": "Common4", "Name": "ハリーセン" },
+                { "SlotType": "Common4", "Name": "ラフレシア" },
+                { "SlotType": "Common5", "Name": "ロゼリア" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ハリーセン" },
+                { "SlotType": "Common4", "Name": "ラフレシア" },
+                { "SlotType": "Common5", "Name": "ロゼリア" },
+                { "SlotType": "Common5", "Name": "ストリンダー", "Form": "ハイ" },
+                { "SlotType": "Common5", "Name": "マタドガス", "Form": "ガラル" }
+            ]
+        ]
+    },
+    {
+        "Label": "Poison_Rare_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "スカンプー" },
+                { "SlotType": "Common1", "Name": "ヤブクロン" },
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common1", "Name": "ドガース" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common1", "Name": "ドガース" },
+                { "SlotType": "Common2", "Name": "エレズン" },
+                { "SlotType": "Common2", "Name": "ヒドイデ" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "エレズン" },
+                { "SlotType": "Common2", "Name": "ヒドイデ" },
+                { "SlotType": "Common4", "Name": "ダストダス" },
+                { "SlotType": "Common4", "Name": "ドラピオン" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ダストダス" },
+                { "SlotType": "Common4", "Name": "ドラピオン" },
+                { "SlotType": "Common5", "Name": "ストリンダー", "Form": "ハイ" },
+                { "SlotType": "Common5", "Name": "スカタンク" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ダストダス" },
+                { "SlotType": "Common4", "Name": "ドラピオン" },
+                { "SlotType": "Common5", "Name": "ストリンダー", "Form": "ハイ" },
+                { "SlotType": "Common5", "Name": "スカタンク" },
+                { "SlotType": "Common5", "Name": "マタドガス", "Form": "ガラル" },
+                { "SlotType": "Common5", "Name": "ドヒドイデ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Poison_Rare_B",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "スカンプー" },
+                { "SlotType": "Common1", "Name": "ヤブクロン" },
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common1", "Name": "ドガース" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common1", "Name": "ドガース" },
+                { "SlotType": "Common2", "Name": "エレズン" },
+                { "SlotType": "Common2", "Name": "ヒドイデ" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "エレズン" },
+                { "SlotType": "Common2", "Name": "ヒドイデ" },
+                { "SlotType": "Common3", "Name": "ドラピオン" },
+                { "SlotType": "Common4", "Name": "ストリンダー", "Form": "ハイ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ドラピオン" },
+                { "SlotType": "Common4", "Name": "ストリンダー", "Form": "ハイ" },
+                { "SlotType": "Common5", "Name": "スカタンク" },
+                { "SlotType": "Common5", "Name": "マタドガス", "Form": "ガラル" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ストリンダー", "Form": "ハイ" },
+                { "SlotType": "Common5", "Name": "スカタンク" },
+                { "SlotType": "Common5", "Name": "マタドガス", "Form": "ガラル" },
+                { "SlotType": "Common4", "Name": "ダストダス", "Form": "キョダイ" },
+                { "SlotType": "Common5", "Name": "ドヒドイデ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Poison_IoA_Common_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "フシデ" },
+                { "SlotType": "Common1", "Name": "スコルピ" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "フシデ" },
+                { "SlotType": "Common1", "Name": "スコルピ" },
+                { "SlotType": "Common2", "Name": "メノクラゲ" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "メノクラゲ" },
+                { "SlotType": "Common3", "Name": "ホイーガ" },
+                { "SlotType": "Common4", "Name": "ラッキー" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ホイーガ" },
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "ドラピオン" },
+                { "SlotType": "Common5", "Name": "ドククラゲ" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "ドラピオン" },
+                { "SlotType": "Common5", "Name": "ドククラゲ" },
+                { "SlotType": "Common5", "Name": "ペンドラー" }
+            ]
+        ]
+    },
+    {
+        "Label": "Poison_IoA_Rare_A",
+        "Table": [
+            [
+                { "SlotType": "Rare1", "Name": "ヒドイデ" },
+                { "SlotType": "Rare1", "Name": "ハリーセン" }
+            ],
+            [
+                { "SlotType": "Rare1", "Name": "ヒドイデ" },
+                { "SlotType": "Rare1", "Name": "ハリーセン" },
+                { "SlotType": "Rare2", "Name": "ホイーガ" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ホイーガ" },
+                { "SlotType": "Rare3", "Name": "ハリーセン" },
+                { "SlotType": "Rare3", "Name": "モロバレル" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "ハリーセン" },
+                { "SlotType": "Rare3", "Name": "モロバレル" },
+                { "SlotType": "Rare4", "Name": "ドヒドイデ" },
+                { "SlotType": "Rare4", "Name": "ペンドラー" },
+                { "SlotType": "Rare4", "Name": "ドラピオン" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ドヒドイデ" },
+                { "SlotType": "Rare4", "Name": "ペンドラー" },
+                { "SlotType": "Rare4", "Name": "ドラピオン" },
+                { "SlotType": "Rare4", "Name": "マタドガス", "Form": "ガラル" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ]
+        ]
+    },
+    {
+        "Label": "Poison_CT_Common_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ニドラン♀" },
+                { "SlotType": "Common1", "Name": "ズバット" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ニドラン♀" },
+                { "SlotType": "Common1", "Name": "ズバット" },
+                { "SlotType": "Common2", "Name": "ニドラン♀" },
+                { "SlotType": "Common2", "Name": "ニドラン♂" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ニドラン♀" },
+                { "SlotType": "Common2", "Name": "ニドラン♂" },
+                { "SlotType": "Common3", "Name": "ニドリーナ" },
+                { "SlotType": "Common3", "Name": "ニドリーノ" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ニドリーナ" },
+                { "SlotType": "Common3", "Name": "ニドリーノ" },
+                { "SlotType": "Common5", "Name": "ニドクイン" },
+                { "SlotType": "Common5", "Name": "ゴルバット" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ],
+            [
+                { "SlotType": "Common5", "Name": "ニドクイン" },
+                { "SlotType": "Common5", "Name": "ゴルバット" },
+                { "SlotType": "Common5", "Name": "ニドキング" },
+                { "SlotType": "Common5", "Name": "タブンネ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Poison_CT_Rare_A",
+        "Table": [
+            [
+                { "SlotType": "Rare2", "Name": "ズバット" },
+                { "SlotType": "Rare2", "Name": "ヤブクロン" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ズバット" },
+                { "SlotType": "Rare2", "Name": "ヤブクロン" },
+                { "SlotType": "Rare3", "Name": "ニドリーナ" },
+                { "SlotType": "Rare3", "Name": "ヤドン", "Form": "ガラル" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "ニドリーナ" },
+                { "SlotType": "Rare3", "Name": "ヤドン", "Form": "ガラル" },
+                { "SlotType": "Rare4", "Name": "ゴルバット" },
+                { "SlotType": "Rare4", "Name": "ダストダス" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ゴルバット" },
+                { "SlotType": "Rare4", "Name": "ダストダス" },
+                { "SlotType": "Rare5", "Name": "ニドクイン" },
+                { "SlotType": "Rare5", "Name": "ニドキング" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ],
+            [
+                { "SlotType": "Rare5", "Name": "ニドクイン" },
+                { "SlotType": "Rare5", "Name": "ニドキング" },
+                { "SlotType": "Rare5", "Name": "クロバット" },
+                { "SlotType": "Rare5", "Name": "ダストダス", "Form": "キョダイ" },
+                { "SlotType": "Rare5", "Name": "デリバード" }
+            ]
+        ]
+    }
+]
