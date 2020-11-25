@@ -211,12 +211,6 @@
   <data name="IsleOfArmorAreaList_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IsleOfArmorAreaList_sw.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="MainlandAreaList_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MainlandAreaList_sh.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MainlandAreaList_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MainlandAreaList_sw.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="MapName_eng" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MapName_eng.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -258,5 +252,11 @@
   </data>
   <data name="Water_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Water_sw.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WildAreaAreaList_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\wildareaarealist_sh.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WildAreaAreaList_sw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\wildareaarealist_sw.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

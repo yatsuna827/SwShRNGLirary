@@ -399,26 +399,6 @@ namespace SwShRNGLibrary.Properties {
         }
         
         /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] MainlandAreaList_sh {
-            get {
-                object obj = ResourceManager.GetObject("MainlandAreaList_sh", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] MainlandAreaList_sw {
-            get {
-                object obj = ResourceManager.GetObject("MainlandAreaList_sw", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   うららか草原,Rolling Fields
         ///こもれび林,Dappled Grove 
         ///見張り塔跡地,Watchtower Ruins
@@ -607,6 +587,26 @@ namespace SwShRNGLibrary.Properties {
         internal static byte[] Water_sw {
             get {
                 object obj = ResourceManager.GetObject("Water_sw", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static byte[] WildAreaAreaList_sh {
+            get {
+                object obj = ResourceManager.GetObject("WildAreaAreaList_sh", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Byte[] のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static byte[] WildAreaAreaList_sw {
+            get {
+                object obj = ResourceManager.GetObject("WildAreaAreaList_sw", resourceCulture);
                 return ((byte[])(obj));
             }
         }

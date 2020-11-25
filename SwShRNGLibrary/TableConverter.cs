@@ -47,9 +47,9 @@ namespace SwShRNGLibrary
     {
         public string AreaName { get; set; }
         public DenPasser[] DenList { get; set; }
-        internal WildAreaMap CreateArea(Dictionary<string, IReadOnlyList<RaidTable>> table)
+        internal MaxRaidArea CreateArea(Dictionary<string, IReadOnlyList<RaidTable>> table)
         {
-            return new WildAreaMap(AreaName, DenList.Select(_ => new Den(_.Label, _.Index, table[_.Normal], table[_.Rare])).ToArray());
+            return new MaxRaidArea(AreaName, DenList.Select(_ => new Den(_.Label, _.Index, table[_.Normal], table[_.Rare])).ToArray());
         }
     }
     class DenPasser
