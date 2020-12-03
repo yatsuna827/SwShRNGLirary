@@ -1044,7 +1044,7 @@ namespace SwShRNGLibrary
             dexData.Add(new Species(694, 318, -1, -1, "エリキテル", "", new uint[] { 44, 38, 33, 61, 43, 70 }, (PokeType.Electric, PokeType.Normal), new string[] { "かんそうはだ", "すながくれ", "サンパワー" }, GenderRatio.M1F1));
             dexData.Add(new Species(695, 319, -1, -1, "エレザード", "", new uint[] { 62, 55, 52, 109, 94, 109 }, (PokeType.Electric, PokeType.Normal), new string[] { "かんそうはだ", "すながくれ", "サンパワー" }, GenderRatio.M1F1));
             dexData.Add(new Species(696, -1, -1, 83, "チゴラス", "", new uint[] { 58, 89, 77, 45, 45, 48 }, (PokeType.Rock, PokeType.Dragon), new string[] { "がんじょうあご", "がんじょうあご", "がんじょう" }, GenderRatio.M7F1));
-            dexData.Add(new Species(697, -1, -1, 84, "ガチゴラス", "", new uint[] { 82, 121, 119, 69, 59, 71 }, (PokeType.Rock, PokeType.Dragon), new string[] { "がんじょうあご", "がんじょうあご", "がんじょう" }, GenderRatio.M7F1));
+            dexData.Add(new Species(697, -1, -1, 84, "ガチゴラス", "", new uint[] { 82, 121, 119, 69, 59, 71 }, (PokeType.Rock, PokeType.Dragon), new string[] { "がんじょうあご", "がんじょうあご", "いしあたま" }, GenderRatio.M7F1));
             dexData.Add(new Species(698, -1, -1, 85, "アマルス", "", new uint[] { 77, 59, 50, 67, 63, 46 }, (PokeType.Rock, PokeType.Ice), new string[] { "フリーズスキン", "フリーズスキン", "ゆきふらし" }, GenderRatio.M7F1));
             dexData.Add(new Species(699, -1, -1, 86, "アマルルガ", "", new uint[] { 123, 77, 72, 99, 92, 58 }, (PokeType.Rock, PokeType.Ice), new string[] { "フリーズスキン", "フリーズスキン", "ゆきふらし" }, GenderRatio.M7F1));
             dexData.Add(new Species(700, 204, -1, 82, "ニンフィア", "", new uint[] { 95, 65, 65, 110, 130, 60 }, (PokeType.Fairy, PokeType.Non), new string[] { "メロメロボディ", "メロメロボディ", "フェアリースキン" }, GenderRatio.M7F1));
