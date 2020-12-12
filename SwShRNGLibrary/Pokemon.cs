@@ -785,7 +785,7 @@ namespace SwShRNGLibrary
             dexData.Add(new Species(459, 96, -1, 31, "ユキカブリ", "", new uint[] { 60, 62, 50, 62, 60, 40 }, (PokeType.Grass, PokeType.Ice), new string[] { "ゆきふらし", "ゆきふらし", "ぼうおん" }, GenderRatio.M1F1));
             dexData.Add(new Species(460, 97, -1, 32, "ユキノオー", "", new uint[] { 90, 92, 75, 92, 85, 60 }, (PokeType.Grass, PokeType.Ice), new string[] { "ゆきふらし", "ゆきふらし", "ぼうおん" }, GenderRatio.M1F1));
             dexData.Add(new Species(461, 293, -1, 29, "マニューラ", "", new uint[] { 70, 120, 65, 45, 85, 125 }, (PokeType.Dark, PokeType.Ice), new string[] { "プレッシャー", "プレッシャー", "わるいてぐせ" }, GenderRatio.M1F1));
-            dexData.Add(new Species(462, -1, 107, -1, "ジバコイル", "", new uint[] { 70, 70, 115, 130, 90, 60 }, (PokeType.Electric, PokeType.Steel), new string[] { "じりょく", "がんじょう", "アナライズ" }, GenderRatio.M1F1));
+            dexData.Add(new Species(462, -1, 107, -1, "ジバコイル", "", new uint[] { 70, 70, 115, 130, 90, 60 }, (PokeType.Electric, PokeType.Steel), new string[] { "じりょく", "がんじょう", "アナライズ" }, GenderRatio.Genderless));
             dexData.Add(new Species(463, -1, 55, -1, "ベロベルト", "", new uint[] { 110, 85, 95, 80, 95, 50 }, (PokeType.Normal, PokeType.Non), new string[] { "マイペース", "どんかん", "ノーてんき" }, GenderRatio.M1F1));
             dexData.Add(new Species(464, 266, 185, -1, "ドサイドン", "", new uint[] { 115, 140, 130, 55, 55, 40 }, (PokeType.Ground, PokeType.Rock), new string[] { "ひらいしん", "ハードロック", "すてみ" }, GenderRatio.M1F1));
             dexData.Add(new Species(465, -1, 81, -1, "モジャンボ", "", new uint[] { 100, 100, 125, 110, 50, 50 }, (PokeType.Grass, PokeType.Non), new string[] { "ようりょくそ", "リーフガード", "さいせいりょく" }, GenderRatio.M1F1));
