@@ -35,10 +35,11 @@ namespace SwShRNGLibrary
                     IVs = IVs,
                     Nature = nature,
                     Ability = Ability[AbilityIndex],
-                    Gender = gender
+                    Gender = gender,
+                    Characteristic = GetCharacteric(IVs, EC)
                 };
             }
-
+            
             public (uint[] Min, uint[] Max) CalcIVsRange(uint[] Stats, uint Lv, Nature nature)
             {
                 uint[] MinIVs = new uint[6] { 32, 32, 32, 32, 32, 32 };
@@ -139,6 +140,17 @@ namespace SwShRNGLibrary
                 return stats;
             }
 
+            static private readonly int[] permutation = { 0, 1, 2, 5, 3, 4 };
+            static private readonly string[] characteristic = { "昼寝をよくする", "暴れることが好き", "打たれ強い", "物音に敏感", "イタズラが好き", "ちょっぴり見栄っ張り" };
+            private string GetCharacteric(uint[] ivs, uint ec)
+            {
+                if (!ivs.Contains(31u)) return ""; // Vが含まれない場合はいったん保留.
+
+                var i = ec % 6;
+                while (ivs[permutation[i]] != 31) if (++i == 6) i = 0;
+                return characteristic[i];
+            }
+
             internal Species(int dexID, int galarDexID, string name,string formName, uint[] bs, (PokeType type1, PokeType type2) type, string[] ability, GenderRatio ratio)
             {
                 DexID = dexID;
@@ -174,6 +186,7 @@ namespace SwShRNGLibrary
             public uint[] IVs { get; internal set; }
             public uint[] Stats { get; internal set; }
             public ShinyType Shiny { get; internal set; }
+            public string Characteristic { get; internal set; }
             public Individual SetShinyType(ShinyType value) { Shiny = value; return this; }
             internal Individual() { }
 
