@@ -196,16 +196,16 @@
             [
                 { "SlotType": "Rare3", "Name": "ハリーセン" },
                 { "SlotType": "Rare3", "Name": "モロバレル" },
-                { "SlotType": "Rare5", "Name": "ドヒドイデ" },
-                { "SlotType": "Rare5", "Name": "ペンドラー" },
-                { "SlotType": "Rare5", "Name": "ドラピオン" },
+                { "SlotType": "Rare4", "Name": "ドヒドイデ" },
+                { "SlotType": "Rare4", "Name": "ペンドラー" },
+                { "SlotType": "Rare4", "Name": "ドラピオン" },
                 { "SlotType": "Rare4", "Name": "ハピナス" }
             ],
             [
-                { "SlotType": "Rare5", "Name": "ドヒドイデ" },
-                { "SlotType": "Rare5", "Name": "ペンドラー" },
-                { "SlotType": "Rare5", "Name": "ドラピオン" },
-                { "SlotType": "Rare5", "Name": "マタドガス", "Form": "ガラル" },
+                { "SlotType": "Rare4", "Name": "ドヒドイデ" },
+                { "SlotType": "Rare4", "Name": "ペンドラー" },
+                { "SlotType": "Rare4", "Name": "ドラピオン" },
+                { "SlotType": "Rare4", "Name": "マタドガス", "Form": "ガラル" },
                 { "SlotType": "Rare4", "Name": "ハピナス" }
             ]
         ]
