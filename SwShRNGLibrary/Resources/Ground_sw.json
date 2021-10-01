@@ -166,11 +166,13 @@
                 { "SlotType": "Common3", "Name": "ワルビル" },
                 { "SlotType": "Common3", "Name": "サンドパン" },
                 { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "サダイジャ" },
                 { "SlotType": "Common5", "Name": "サンドパン" },
                 { "SlotType": "Common5", "Name": "ガラガラ" }
             ],
             [
                 { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "サダイジャ" },
                 { "SlotType": "Common5", "Name": "サンドパン" },
                 { "SlotType": "Common5", "Name": "ガラガラ" },
                 { "SlotType": "Common5", "Name": "ワルビアル" },
