@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PokemonPRNG.Xoroshiro128p;
 
 namespace SwShRNGLibrary
 {
-
     public class RaidGenerator
     {
         public ulong seed { get; private set; }
@@ -15,7 +15,7 @@ namespace SwShRNGLibrary
         private static readonly Nature[] LowNature = new Nature[] { Nature.Lonely, Nature.Bold, Nature.Relaxed, Nature.Timid, Nature.Serious, Nature.Modest, Nature.Mild, Nature.Quiet, Nature.Bashful, Nature.Calm, Nature.Gentle, Nature.Careful };
         public Pokemon.Individual Generate(RaidBattleSlot slot, uint Lv = 60)
         {
-            Xoroshiro128p rng = new Xoroshiro128p(seed, FIXEDSEED);
+            var rng = (seed, FIXEDSEED);
             var poke = slot.pokemon;
 
             uint EC = (uint)(rng.GetRand() & 0xFFFFFFFF);
@@ -46,7 +46,7 @@ namespace SwShRNGLibrary
         }
         public Pokemon.Individual Generate(RaidBattleSlot slot, Criteria criteria, uint Lv = 60)
         {
-            Xoroshiro128p rng = new Xoroshiro128p(seed, FIXEDSEED);
+            var rng = (seed, FIXEDSEED);
             var poke = slot.pokemon;
 
             uint EC = (uint)(rng.GetRand() & 0xFFFFFFFF);
@@ -83,7 +83,7 @@ namespace SwShRNGLibrary
 
             return slot.pokemon.GetIndividual(Lv, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
-        public static Pokemon.Individual Generate(RaidBattleSlot slot, Xoroshiro128p rng, uint Lv = 60)
+        public static Pokemon.Individual Generate(RaidBattleSlot slot, (ulong s0, ulong s1) rng, uint Lv = 60)
         {
             var poke = slot.pokemon;
 
@@ -113,7 +113,7 @@ namespace SwShRNGLibrary
 
             return slot.pokemon.GetIndividual(Lv, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
-        public static Pokemon.Individual Generate(RaidBattleSlot slot, Xoroshiro128p rng, Criteria criteria, uint Lv = 60)
+        public static Pokemon.Individual Generate(RaidBattleSlot slot, (ulong s0, ulong s1) rng, Criteria criteria, uint Lv = 60)
         {
             var poke = slot.pokemon;
 
