@@ -1,5 +1,5 @@
 うららか草原,Rolling Fields
-こもれび林,Dappled Grove 
+こもれび林,Dappled Grove
 見張り塔跡地,Watchtower Ruins
 キバ湖・西,West Lake Axewell
 キバ湖・東,East Lake Axewell
@@ -7,7 +7,7 @@
 ミロカロ湖・南,South Lake Miloch
 ミロカロ湖・北,North Lake Miloch
 巨人の腰かけ,Giant's Seat
-エンジンリバーサイド,Motostoke Riverank
+エンジンリバーサイド,Motostoke Riverbank
 ハシノマ原っぱ,Bridge Field
 ストーンズ原野,Stony Wilderness
 砂塵の窪地,Dusty Bowl
@@ -19,7 +19,7 @@
 一礼野原,Fields of Honor
 清涼湿原,Soothing Wetlands
 集中の森,Forest of Focus
-チャレンジビーチ,Challange Beach
+チャレンジビーチ,Challenge Beach
 ファイトケイブ,Brawlers' Cave
 チャレンジロード,Challenge Road
 闘心の洞窟,Courageous Cavern

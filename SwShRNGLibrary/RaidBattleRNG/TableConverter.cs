@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using System.Diagnostics;
+using PokemonStandardLibrary;
+using PokemonStandardLibrary.CommonExtension;
+using PokemonStandardLibrary.Gen8;
 
 namespace SwShRNGLibrary
 {
@@ -131,8 +134,8 @@ namespace SwShRNGLibrary
             if (ForceHiddenAbility) slot = slot.BeForceHiddenAbility();
             if (isUncatchable) slot = slot.BeUncatchable();
             if (isShinyLocked) slot = slot.BeShinyLocked();
-            if (!slot.pokemon.GenderRatio.isFixed() && (GenderFixation.ToLower() == "male" || GenderFixation == "♂")) slot = slot.FixGender(Gender.Male);
-            if (!slot.pokemon.GenderRatio.isFixed() && (GenderFixation.ToLower() == "female" || GenderFixation == "♀")) slot = slot.FixGender(Gender.Female);
+            if (!slot.pokemon.GenderRatio.IsFixed() && (GenderFixation.ToLower() == "male" || GenderFixation == "♂")) slot = slot.FixGender(Gender.Male);
+            if (!slot.pokemon.GenderRatio.IsFixed() && (GenderFixation.ToLower() == "female" || GenderFixation == "♀")) slot = slot.FixGender(Gender.Female);
 
             return slot;
         }

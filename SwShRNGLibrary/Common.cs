@@ -6,32 +6,6 @@ using System.Threading.Tasks;
 
 namespace SwShRNGLibrary
 {
-    public enum Gender { Male, Female, Genderless }
-    public enum GenderRatio : uint
-    {
-        MaleOnly = 0,
-        M7F1 = 0x1F,
-        M3F1 = 0x3F,
-        M1F1 = 0x7F,
-        M1F3 = 0xBF,
-        M1F7 = 0xE1,
-        FemaleOnly = 0x100,
-        Genderless = 0x12C
-    }
-    public enum Nature
-    {
-        Hardy, Lonely, Brave, Adamant, Naughty,
-        Bold, Docile, Relaxed, Impish, Lax,
-        Timid, Hasty, Serious, Jolly, Naive,
-        Modest, Mild, Quiet, Bashful, Rash,
-        Calm, Gentle, Sassy, Careful, Quirky, other
-    }
-    public enum PokeType
-    {
-        Normal, Fire, Water, Grass, Electric, Ice, Fighting, Poison,
-        Ground, Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark, Steel, Fairy, Non
-    }
-    public enum ShinyType { NotShiny, Star, Square }
     public enum Rom { Sword, Shield }
     public enum Region { WildArea, IsleOfArmor, CrownTundra } 
     public static class CommonExtension
@@ -100,43 +74,6 @@ namespace SwShRNGLibrary
             "---"
         };
 
-        static private readonly double[][] Magnifications =
-            {
-                new double[] { 1, 1, 1, 1, 1, 1 },
-                new double[] { 1, 1.1, 0.9, 1, 1, 1 },
-                new double[] { 1, 1.1, 1, 1, 1, 0.9 },
-                new double[] { 1, 1.1, 1, 0.9, 1, 1 },
-                new double[] { 1, 1.1, 1, 1, 0.9, 1 },
-                new double[] { 1, 0.9, 1.1, 1, 1, 1 },
-                new double[] { 1, 1, 1, 1, 1, 1 },
-                new double[] { 1, 1, 1.1, 1, 1, 0.9 },
-                new double[] { 1, 1, 1.1, 0.9, 1, 1 },
-                new double[] { 1, 1, 1.1, 1, 0.9, 1 },
-                new double[] { 1, 0.9, 1,1, 1, 1.1 },
-                new double[] { 1, 1, 0.9, 1,1, 1.1 },
-                new double[] { 1, 1,1, 1, 1, 1 },
-                new double[] { 1, 1,1, 0.9, 1, 1.1 },
-                new double[] { 1, 1,1, 1, 0.9, 1.1 },
-                new double[] { 1, 0.9, 1, 1.1, 1,1 },
-                new double[] { 1, 1, 0.9, 1.1, 1, 1 },
-                new double[] { 1, 1, 1, 1.1, 1, 0.9 },
-                new double[] { 1, 1, 1, 1, 1, 1 },
-                new double[] { 1, 1, 1, 1.1, 0.9, 1 },
-                new double[] { 1, 0.9, 1,1, 1.1, 1 },
-                new double[] { 1, 1, 0.9, 1, 1.1, 1},
-                new double[] { 1, 1, 1, 1, 1.1, 0.9 },
-                new double[] { 1, 1, 1, 0.9, 1.1, 1 },
-                new double[] { 1, 1, 1, 1, 1, 1}
-            };
-        static private readonly string[] genderSymbol = { "♂", "♀", "-" };
-        static private readonly string[] shinySymbol = { "-", "☆", "◇" };
-        static public bool isFixed(this GenderRatio ratio) { return ratio == GenderRatio.FemaleOnly || ratio == GenderRatio.MaleOnly || ratio == GenderRatio.Genderless; }
-        static public Gender Reverse(this Gender gender) { return (Gender)((((int)gender) ^ 1) & ~(int)gender >> 1); } // switch式使いたい.
-        public static string ToSymbol(this Gender gender) { return genderSymbol[(int)gender]; }
-        public static string ToString(this Nature nature, Language lang) { return lang.Nature[(int)nature]; }
-        public static double[] ToMagnification(this Nature nature) { return Magnifications[(int)nature]; }
-        public static string ToSymbol(this ShinyType shinyType) { return shinySymbol[(int)shinyType]; }
-
         static private readonly string[] romname = new string[] { "---", "剣", "盾" };
         internal static string ToKanji(this Rom rom)
         {
@@ -156,12 +93,5 @@ namespace SwShRNGLibrary
             if (region == Region.IsleOfArmor) return "ヨロイ島";
             return "カンムリ雪原";
         }
-        public static Gender ConvertToGender(this string symbol)
-        {
-            if (symbol == "♂") return Gender.Male;
-            if (symbol == "♀") return Gender.Female;
-            return Gender.Genderless;
-        }
-
     }
 }

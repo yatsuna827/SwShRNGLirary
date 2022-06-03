@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using PokemonPRNG.Xoroshiro128p;
+using PokemonStandardLibrary;
+using PokemonStandardLibrary.CommonExtension;
+using PokemonStandardLibrary.Gen8;
 
 namespace SwShRNGLibrary
 {

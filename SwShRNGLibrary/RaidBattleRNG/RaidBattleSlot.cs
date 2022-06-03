@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PokemonStandardLibrary.Gen8;
+using PokemonStandardLibrary;
+using PokemonStandardLibrary.CommonExtension;
 
 namespace SwShRNGLibrary
 {
