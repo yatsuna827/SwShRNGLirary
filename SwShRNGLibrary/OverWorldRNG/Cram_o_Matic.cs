@@ -144,7 +144,7 @@ namespace SwShRNGLibrary.OverWorldRNG
             { Ball.CherishBall, "プレシャスボール" },
 
             { Ball.ShopBalls1, "店売りボール1" },
-            { Ball.ShopBalls2, "店売りボール1" },
+            { Ball.ShopBalls2, "店売りボール2" },
             { Ball.ApricornBalls, "ガンテツボール" },
             { Ball.FacilityBalls, "施設限定ボール" },
             { Ball.NFSBalls, "非売品ボール" },
