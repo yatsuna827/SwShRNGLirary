@@ -35,11 +35,13 @@
             ],
             [
                 { "SlotType": "Common3", "Name": "メタモン" },
-                { "SlotType": "Common4", "Name": "ラッキー" }
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Event3", "Name": "メタモン" }
             ],
             [
                 { "SlotType": "Common3", "Name": "メタモン" },
                 { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Event3", "Name": "メタモン" },
                 { "SlotType": "Common5", "Name": "メタモン" }
             ],
             [
