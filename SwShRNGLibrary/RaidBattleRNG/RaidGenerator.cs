@@ -43,7 +43,7 @@ namespace SwShRNGLibrary
 
             uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
             Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : (((uint)rng.GetRand(253) + 1) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
-            Nature nature = poke.Name == "ストリンダー" ? (poke.FormName == "ハイ" || poke.FormName=="ハイキョダイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
+            Nature nature = poke.Name == "ストリンダー" ? (poke.Form == "ハイ" || poke.Form=="ハイキョダイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
 
             return slot.pokemon.GetIndividual(Lv, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
@@ -59,7 +59,7 @@ namespace SwShRNGLibrary
             bool isShily = slot.ForceShiny || ShinyValue < 16;
             bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
             if ((!criteria.allowShiny || slot.isShinyLocked) && !slot.ForceShiny) isShily = isSquare = false;
-            if (!criteria.CheckShiny(isShily, isSquare)) return Pokemon.Individual.Empty;
+            if (!criteria.CheckShiny(isShily, isSquare)) return null;
 
             uint[] IVs = new uint[6];
             int i = 0;
@@ -73,18 +73,18 @@ namespace SwShRNGLibrary
             for (int k = 0; k < 6; k++)
                 if (IVs[k] == 0) IVs[k] = (uint)(rng.GetRand() & 0x1f);
 
-            if (!criteria.CheckIVs(IVs)) return Pokemon.Individual.Empty;
+            if (!criteria.CheckIVs(IVs)) return null;
 
-            uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
-            if (!criteria.CheckAbility(poke.Ability[Ability])) return Pokemon.Individual.Empty;
+            int Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (int)rng.GetRand(3) : (int)rng.GetRand(2));
+            if (!criteria.CheckAbility(poke.Ability[Ability])) return null;
 
             Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : (((uint)rng.GetRand(253) + 1) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
-            if (!criteria.CheckGender(gender)) return Pokemon.Individual.Empty;
+            if (!criteria.CheckGender(gender)) return null;
 
-            Nature nature = poke.Name == "ストリンダー" ? (poke.FormName == "ハイ" || poke.FormName == "ハイキョダイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
-            if (!criteria.CheckNature(nature)) return Pokemon.Individual.Empty;
+            Nature nature = poke.Name == "ストリンダー" ? (poke.Form == "ハイ" || poke.Form == "ハイキョダイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
+            if (!criteria.CheckNature(nature)) return null;
 
-            return slot.pokemon.GetIndividual(Lv, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
+            return slot.pokemon.GetIndividual(Lv, IVs, EC, PID, nature, (uint)Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
         public static Pokemon.Individual Generate(RaidBattleSlot slot, (ulong s0, ulong s1) rng, uint Lv = 60)
         {
@@ -112,7 +112,7 @@ namespace SwShRNGLibrary
 
             uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
             Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : (((uint)rng.GetRand(253) + 1) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
-            Nature nature = poke.Name == "ストリンダー" ? (poke.FormName == "ハイ" || poke.FormName == "ハイキョダイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
+            Nature nature = poke.Name == "ストリンダー" ? (poke.Form == "ハイ" || poke.Form == "ハイキョダイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
 
             return slot.pokemon.GetIndividual(Lv, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
@@ -127,7 +127,7 @@ namespace SwShRNGLibrary
             bool isShily = slot.ForceShiny || ShinyValue < 16;
             bool isSquare = (slot.ForceShiny && ShinyValue >= 16) || ShinyValue == 0;
             if ((!criteria.allowShiny || slot.isShinyLocked) && !slot.ForceShiny) isShily = isSquare = false;
-            if (!criteria.CheckShiny(isShily, isSquare)) return Pokemon.Individual.Empty;
+            if (!criteria.CheckShiny(isShily, isSquare)) return null;
 
             uint[] IVs = new uint[6];
             int i = 0;
@@ -141,18 +141,18 @@ namespace SwShRNGLibrary
             for (int k = 0; k < 6; k++)
                 if (IVs[k] == 0) IVs[k] = (uint)(rng.GetRand() & 0x1f);
 
-            if (!criteria.CheckIVs(IVs)) return Pokemon.Individual.Empty;
+            if (!criteria.CheckIVs(IVs)) return null;
 
-            uint Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (uint)rng.GetRand(3) : (uint)rng.GetRand(2));
-            if (!criteria.CheckAbility(poke.Ability[Ability])) return Pokemon.Individual.Empty;
+            int Ability = slot.ForceHiddenAbility ? 2 : (slot.allowHiddenAbility ? (int)rng.GetRand(3) : (int)rng.GetRand(2));
+            if (!criteria.CheckAbility(poke.Ability[Ability])) return null;
 
             Gender gender = slot.FixedGender != Gender.Genderless || poke.GenderRatio == GenderRatio.Genderless ? slot.FixedGender : (((uint)rng.GetRand(253)+1) < (uint)poke.GenderRatio ? Gender.Female : Gender.Male);
-            if (!criteria.CheckGender(gender)) return Pokemon.Individual.Empty;
+            if (!criteria.CheckGender(gender)) return null;
 
-            Nature nature = poke.Name == "ストリンダー" ? (poke.FormName == "ハイ" || poke.FormName == "ハイキョダイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
-            if (!criteria.CheckNature(nature)) return Pokemon.Individual.Empty;
+            Nature nature = poke.Name == "ストリンダー" ? (poke.Form == "ハイ" || poke.Form == "ハイキョダイ" ? HighNature[rng.GetRand(13)] : LowNature[rng.GetRand(12)]) : (Nature)rng.GetRand(25);
+            if (!criteria.CheckNature(nature)) return null;
 
-            return slot.pokemon.GetIndividual(Lv, IVs, EC, PID, nature, Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
+            return slot.pokemon.GetIndividual(Lv, IVs, EC, PID, nature, (uint)Ability, gender).SetShinyType(isShily ? (isSquare ? ShinyType.Square : ShinyType.Star) : ShinyType.NotShiny);
         }
         public void Advance(uint num = 1) { seed += FIXEDSEED * num; }
         public void Back(uint num = 1) { seed -= FIXEDSEED * num; }

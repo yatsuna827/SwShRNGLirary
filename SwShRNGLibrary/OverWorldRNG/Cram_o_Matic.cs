@@ -63,14 +63,8 @@ namespace SwShRNGLibrary.OverWorldRNG
 
     public class CramOMaticGenerator
     {
-        private readonly int npc;
         public CramOMaticResult Generate((ulong s0, ulong s1) state)
         {
-            for (int i = 0; i < npc; i++)
-                state.GetRand(91);
-            state.Advance();
-            state.GetRand(60);
-
             var itemRoll = (byte)state.GetRand(4);
             var ballRoll = (byte)state.GetRand(100);
             var rare = state.GetRand(1000) == 0;
@@ -78,13 +72,24 @@ namespace SwShRNGLibrary.OverWorldRNG
 
             return new CramOMaticResult(itemRoll, ballRoll, rare, bonus);
         }
+        public CramOMaticResult Generate(ref (ulong s0, ulong s1) state)
+        {
+            var itemRoll = (byte)state.GetRand(4);
+            var ballRoll = (byte)state.GetRand(100);
+            var rare = state.GetRand(1000) == 0;
+            var bonus = (ballRoll == 99 || rare) ? state.GetRand(1000) == 0 : state.GetRand(100) == 0;
 
-        /// <summary>
-        /// npc: 主人公を除いたNPCの数
-        /// </summary>
-        /// <param name="npc"></param>
-        public CramOMaticGenerator(int npc = 20)
-            => this.npc = npc + 1;
+            return new CramOMaticResult(itemRoll, ballRoll, rare, bonus);
+        }
+        public CramOMaticResult Generate((ulong s0, ulong s1) state, ref uint index)
+        {
+            var itemRoll = (byte)state.GetRand(4, ref index);
+            var ballRoll = (byte)state.GetRand(100, ref index);
+            var rare = state.GetRand(1000, ref index) == 0;
+            var bonus = (ballRoll == 99 || rare) ? state.GetRand(1000, ref index) == 0 : state.GetRand(100, ref index) == 0;
+
+            return new CramOMaticResult(itemRoll, ballRoll, rare, bonus);
+        }
     }
     public readonly struct CramOMaticResult
     {
