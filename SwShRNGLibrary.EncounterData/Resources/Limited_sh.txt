@@ -1,0 +1,21 @@
+[
+  { "mapName": "2番道路", "name": "カムカメ", "lv": 8 },
+  { "mapName": "2番道路", "name": "カジリガメ", "lv": 50, "flawlessIVs": 3 },
+  { "mapName": "2番道路", "name": "ラプラス", "lv": 55, "flawlessIVs": 3 },
+  { "mapName": "2番道路", "name": "タチフサグマ", "lv": 50 },
+  { "mapName": "2番道路", "name": "ワンパチ", "lv": 8 },
+  { "mapName": "5番道路", "name": "ワタシラガ", "lv": 22 },
+  { "mapName": "8番道路", "name": "イワパレス", "lv": 40 },
+  { "mapName": "9番道路", "name": "オニゴーリ", "lv": 55, "flawlessIVs": 3 },
+  { "mapName": "ターフタウン", "name": "シザリガー", "lv": 50, "flawlessIVs": 3 },
+  { "mapName": "第二鉱山","name": "カジリガメ", "lv": 24 },
+  { "mapName": "第二鉱山", "name": "トリトドン", "lv": 50, "flawlessIVs": 3 },
+  { "mapName": "ワイルドエリア", "name": "サンダー#ガラル", "lv": 70, "flawlessIVs": 3, "fixedAbility": 0, "shinyLocked": true },
+  { "mapName": "ヨロイ島", "name": "ファイヤー#ガラル", "lv": 70, "flawlessIVs": 3, "fixedAbility": 0, "shinyLocked": true },
+  { "mapName": "カンムリ雪原", "name": "フリーザー#ガラル", "lv": 70, "flawlessIVs": 3, "fixedAbility": 0, "shinyLocked": true },
+  { "mapName": "湖畔の洞窟", "name": "テラキオン", "lv": 70, "flawlessIVs": 3, "fixedAbility": 0 },
+  { "mapName": "凍てつきの海", "name": "コバルオン", "lv": 70, "flawlessIVs": 3, "fixedAbility": 0 },
+  { "mapName": "巨人の寝床", "name": "ビリジオン", "lv": 70, "flawlessIVs": 3, "fixedAbility": 0 },
+  { "mapName": "ボールレイクの湖畔", "name": "ケルディオ", "lv": 65, "flawlessIVs": 3, "fixedAbility": 0 },
+  { "mapName": "ボールレイクの湖畔", "name": "ミカルゲ", "lv": 72, "flawlessIVs": 3, "fixedAbility": 2 }
+]

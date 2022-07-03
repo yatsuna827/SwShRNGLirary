@@ -36,10 +36,13 @@
 巨人の寝床,Giant's Bed
 いにしえの墓地,Old Cemetery
 雪中渓谷,Snowslide Slope
+登頂トンネル,Tunnel to the Top
 頂への雪道,Path to the Peak
 カンムリ神殿,Crown Shrine
 巨人の靴底,Giant's Foot
 凍てつきの海,Frigid Sea
+海鳴りの洞窟,Roaring-Sea Caves
 三つまたヶ原,Three-Point Pass
 ボールレイクの湖畔,Ballimere Lake
+湖畔の洞窟,Lakeside Cave
 ダイ木の丘,Dyna Tree Hill

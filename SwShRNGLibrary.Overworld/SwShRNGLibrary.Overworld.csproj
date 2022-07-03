@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PokemonPRNG" Version="3.5.8" />
+    <PackageReference Include="PokemonStandardLibrary" Version="1.4.0" />
+    <PackageReference Include="PokemonStandardLibrary.Gen8" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SwShRNGLibrary.EncounterData\SwShRNGLibrary.EncounterData.csproj" />
+    <ProjectReference Include="..\SwShRNGLibrary\SwShRNGLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

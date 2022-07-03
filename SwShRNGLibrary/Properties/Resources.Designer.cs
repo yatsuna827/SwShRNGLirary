@@ -19,7 +19,7 @@ namespace SwShRNGLibrary.Properties {
     // または Visual Studio のようなツールを使用して自動生成されました。
     // メンバーを追加または削除するには、.ResX ファイルを編集して、/str オプションと共に
     // ResGen を実行し直すか、または VS プロジェクトをビルドし直します。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -400,7 +400,7 @@ namespace SwShRNGLibrary.Properties {
         
         /// <summary>
         ///   うららか草原,Rolling Fields
-        ///こもれび林,Dappled Grove 
+        ///こもれび林,Dappled Grove
         ///見張り塔跡地,Watchtower Ruins
         ///キバ湖・西,West Lake Axewell
         ///キバ湖・東,East Lake Axewell
@@ -408,7 +408,7 @@ namespace SwShRNGLibrary.Properties {
         ///ミロカロ湖・南,South Lake Miloch
         ///ミロカロ湖・北,North Lake Miloch
         ///巨人の腰かけ,Giant&apos;s Seat
-        ///エンジンリバーサイド,Motostoke Riverank
+        ///エンジンリバーサイド,Motostoke Riverbank
         ///ハシノマ原っぱ,Bridge Field
         ///ストーンズ原野,Stony Wilderness
         ///砂塵の窪地,Dusty Bowl
@@ -420,7 +420,7 @@ namespace SwShRNGLibrary.Properties {
         ///一礼野原,Fields of Honor
         ///清涼湿原,Soothing Wetlands
         ///集中の森,Forest of Focus
-        ///チャレンジビーチ,Challange Beach
+        ///チャレンジビーチ,Challenge Beach
         ///ファイトケ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string MapName_eng {
