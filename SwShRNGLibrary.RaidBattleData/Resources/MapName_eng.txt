@@ -1,0 +1,48 @@
+うららか草原,Rolling Fields
+こもれび林,Dappled Grove
+見張り塔跡地,Watchtower Ruins
+キバ湖・西,West Lake Axewell
+キバ湖・東,East Lake Axewell
+キバ湖の瞳,Axew's Eye
+ミロカロ湖・南,South Lake Miloch
+ミロカロ湖・北,North Lake Miloch
+巨人の腰かけ,Giant's Seat
+エンジンリバーサイド,Motostoke Riverbank
+ハシノマ原っぱ,Bridge Field
+ストーンズ原野,Stony Wilderness
+砂塵の窪地,Dusty Bowl
+巨人の帽子,Giant's Cap
+巨人の鏡池,Giant's Mirror
+ナックル丘陵,Hammerlocke Hills
+げきりんの湖,Lake of Outrage
+イベント,Event
+一礼野原,Fields of Honor
+清涼湿原,Soothing Wetlands
+集中の森,Forest of Focus
+チャレンジビーチ,Challenge Beach
+ファイトケイブ,Brawlers' Cave
+チャレンジロード,Challenge Road
+闘心の洞窟,Courageous Cavern
+円環の入り江,Loop Lagoon
+鍛錬平原,Training Lowlands
+鍋底砂漠,Potbottom Desert
+ワークアウトの海,Workout Sea
+並ぶ島の海,Stepping-Stone Sea
+離れ島海域,Insular Sea
+ハニカームの海,Honeycalm Sea
+ハニカーム島,Honeycalm Island
+滑り出し雪原,Slippery Slope
+氷点雪原,Frostpoint Field
+巨人の寝床,Giant's Bed
+いにしえの墓地,Old Cemetery
+雪中渓谷,Snowslide Slope
+登頂トンネル,Tunnel to the Top
+頂への雪道,Path to the Peak
+カンムリ神殿,Crown Shrine
+巨人の靴底,Giant's Foot
+凍てつきの海,Frigid Sea
+海鳴りの洞窟,Roaring-Sea Caves
+三つまたヶ原,Three-Point Pass
+ボールレイクの湖畔,Ballimere Lake
+湖畔の洞窟,Lakeside Cave
+ダイ木の丘,Dyna Tree Hill

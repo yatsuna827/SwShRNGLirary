@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SwShRNGLibrary.EncounterData\SwShRNGLibrary.EncounterData.csproj" />
-    <ProjectReference Include="..\SwShRNGLibrary\SwShRNGLibrary.csproj" />
+    <ProjectReference Include="..\SwShRNGLibrary.RaidBattleData\SwShRNGLibrary.RaidBattleData.csproj" />
   </ItemGroup>
 
 </Project>

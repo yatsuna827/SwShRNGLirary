@@ -1,0 +1,256 @@
+[
+    {
+        "Label": "Ground_Common_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ディグダ" },
+                { "SlotType": "Common1", "Name": "ドロバンコ" },
+                { "SlotType": "Common1", "Name": "ツチニン" },
+                { "SlotType": "Common1", "Name": "モグリュー" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ツチニン" },
+                { "SlotType": "Common1", "Name": "モグリュー" },
+                { "SlotType": "Common1", "Name": "イワーク" },
+                { "SlotType": "Common2", "Name": "ドジョッチ" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ドジョッチ" },
+                { "SlotType": "Common3", "Name": "ハガネール" },
+                { "SlotType": "Common4", "Name": "ナマズン" },
+                { "SlotType": "Common4", "Name": "ホルード" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ハガネール" },
+                { "SlotType": "Common4", "Name": "ナマズン" },
+                { "SlotType": "Common4", "Name": "ホルード" },
+                { "SlotType": "Common5", "Name": "ダグトリオ" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ナマズン" },
+                { "SlotType": "Common4", "Name": "ホルード" },
+                { "SlotType": "Common5", "Name": "ダグトリオ" },
+                { "SlotType": "Common5", "Name": "ドリュウズ" },
+                { "SlotType": "Common5", "Name": "バンバドロ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Ground_Common_B",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "スナヘビ" },
+                { "SlotType": "Common1", "Name": "デスマス#ガラル" },
+                { "SlotType": "Common1", "Name": "ヒポポタス" },
+                { "SlotType": "Common1", "Name": "ウリムー" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "ヒポポタス" },
+                { "SlotType": "Common1", "Name": "ウリムー" },
+                { "SlotType": "Common1", "Name": "ナックラー" },
+                { "SlotType": "Common2", "Name": "イノムー" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "イノムー" },
+                { "SlotType": "Common3", "Name": "ビブラーバ" },
+                { "SlotType": "Common4", "Name": "マッギョ#ガラル" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ビブラーバ" },
+                { "SlotType": "Common4", "Name": "マッギョ#ガラル" },
+                { "SlotType": "Common5", "Name": "カバルドン" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "マッギョ#ガラル" },
+                { "SlotType": "Common4", "Name": "デスバーン" },
+                { "SlotType": "Common5", "Name": "サダイジャ" },
+                { "SlotType": "Common5", "Name": "カバルドン" },
+                { "SlotType": "Common5", "Name": "フライゴン" }
+            ]
+        ]
+    },
+    {
+        "Label": "Ground_Rare_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ウパー" },
+                { "SlotType": "Common1", "Name": "ドジョッチ" },
+                { "SlotType": "Common1", "Name": "デスマス#ガラル" },
+                { "SlotType": "Common1", "Name": "ゴビット" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "デスマス#ガラル" },
+                { "SlotType": "Common1", "Name": "ゴビット" },
+                { "SlotType": "Common2", "Name": "ガマガル" },
+                { "SlotType": "Common2", "Name": "ヌオー" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ガマガル" },
+                { "SlotType": "Common2", "Name": "ヌオー" },
+                { "SlotType": "Common3", "Name": "マッギョ#ガラル" },
+                { "SlotType": "Common4", "Name": "ゴルーグ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "マッギョ#ガラル" },
+                { "SlotType": "Common4", "Name": "ゴルーグ" },
+                { "SlotType": "Common5", "Name": "トリトドン" },
+                { "SlotType": "Common5", "Name": "ガマゲロゲ" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ゴルーグ" },
+                { "SlotType": "Common5", "Name": "トリトドン" },
+                { "SlotType": "Common5", "Name": "ガマゲロゲ" },
+                { "SlotType": "Common5", "Name": "デスバーン" },
+                { "SlotType": "Common5", "Name": "ドサイドン" }
+            ]
+        ]
+    },
+    {
+        "Label": "Ground_Rare_B",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "ウパー" },
+                { "SlotType": "Common1", "Name": "ドジョッチ" },
+                { "SlotType": "Common1", "Name": "デスマス#ガラル" },
+                { "SlotType": "Common1", "Name": "ゴビット" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "デスマス#ガラル" },
+                { "SlotType": "Common1", "Name": "ゴビット" },
+                { "SlotType": "Common2", "Name": "ガマガル" },
+                { "SlotType": "Common2", "Name": "ヌオー" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "ガマガル" },
+                { "SlotType": "Common2", "Name": "ヌオー" },
+                { "SlotType": "Common3", "Name": "マッギョ#ガラル" },
+                { "SlotType": "Common4", "Name": "ゴルーグ" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "マッギョ#ガラル" },
+                { "SlotType": "Common4", "Name": "ゴルーグ" },
+                { "SlotType": "Common5", "Name": "トリトドン" },
+                { "SlotType": "Common5", "Name": "ガマゲロゲ" },
+                { "SlotType": "Common5", "Name": "サダイジャ#キョダイ" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ゴルーグ" },
+                { "SlotType": "Common5", "Name": "トリトドン" },
+                { "SlotType": "Common5", "Name": "ガマゲロゲ" },
+                { "SlotType": "Common5", "Name": "ドサイドン" },
+                { "SlotType": "Common5", "Name": "サダイジャ#キョダイ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Ground_IoA_Common_A",
+        "Table": [
+            [
+                { "SlotType": "Common1", "Name": "サンド" },
+                { "SlotType": "Common1", "Name": "メグロコ" }
+            ],
+            [
+                { "SlotType": "Common1", "Name": "サンド" },
+                { "SlotType": "Common1", "Name": "メグロコ" },
+                { "SlotType": "Common2", "Name": "カラカラ" },
+                { "SlotType": "Common2", "Name": "サンド" }
+            ],
+            [
+                { "SlotType": "Common2", "Name": "カラカラ" },
+                { "SlotType": "Common2", "Name": "サンド" },
+                { "SlotType": "Common3", "Name": "ワルビル" },
+                { "SlotType": "Common3", "Name": "サンドパン" },
+                { "SlotType": "Common4", "Name": "ラッキー" }
+            ],
+            [
+                { "SlotType": "Common3", "Name": "ワルビル" },
+                { "SlotType": "Common3", "Name": "サンドパン" },
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "サダイジャ" },
+                { "SlotType": "Common5", "Name": "サンドパン" },
+                { "SlotType": "Common5", "Name": "ガラガラ" }
+            ],
+            [
+                { "SlotType": "Common4", "Name": "ラッキー" },
+                { "SlotType": "Common5", "Name": "サダイジャ" },
+                { "SlotType": "Common5", "Name": "サンドパン" },
+                { "SlotType": "Common5", "Name": "ガラガラ" },
+                { "SlotType": "Common5", "Name": "ワルビアル" },
+                { "SlotType": "Common5", "Name": "ガルーラ" }
+            ]
+        ]
+    },
+    {
+        "Label": "Ground_IoA_Rare_A",
+        "Table": [
+            [
+                { "SlotType": "Rare1", "Name": "サンド" },
+                { "SlotType": "Rare1", "Name": "カラカラ" }
+            ],
+            [
+                { "SlotType": "Rare1", "Name": "サンド" },
+                { "SlotType": "Rare1", "Name": "カラカラ" },
+                { "SlotType": "Rare2", "Name": "ナックラー" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "ナックラー" },
+                { "SlotType": "Rare3", "Name": "ワルビル" },
+                { "SlotType": "Rare3", "Name": "サンドパン" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "ワルビル" },
+                { "SlotType": "Rare3", "Name": "サンドパン" },
+                { "SlotType": "Rare4", "Name": "ガラガラ" },
+                { "SlotType": "Rare4", "Name": "ワルビアル" },
+                { "SlotType": "Rare4", "Name": "ガルーラ" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "ガラガラ" },
+                { "SlotType": "Rare4", "Name": "ワルビアル" },
+                { "SlotType": "Rare4", "Name": "ガルーラ" },
+                { "SlotType": "Rare4", "Name": "フライゴン" },
+                { "SlotType": "Rare4", "Name": "ゴルーグ" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ]
+        ]
+    },
+    {
+        "Label": "Ground_IoA_Rare_B",
+        "Table": [
+            [
+                { "SlotType": "Rare1", "Name": "スナヘビ" },
+                { "SlotType": "Rare1", "Name": "モグリュー" }
+            ],
+            [
+                { "SlotType": "Rare1", "Name": "スナヘビ" },
+                { "SlotType": "Rare1", "Name": "モグリュー" },
+                { "SlotType": "Rare2", "Name": "スナヘビ" },
+                { "SlotType": "Rare2", "Name": "モグリュー" }
+            ],
+            [
+                { "SlotType": "Rare2", "Name": "スナヘビ" },
+                { "SlotType": "Rare2", "Name": "モグリュー" },
+                { "SlotType": "Rare3", "Name": "サンドパン" },
+                { "SlotType": "Rare3", "Name": "ワルビル" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ],
+            [
+                { "SlotType": "Rare3", "Name": "サンドパン" },
+                { "SlotType": "Rare3", "Name": "ワルビル" },
+                { "SlotType": "Rare4", "Name": "サダイジャ" },
+                { "SlotType": "Rare4", "Name": "ワルビアル" },
+                { "SlotType": "Rare4", "Name": "ドリュウズ" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ],
+            [
+                { "SlotType": "Rare4", "Name": "サダイジャ" },
+                { "SlotType": "Rare4", "Name": "ワルビアル" },
+                { "SlotType": "Rare4", "Name": "ドリュウズ" },
+                { "SlotType": "Rare4", "Name": "サダイジャ#キョダイ" },
+                { "SlotType": "Rare4", "Name": "ハピナス" }
+            ]
+        ]
+    }
+]

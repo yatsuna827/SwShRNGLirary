@@ -150,13 +150,14 @@ namespace SwShRNGLibrary.EncounterData.Properties {
         
         /// <summary>
         ///   [
-        ///  { &quot;mapName&quot;: &quot;3番道路&quot;, &quot;weather&quot;: &quot;Normal&quot;, &quot;name&quot;: &quot;アオガラス&quot;, &quot;lv&quot;: 18, &quot;shinyLocked&quot;: true },
-        ///  { &quot;mapName&quot;: &quot;4番道路&quot;, &quot;weather&quot;: &quot;Normal&quot;, &quot;name&quot;: &quot;ディグダ&quot;, &quot;lv&quot;: 17 },
-        ///  { &quot;mapName&quot;: &quot;8番道路&quot;, &quot;weather&quot;: &quot;Normal&quot;, &quot;name&quot;: &quot;タイレーツ&quot;, &quot;lv&quot;: 40 },
-        ///  { &quot;mapName&quot;: &quot;9番道路&quot;, &quot;weather&quot;: &quot;Snowing&quot;, &quot;name&quot;: &quot;オトスパス&quot;, &quot;lv&quot;: 50 },
-        ///  { &quot;mapName&quot;: &quot;10番道路&quot;, &quot;weather&quot;: &quot;Snowstorm&quot;, &quot;name&quot;: &quot;ユキノオー&quot;, &quot;lv&quot;: 55 },
-        ///  { &quot;mapName&quot;: &quot;10番道路&quot;, &quot;weather&quot;: &quot;Snowstorm&quot;, &quot;name&quot;: &quot;ツンベアー&quot;, &quot;lv&quot;: 55 },
-        ///  { &quot;mapName&quot;: &quot;ガラル鉱山&quot;, &quot;weather&quot;: &quot; [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///  { &quot;mapName&quot;: &quot;3番道路&quot;, &quot;weather&quot;: 0, &quot;name&quot;: &quot;アオガラス&quot;, &quot;lv&quot;: 18, &quot;shinyLocked&quot;: true },
+        ///  { &quot;mapName&quot;: &quot;4番道路&quot;, &quot;weather&quot;: 0, &quot;name&quot;: &quot;ディグダ&quot;, &quot;lv&quot;: 17 },
+        ///  { &quot;mapName&quot;: &quot;8番道路&quot;, &quot;weather&quot;: 0, &quot;name&quot;: &quot;タイレーツ&quot;, &quot;lv&quot;: 40 },
+        ///  { &quot;mapName&quot;: &quot;9番道路&quot;, &quot;weather&quot;: 4, &quot;name&quot;: &quot;オトスパス&quot;, &quot;lv&quot;: 50 },
+        ///  { &quot;mapName&quot;: &quot;10番道路&quot;, &quot;weather&quot;: 5, &quot;name&quot;: &quot;ユキノオー&quot;, &quot;lv&quot;: 55 },
+        ///  { &quot;mapName&quot;: &quot;10番道路&quot;, &quot;weather&quot;: 5, &quot;name&quot;: &quot;ツンベアー&quot;, &quot;lv&quot;: 55 },
+        ///  { &quot;mapName&quot;: &quot;ガラル鉱山&quot;, &quot;weather&quot;: 0, &quot;name&quot;: &quot;トロッゴン&quot;, &quot;lv&quot;: 18 },
+        ///  { &quot;mapName&quot;: &quot;ガ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Static_sh {
             get {
@@ -166,13 +167,14 @@ namespace SwShRNGLibrary.EncounterData.Properties {
         
         /// <summary>
         ///   [
-        ///  { &quot;mapName&quot;: &quot;3番道路&quot;, &quot;weather&quot;: &quot;Normal&quot;, &quot;name&quot;: &quot;アオガラス&quot;, &quot;lv&quot;: 18, &quot;shinyLocked&quot;: true },
-        ///  { &quot;mapName&quot;: &quot;4番道路&quot;, &quot;weather&quot;: &quot;Normal&quot;, &quot;name&quot;: &quot;ディグダ&quot;, &quot;lv&quot;: 17 },
-        ///  { &quot;mapName&quot;: &quot;5番道路&quot;, &quot;weather&quot;: &quot;Normal&quot;, &quot;name&quot;: &quot;ワタシラガ&quot;, &quot;lv&quot;: 22 },
-        ///  { &quot;mapName&quot;: &quot;8番道路&quot;, &quot;weather&quot;: &quot;Normal&quot;, &quot;name&quot;: &quot;タイレーツ&quot;, &quot;lv&quot;: 40 },
-        ///  { &quot;mapName&quot;: &quot;9番道路&quot;, &quot;weather&quot;: &quot;Snowing&quot;, &quot;name&quot;: &quot;オトスパス&quot;, &quot;lv&quot;: 50 },
-        ///  { &quot;mapName&quot;: &quot;10番道路&quot;, &quot;weather&quot;: &quot;Snowstorm&quot;, &quot;name&quot;: &quot;ユキノオー&quot;, &quot;lv&quot;: 55 },
-        ///  { &quot;mapName&quot;: &quot;10番道路&quot;, &quot;weather&quot;: &quot;Snow [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
+        ///  { &quot;mapName&quot;: &quot;3番道路&quot;, &quot;weather&quot;: 0, &quot;name&quot;: &quot;アオガラス&quot;, &quot;lv&quot;: 18, &quot;shinyLocked&quot;: true },
+        ///  { &quot;mapName&quot;: &quot;4番道路&quot;, &quot;weather&quot;: 0, &quot;name&quot;: &quot;ディグダ&quot;, &quot;lv&quot;: 17 },
+        ///  { &quot;mapName&quot;: &quot;5番道路&quot;, &quot;weather&quot;: 0, &quot;name&quot;: &quot;ワタシラガ&quot;, &quot;lv&quot;: 22 },
+        ///  { &quot;mapName&quot;: &quot;8番道路&quot;, &quot;weather&quot;: 0, &quot;name&quot;: &quot;タイレーツ&quot;, &quot;lv&quot;: 40 },
+        ///  { &quot;mapName&quot;: &quot;9番道路&quot;, &quot;weather&quot;: 4, &quot;name&quot;: &quot;オトスパス&quot;, &quot;lv&quot;: 50 },
+        ///  { &quot;mapName&quot;: &quot;10番道路&quot;, &quot;weather&quot;: 5, &quot;name&quot;: &quot;ユキノオー&quot;, &quot;lv&quot;: 55 },
+        ///  { &quot;mapName&quot;: &quot;10番道路&quot;, &quot;weather&quot;: 5, &quot;name&quot;: &quot;ツンベアー&quot;, &quot;lv&quot;: 55 },
+        ///  { &quot;mapName&quot;: &quot;ガラ [残りの文字列は切り詰められました]&quot;; に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Static_sw {
             get {
