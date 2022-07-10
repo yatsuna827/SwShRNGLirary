@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using PokemonPRNG.Xoroshiro128p;
 using PokemonStandardLibrary;
 using PokemonStandardLibrary.CommonExtension;
 using PokemonStandardLibrary.Gen8;
 using SwShRNGLibrary.EncounterData;
+using static SwShRNGLibrary.Overworld.Constants;
 
 namespace SwShRNGLibrary.Overworld
 {
@@ -27,43 +29,38 @@ namespace SwShRNGLibrary.Overworld
     }
     class SlotSelector : ISideEffectiveGeneratable<RandomEncounterSlot>
     {
-        private readonly IEnumerable<(uint Rate, RandomEncounterSlot Slot)> _table;
+        private readonly IEnumerable<(uint Threshold, RandomEncounterSlot Slot)> _table;
         public RandomEncounterSlot Generate(ref (ulong s0, ulong s1) seed)
         {
             var rand = seed.GetRand(100);
-            foreach (var (rate, slot) in _table)
-            {
-                if (rand < rate) return slot;
-            }
-
-            throw new Exception("ここには来ないはず");
+            var (_, slot) = _table.Where(_ => rand < _.Threshold).First();
+            return slot;
         }
 
         public SlotSelector(RandomEncounterTable table)
         {
             var sum = 0u;
-            _table = table.Table.Select(_ => (sum += _.Rate, new RandomEncounterSlot(_.Pokemon, table.BasicLv, table.VariableLv)));
+            _table = table.Table.Select(_ => (sum += _.Rate, new RandomEncounterSlot(_.Pokemon, table.BasicLv, table.VariableLv))).ToArray();
 
             if (sum != 100) throw new Exception($"出現率の合計が100%になっていません; {sum}");
         }
     }
 
+    // TODO: argsの共通化
 
-    class RandomSymbolEncounterGenerator
+    public class RandomSymbolEncounterGenerator : IGeneratable<(Pokemon.Individual Individual, Mark Mark)>
     {
         private readonly IndividualGenerator _indivGenerator;
 
         private readonly SlotSelector _slotSelector;
-        private readonly LvGenerator _lvGenerator;
+        private readonly ISideEffectiveGeneratable<uint, RandomEncounterSlot> _lvGenerator;
         private readonly ShinyRollGenerator _pidGenerator;
         private readonly ISideEffectiveGeneratable<Mark> _markGenerator;
         private readonly ISideEffectiveGeneratable<string, HoldingItem> _itemSelector;
 
-        // 倒した数で変動
-        private readonly uint _auraThreshold = 3;
-        private readonly uint _auraShinyRollBonus = 1;
+        private readonly Dictionary<string, uint> _knockOuts;
 
-        public void Generate((ulong s0, ulong s1) seed)
+        public (Pokemon.Individual Individual, Mark Mark) Generate((ulong s0, ulong s1) seed)
         {
             seed.Advance();
 
@@ -74,18 +71,21 @@ namespace SwShRNGLibrary.Overworld
             var slot = seed.Generate(_slotSelector);
             var lv = seed.Generate(_lvGenerator, slot);
 
+            _knockOuts.TryGetValue(slot.Species.Name, out var kos);
+            var (auraThreshold, auraShinyRollBonus) = GetBrilliantInfo(kos);
+
             // ここで生成された証は破棄される
             seed.Generate(_markGenerator);
 
-            var aura = seed.GetRand(1000) < _auraThreshold; // オーラ持ち
+            var aura = seed.GetRand(1000) < auraThreshold; // オーラ持ち
             if (aura) lv = slot.MaxLv; // オーラ持ちになったら Lv = Max で固定される
 
-            var isShiny = seed.Generate(_pidGenerator, aura ? _auraShinyRollBonus : 0);
+            var isShiny = seed.Generate(_pidGenerator, aura ? auraShinyRollBonus : 0);
 
             // メロボ判定通っている場合はスキップ
             var gender = seed.GetRand(2) == 0 ? Gender.Female : Gender.Male;
             var nature = (Nature)seed.GetRand(25);
-            var ability = slot.Species.Ability[(int)seed.GetRand(2)];
+            var ability = (uint)seed.GetRand(2);
 
             // 持ち物持っている可能性があるときだけ
             // 固定シンボルの場合も判定は無い
@@ -96,23 +96,45 @@ namespace SwShRNGLibrary.Overworld
             var eggMoves = (uint)slot.Species.EggMoves().Length;
             if (aura && eggMoves > 0) seed.GetRand(eggMoves);
 
-            _indivGenerator.Generate((uint)seed.GetRand(), isShiny, ivsBonus);
+            var (ec, pid, ivs, shiny) = _indivGenerator.Generate((uint)seed.GetRand(), isShiny, ivsBonus);
 
             var mark = seed.Generate(_markGenerator);
+
+            var indiv = slot.Species.GetIndividual(lv, ivs, ec, pid, nature, ability, gender).SetShinyType(shiny);
+
+            return (indiv, mark);
+        }
+
+        public RandomSymbolEncounterGenerator(uint tsv, RandomEncounter map, bool cleared, Dictionary<string, uint> knockOuts, Weather weather, Time time = Time.Others, bool hasShinyCharm = false, bool hasMarkCharm = false)
+        {
+            _indivGenerator = new IndividualGenerator(tsv);
+
+            var table = map[weather];
+            _slotSelector = new SlotSelector(table);
+            _lvGenerator = table.ToBeStrengthenedAfterClearing && cleared ? 
+                new FixedLvGenerator(60) : 
+                new LvGenerator() as ISideEffectiveGeneratable<uint, RandomEncounterSlot>;
+            _pidGenerator = new ShinyRollGenerator(tsv, hasShinyCharm ? 3u : 1);
+
+            var mark = new MarkGenerator(weather, time);
+            _markGenerator = hasMarkCharm ? new RerollMarkGenerator(mark, 3) : mark as ISideEffectiveGeneratable<Mark>;
+            _itemSelector = new HoldingItemSelector();
+
+            _knockOuts = knockOuts;
         }
     }
 
-    class HiddenEncounterGenerator
+    public class HiddenEncounterGenerator : IGeneratable<(Pokemon.Individual Individual, Mark Mark)>
     {
         private readonly IndividualGenerator _indivGenerator;
 
         private readonly SlotSelector _slotSelector;
-        private readonly LvGenerator _lvGenerator;
+        private readonly ISideEffectiveGeneratable<uint, RandomEncounterSlot> _lvGenerator;
         private readonly ShinyRollGenerator _pidGenerator;
         private readonly ISideEffectiveGeneratable<Mark> _markGenerator;
         private readonly ISideEffectiveGeneratable<string, HoldingItem> _itemSelector;
 
-        public void Generate((ulong s0, ulong s1) seed)
+        public (Pokemon.Individual Individual, Mark Mark) Generate((ulong s0, ulong s1) seed)
         {
             seed.Advance();
 
@@ -130,32 +152,52 @@ namespace SwShRNGLibrary.Overworld
             // メロボ判定通っている場合はスキップ
             var gender = seed.GetRand(2) == 0 ? Gender.Female : Gender.Male;
             var nature = (Nature)seed.GetRand(25);
-            var ability = slot.Species.Ability[(int)seed.GetRand(2)];
+            var ability = (uint)seed.GetRand(2);
 
             var item = seed.Generate(_itemSelector, slot.HoldingItems);
 
-            _indivGenerator.Generate((uint)seed.GetRand(), isShiny, 0);
+            var (ec, pid, ivs, shiny) = _indivGenerator.Generate((uint)seed.GetRand(), isShiny, 0);
 
             var mark = seed.Generate(_markGenerator);
+
+            var indiv = slot.Species.GetIndividual(lv, ivs, ec, pid, nature, ability, gender).SetShinyType(shiny);
+
+            return (indiv, mark);
+        }
+
+        public HiddenEncounterGenerator(uint tsv, RandomEncounter map, bool cleared, Weather weather, Time time = Time.Others, bool hasShinyCharm = false, bool hasMarkCharm = false)
+        {
+            _indivGenerator = new IndividualGenerator(tsv);
+
+            var table = map[weather];
+            _slotSelector = new SlotSelector(table);
+            _lvGenerator = table.ToBeStrengthenedAfterClearing && cleared ?
+                new FixedLvGenerator(60) :
+                new LvGenerator() as ISideEffectiveGeneratable<uint, RandomEncounterSlot>;
+            _pidGenerator = new ShinyRollGenerator(tsv, hasShinyCharm ? 3u : 1);
+
+            var mark = new MarkGenerator(weather, time);
+            _markGenerator = hasMarkCharm ? new RerollMarkGenerator(mark, 3) : mark as ISideEffectiveGeneratable<Mark>;
+            _itemSelector = new HoldingItemSelector();
         }
     }
 
-    class FishingEncounterGenerator
+    public class FishingEncounterGenerator : IGeneratable<(Pokemon.Individual Individual, Mark Mark)>
     {
         private readonly IndividualGenerator _indivGenerator;
 
         private readonly SlotSelector _slotSelector;
-        private readonly LvGenerator _lvGenerator;
+        private readonly ISideEffectiveGeneratable<uint, RandomEncounterSlot> _lvGenerator;
         private readonly ShinyRollGenerator _pidGenerator;
         private readonly ISideEffectiveGeneratable<Mark> _markGenerator;
         private readonly ISideEffectiveGeneratable<string, HoldingItem> _itemSelector;
 
         // 倒した数で変動
-        private readonly uint _auraShinyRollBonus = 1;
         private readonly bool _aura;
+        private readonly Dictionary<string, uint> _knockOuts;
 
 
-        public void Generate((ulong s0, ulong s1) seed)
+        public (Pokemon.Individual Individual, Mark Mark) Generate((ulong s0, ulong s1) seed)
         {
             seed.GetRand(100); // unknown
 
@@ -169,12 +211,14 @@ namespace SwShRNGLibrary.Overworld
             seed.Generate(_markGenerator);
 
             // PIDの仮生成
-            var isShiny = seed.Generate(_pidGenerator, _aura ? _auraShinyRollBonus : 0);
+            _knockOuts.TryGetValue(slot.Species.Name, out var kos);
+            var (_, auraShinyRollBonus) = GetBrilliantInfo(kos);
+            var isShiny = seed.Generate(_pidGenerator, _aura ? auraShinyRollBonus : 0);
 
             // メロボ判定通っている場合はスキップ
             var gender = seed.GetRand(2) == 0 ? Gender.Female : Gender.Male;
             var nature = (Nature)seed.GetRand(25);
-            var ability = slot.Species.Ability[(int)seed.GetRand(2)];
+            var ability = (uint)seed.GetRand(2);
 
             var item = seed.Generate(_itemSelector, slot.HoldingItems);
 
@@ -182,14 +226,38 @@ namespace SwShRNGLibrary.Overworld
             var eggMoves = (uint)slot.Species.EggMoves().Length;
             if (_aura && eggMoves > 0) seed.GetRand(eggMoves);
 
-            _indivGenerator.Generate((uint)seed.GetRand(), isShiny, ivsBonus);
+            var (ec, pid, ivs, shiny) = _indivGenerator.Generate((uint)seed.GetRand(), isShiny, ivsBonus);
 
             var mark = seed.Generate(_markGenerator);
+
+            var indiv = slot.Species.GetIndividual(lv, ivs, ec, pid, nature, ability, gender).SetShinyType(shiny);
+
+            return (indiv, mark);
+        }
+
+        public FishingEncounterGenerator(uint tsv, FishingEncounter map, bool aura, bool cleared, Dictionary<string, uint> knockOuts, Weather weather = Weather.Normal, Time time = Time.Others, bool hasShinyCharm = false, bool hasMarkCharm = false)
+        {
+            _indivGenerator = new IndividualGenerator(tsv);
+
+            _slotSelector = new SlotSelector(map.Data);
+            _lvGenerator = map.Data.ToBeStrengthenedAfterClearing && cleared ?
+                new FixedLvGenerator(60) :
+                new LvGenerator() as ISideEffectiveGeneratable<uint, RandomEncounterSlot>;
+            _pidGenerator = new ShinyRollGenerator(tsv, hasShinyCharm ? 3u : 1);
+
+            _aura = aura;
+
+            var mark = new MarkGenerator(weather, time);
+            _markGenerator = hasMarkCharm ? new RerollMarkGenerator(mark, 3) : mark as ISideEffectiveGeneratable<Mark>;
+            _itemSelector = new HoldingItemSelector();
+
+            _knockOuts = knockOuts;
         }
     }
 
     public class StaticSymbolGenerator : IGeneratable<(Pokemon.Individual Individual, Mark Mark)>
     {
+        private readonly uint _lv;
         private readonly StaticEncounterData _slot;
         private readonly ShinyRollGenerator _pidGenerator;
         private readonly IndividualGenerator _indivGenerator;
@@ -212,12 +280,14 @@ namespace SwShRNGLibrary.Overworld
 
             var mark = seed.Generate(_markGenerator);
 
-            return (_slot.Pokemon.GetIndividual(_slot.Lv, ivs, ec, pid, nature, ability, gender).SetShinyType(shiny), mark);
+            return (_slot.Pokemon.GetIndividual(_lv, ivs, ec, pid, nature, ability, gender).SetShinyType(shiny), mark);
         }
 
-        public StaticSymbolGenerator(uint tsv, StaticEncounterData slot, Weather weather = Weather.Normal, Time time = Time.Others, bool hasShinyCharm = false, bool hasMarkCharm = false)
+        public StaticSymbolGenerator(uint tsv, StaticEncounterData slot, bool cleared, Weather weather = Weather.Normal, Time time = Time.Others, bool hasShinyCharm = false, bool hasMarkCharm = false)
         {
             _slot = slot;
+            _lv = slot.ToBeStrengthenedAfterClearing && cleared ? 60 : slot.Lv;
+
             _pidGenerator = new ShinyRollGenerator(tsv, hasShinyCharm ? 3u : 1);
             _indivGenerator = new IndividualGenerator(tsv);
 
@@ -228,7 +298,7 @@ namespace SwShRNGLibrary.Overworld
 
 
 
-    public class IndividualGenerator
+    class IndividualGenerator
     {
         private readonly uint _tsv;
         public (uint EC, uint PID, uint[] IVs, ShinyType Shiny) Generate(uint initialSeed, bool isShiny, uint flawlessIVs)
@@ -263,6 +333,14 @@ namespace SwShRNGLibrary.Overworld
             return slot.BasicLv + (uint)seed.GetRand(slot.VariableLv);
         }
     }
+    class FixedLvGenerator : ISideEffectiveGeneratable<uint, RandomEncounterSlot>
+    {
+        private readonly uint _fixedLv;
+        public uint Generate(ref (ulong s0, ulong s1) seed, RandomEncounterSlot slot)
+            => _fixedLv;
+        public FixedLvGenerator(uint lv) => _fixedLv = lv;
+    }
+
     class ShinyRollGenerator : ISideEffectiveGeneratable<bool>, ISideEffectiveGeneratable<bool, uint>
     {
         // おまもり持ちなら3回
@@ -299,7 +377,7 @@ namespace SwShRNGLibrary.Overworld
         }
     }
 
-    public class MarkGenerator : IGeneratable<Mark>, ISideEffectiveGeneratable<Mark>
+    class MarkGenerator : IGeneratable<Mark>, ISideEffectiveGeneratable<Mark>
     {
         private readonly Mark _weather;
         private readonly Mark _time;
@@ -328,12 +406,12 @@ namespace SwShRNGLibrary.Overworld
 
         public MarkGenerator(Weather weather = Weather.Normal, Time time = Time.Others, bool fishing = false)
         {
-            _weather = weather != 0 ? Mark.Weather.Marks[(int)weather] : null;
+            _weather = weather != 0 ? Mark.Weather.Marks[(int)weather-1] : null;
             _time = time != 0 ? Mark.Time.Marks[(int)time - 1] : null;
             _fishing = fishing;
         }
     }
-    public class RerollMarkGenerator : IGeneratable<Mark>, ISideEffectiveGeneratable<Mark>
+    class RerollMarkGenerator : IGeneratable<Mark>, ISideEffectiveGeneratable<Mark>
     {
         private readonly int _rolls;
         private readonly ISideEffectiveGeneratable<Mark> _generator;
@@ -357,7 +435,7 @@ namespace SwShRNGLibrary.Overworld
         }
     }
 
-    public class HoldingItemSelector : ISideEffectiveGeneratable<string, HoldingItem>
+    class HoldingItemSelector : ISideEffectiveGeneratable<string, HoldingItem>
     {
         public string Generate(ref (ulong s0, ulong s1) seed, HoldingItem holdingItem)
         {
@@ -371,7 +449,7 @@ namespace SwShRNGLibrary.Overworld
             return holdingItem.Rare ?? "";
         }
     }
-    public class CompoundEyeHoldingItemSelector : ISideEffectiveGeneratable<string, HoldingItem>
+    class CompoundEyeHoldingItemSelector : ISideEffectiveGeneratable<string, HoldingItem>
     {
         public string Generate(ref (ulong s0, ulong s1) seed, HoldingItem holdingItem)
         {
@@ -441,8 +519,11 @@ namespace SwShRNGLibrary.Overworld
             => ratio.ToFixedGender() ??
                 (cuteCharmGender != Gender.Genderless && seed.GetRand(3) != 0 ? cuteCharmGender :
                 seed.GetRand(253) + 1 < (uint)ratio ? Gender.Female : Gender.Male);
+    }
 
-        private static (uint, uint) GenerateBrilliantInfo(uint KOs)
+    static class Constants
+    {
+        public static (uint, uint) GetBrilliantInfo(uint KOs)
         {
             if (KOs >= 500) return (30, 6);
             if (KOs >= 300) return (30, 5);

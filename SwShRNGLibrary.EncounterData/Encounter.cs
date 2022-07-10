@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -21,7 +22,7 @@ namespace SwShRNGLibrary.EncounterData
         internal RandomEncounter(string mapName, RandomEncounterRawData[] datas)
         {
             MapName = mapName;
-            _data = datas.Select((_, i) => ((Weather)i, new RandomEncounterTable(_))).ToArray();
+            _data = datas.Select((_, i) => ((Weather)i, new RandomEncounterTable(_, _.Location == Location.WildArea || _.Location == Location.IsleOfArmor))).ToArray();
         }
     }
     public sealed class FishingEncounter : IEncounterData
@@ -32,7 +33,7 @@ namespace SwShRNGLibrary.EncounterData
         internal FishingEncounter(RandomEncounterRawData data)
         {
             MapName = data.MapName;
-            Data = new RandomEncounterTable(data);
+            Data = new RandomEncounterTable(data, data.Location == Location.WildArea || data.Location == Location.IsleOfArmor);
         }
     }
     public sealed class StaticEncounter : IEncounterData
@@ -50,7 +51,10 @@ namespace SwShRNGLibrary.EncounterData
             _data = Enumerable.Range(0, 9).Select(_ => ((Weather)_, new StaticEncounterData[0])).ToArray();
             foreach (var row in tmp)
             {
-                _data[(int)row.Key] = (row.Key, row.Select(_ => new StaticEncounterData(_)).ToArray());
+                // ガラル本土とカンムリ雪原はクリア後のレベル変動なし
+                // ワイルドエリアとヨロイ島は一部を除いてレベルが60に強化される
+                _data[(int)row.Key] = (row.Key, row.Select(_ => new StaticEncounterData(_,
+                    (_.Location == Location.WildArea || _.Location == Location.IsleOfArmor) && _.ToBeStrengthen)).ToArray());
             }
         }
     }
@@ -62,7 +66,7 @@ namespace SwShRNGLibrary.EncounterData
         internal LimitedEncounter(string mapName, StaticEncounterRawData[] raw)
         {
             MapName = mapName;
-            Data = raw.Select(_ => new StaticEncounterData(_)).ToArray();
+            Data = raw.Select(_ => new StaticEncounterData(_, false)).ToArray();
         }
     }
 

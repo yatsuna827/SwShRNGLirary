@@ -10,6 +10,7 @@ namespace SwShRNGLibrary.EncounterData
     class RandomEncounterRawData
     {
         public string MapName { get; }
+        public Location Location { get; }
         public Weather Weather { get; }
 
         public byte BasicLv { get; }
@@ -17,9 +18,10 @@ namespace SwShRNGLibrary.EncounterData
         public (uint Rate, Pokemon.Species Pokemon)[] Table { get; }
 
         [JsonConstructor]
-        internal RandomEncounterRawData(string mapName, byte basicLv, byte variableLv, RawTable table, int weather = 0)
+        internal RandomEncounterRawData(string mapName, int location, byte basicLv, byte variableLv, RawTable table, int weather = 0)
         {
             MapName = mapName;
+            Location = (Location)location;
             Weather = (Weather)weather;
             BasicLv = basicLv;
             VariableLv = variableLv;
@@ -34,6 +36,7 @@ namespace SwShRNGLibrary.EncounterData
     class StaticEncounterRawData
     {
         public string MapName { get; }
+        public Location Location { get; }
         public Weather Weather { get; }
 
         public Pokemon.Species Pokemon { get; }
@@ -42,17 +45,22 @@ namespace SwShRNGLibrary.EncounterData
         public uint? FixedAbility { get; }
         public uint FlawlessIVs { get; }
 
+        public bool ToBeStrengthen { get; }
+
         [JsonConstructor]
-        internal StaticEncounterRawData(string mapName, int weather, string name, uint lv,
-            bool shinyLocked = false, uint? fixedAbility = null, uint flawlessIVs = 0)
+        internal StaticEncounterRawData(string mapName, int weather, int location, string name, uint lv, 
+            bool shinyLocked, uint? fixedAbility, uint flawlessIVs, bool? toBeStrengthen)
         {
             MapName = mapName;
             Weather = (Weather)weather;
+            Location = (Location)location;
             Pokemon = PokemonStandardLibrary.Gen8.Pokemon.GetPokemon(name);
             Lv = lv;
             ShinyLocked = shinyLocked;
             FixedAbility = fixedAbility;
             FlawlessIVs = flawlessIVs;
+
+            ToBeStrengthen = toBeStrengthen ?? true;
         }
     }
 

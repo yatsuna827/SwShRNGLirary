@@ -51,7 +51,7 @@ namespace SwShRNGLibrary
             public static Mark Dry { get => Mark.Dry; }
             public static Mark Sandstorm { get => Mark.Sandstorm; }
             public static Mark Misty { get => Mark.Misty; }
-            public static IReadOnlyList<Mark> Marks { get => new[] { Cloudy, Rainy, Stomy, Snowy, Blizzard, Dry, Sandstorm }; }
+            public static IReadOnlyList<Mark> Marks { get => new[] { Cloudy, Rainy, Stomy, Snowy, Blizzard, Dry, Sandstorm, Misty }; }
         }
 
         public static Mark Fishing { get; } = new Mark("つりあげられた", "つりたてピチピチの", MarkCategory.Encounter);
