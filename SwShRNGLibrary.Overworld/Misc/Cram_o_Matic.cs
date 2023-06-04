@@ -7,7 +7,7 @@ using PokemonPRNG.Xoroshiro128p;
 
 namespace SwShRNGLibrary.Overworld.Misc
 {
-    public class CramOMaticGenerator : IGeneratable<CramOMaticResult>, ISideEffectiveGeneratable<CramOMaticResult>
+    public class CramOMaticGenerator : IGeneratable<CramOMaticResult>, IGeneratableEffectful<CramOMaticResult>
     {
         public CramOMaticResult Generate((ulong s0, ulong s1) state)
         {

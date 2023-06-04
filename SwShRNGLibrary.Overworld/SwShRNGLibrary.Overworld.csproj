@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PokemonPRNG" Version="3.5.8" />
+    <PackageReference Include="PokemonPRNG.Xoroshiro128p" Version="1.1.0" />
     <PackageReference Include="PokemonStandardLibrary" Version="1.4.0" />
-    <PackageReference Include="PokemonStandardLibrary.Gen8" Version="1.1.3" />
+    <PackageReference Include="PokemonStandardLibrary.Gen8" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
